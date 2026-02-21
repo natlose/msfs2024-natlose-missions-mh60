@@ -1,0 +1,2226 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<SimBase.Document Type="MissionFile" version="1,0">
+<WorldBase.Flight>
+
+<SimMission.DialogAction id="8baa9db02b574e169612eeeb56523c8f" InstanceId="{0d0c54aa-bb4a-4464-8f8e-e3eb8b9c4759}">
+    <Immediate>False</Immediate>
+    <Skippable>True</Skippable>
+    <Speaker>PILOT</Speaker>
+    <Text>Keep it stable.</Text>
+    <EndActions>
+        <ObjectReference id="Finish 8baa9db02b574e169612eeeb56523c8f" InstanceId="{0b7e587d-0d47-4240-a1a7-218c3d7d5dbe}"/>
+    </EndActions>
+</SimMission.DialogAction>
+<SimMission.ObjectActivationAction id="Finish 8baa9db02b574e169612eeeb56523c8f" InstanceId="{0b7e587d-0d47-4240-a1a7-218c3d7d5dbe}">
+    <NewObjectState>true</NewObjectState>
+    <ObjectReferenceList>
+        <ObjectReference id="Finish 8baa9db02b574e169612eeeb56523c8f Calculator" InstanceId="{9dc723c5-9eaa-4078-a2d0-c13380318d06}"/>
+    </ObjectReferenceList>
+</SimMission.ObjectActivationAction>
+<SimMission.Calculator id="Finish 8baa9db02b574e169612eeeb56523c8f Calculator" InstanceId="{9dc723c5-9eaa-4078-a2d0-c13380318d06}">
+<Activated>False</Activated>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
+            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
+            9153181 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
+            721589 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
+            478742 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
+            614702 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
+            977750 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
+            5389455 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
+            1
+        }
+        els{ 0 }
+    </CalculatorFormula>
+    <DeactivateAfterExecution>true</DeactivateAfterExecution>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+<SimMission.DialogAction id="4e21ff5e4e9149e5a49746d161121328" InstanceId="{2b9a2e85-9f23-4617-94d1-216f0da92d19}">
+    <Immediate>False</Immediate>
+    <Skippable>True</Skippable>
+    <Speaker>PILOT</Speaker>
+    <Text>Well done.</Text>
+    <EndActions>
+        <ObjectReference id="Finish 4e21ff5e4e9149e5a49746d161121328" InstanceId="{4a3304df-0e3c-4978-a4d2-855a5f74d6b1}"/>
+    </EndActions>
+</SimMission.DialogAction>
+<SimMission.ObjectActivationAction id="Finish 4e21ff5e4e9149e5a49746d161121328" InstanceId="{4a3304df-0e3c-4978-a4d2-855a5f74d6b1}">
+    <NewObjectState>true</NewObjectState>
+    <ObjectReferenceList>
+        <ObjectReference id="Finish 4e21ff5e4e9149e5a49746d161121328 Calculator" InstanceId="{ba2a3685-da61-4b0f-82fa-29693fbce882}"/>
+    </ObjectReferenceList>
+</SimMission.ObjectActivationAction>
+<SimMission.Calculator id="Finish 4e21ff5e4e9149e5a49746d161121328 Calculator" InstanceId="{ba2a3685-da61-4b0f-82fa-29693fbce882}">
+<Activated>False</Activated>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
+            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
+            5120511 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
+            386281 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
+            84453 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
+            674164 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
+            446817 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
+            1184552 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
+            1
+        }
+        els{ 0 }
+    </CalculatorFormula>
+    <DeactivateAfterExecution>true</DeactivateAfterExecution>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+<SimMission.DialogAction id="a4372e091f7a438b83a690b52e439c13" InstanceId="{2ee33f79-fa00-4982-aa77-7e4f538804cb}">
+    <Immediate>False</Immediate>
+    <Skippable>True</Skippable>
+    <Speaker>PILOT</Speaker>
+    <Text>Check altitude!</Text>
+    <EndActions>
+        <ObjectReference id="Finish a4372e091f7a438b83a690b52e439c13" InstanceId="{ae7bc98f-eac5-4c61-897d-c2864e3b8c31}"/>
+    </EndActions>
+</SimMission.DialogAction>
+<SimMission.ObjectActivationAction id="Finish a4372e091f7a438b83a690b52e439c13" InstanceId="{ae7bc98f-eac5-4c61-897d-c2864e3b8c31}">
+    <NewObjectState>true</NewObjectState>
+    <ObjectReferenceList>
+        <ObjectReference id="Finish a4372e091f7a438b83a690b52e439c13 Calculator" InstanceId="{6ef146cb-c479-4bae-a520-372ae68a9bb1}"/>
+    </ObjectReferenceList>
+</SimMission.ObjectActivationAction>
+<SimMission.Calculator id="Finish a4372e091f7a438b83a690b52e439c13 Calculator" InstanceId="{6ef146cb-c479-4bae-a520-372ae68a9bb1}">
+<Activated>False</Activated>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
+            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
+            10762030 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
+            37367 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
+            672651 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
+            539241 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
+            46382 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
+            4430867 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
+            1
+        }
+        els{ 0 }
+    </CalculatorFormula>
+    <DeactivateAfterExecution>true</DeactivateAfterExecution>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+<SimMission.DialogAction id="b30a755cd91747f3adeca6ed0a22f7cb" InstanceId="{1ba5f694-450b-4581-9e95-7423d593f739}">
+    <Immediate>False</Immediate>
+    <Skippable>True</Skippable>
+    <Speaker>PILOT</Speaker>
+    <Text>Check speed!</Text>
+    <EndActions>
+        <ObjectReference id="Finish b30a755cd91747f3adeca6ed0a22f7cb" InstanceId="{eb120709-4b30-43f2-8536-f0a3ff79af9e}"/>
+    </EndActions>
+</SimMission.DialogAction>
+<SimMission.ObjectActivationAction id="Finish b30a755cd91747f3adeca6ed0a22f7cb" InstanceId="{eb120709-4b30-43f2-8536-f0a3ff79af9e}">
+    <NewObjectState>true</NewObjectState>
+    <ObjectReferenceList>
+        <ObjectReference id="Finish b30a755cd91747f3adeca6ed0a22f7cb Calculator" InstanceId="{9a318a09-261f-41d6-ac72-05f1cdce0c3a}"/>
+    </ObjectReferenceList>
+</SimMission.ObjectActivationAction>
+<SimMission.Calculator id="Finish b30a755cd91747f3adeca6ed0a22f7cb Calculator" InstanceId="{9a318a09-261f-41d6-ac72-05f1cdce0c3a}">
+<Activated>False</Activated>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
+            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
+            11733621 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
+            380305 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
+            477171 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
+            712394 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
+            453898 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
+            2291659 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
+            1
+        }
+        els{ 0 }
+    </CalculatorFormula>
+    <DeactivateAfterExecution>true</DeactivateAfterExecution>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+<SimMission.DialogAction id="429f354948e046249a6b5e5fab250d77" InstanceId="{336fb434-6737-43ce-bfa4-5a393006d4b0}">
+    <Immediate>False</Immediate>
+    <Skippable>True</Skippable>
+    <Speaker>PILOT</Speaker>
+    <Text>You better practice this.</Text>
+    <EndActions>
+        <ObjectReference id="Finish 429f354948e046249a6b5e5fab250d77" InstanceId="{147e6dbe-fbd3-474a-93c1-2a86d7adf3b2}"/>
+    </EndActions>
+</SimMission.DialogAction>
+<SimMission.ObjectActivationAction id="Finish 429f354948e046249a6b5e5fab250d77" InstanceId="{147e6dbe-fbd3-474a-93c1-2a86d7adf3b2}">
+    <NewObjectState>true</NewObjectState>
+    <ObjectReferenceList>
+        <ObjectReference id="Finish 429f354948e046249a6b5e5fab250d77 Calculator" InstanceId="{4b1fe883-6c62-4879-ba3a-a545338e4bbc}"/>
+    </ObjectReferenceList>
+</SimMission.ObjectActivationAction>
+<SimMission.Calculator id="Finish 429f354948e046249a6b5e5fab250d77 Calculator" InstanceId="{4b1fe883-6c62-4879-ba3a-a545338e4bbc}">
+<Activated>False</Activated>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
+            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
+            4366133 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
+            300174 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
+            17956 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
+            632501 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
+            941995 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
+            2428279 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
+            1
+        }
+        els{ 0 }
+    </CalculatorFormula>
+    <DeactivateAfterExecution>true</DeactivateAfterExecution>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+<SimMission.DialogAction id="to-slow-for-a-scramble" InstanceId="{8e3f2ea9-aafe-48a8-ad4c-86db2a7923e5}">
+    <Immediate>False</Immediate>
+    <Skippable>True</Skippable>
+    <Speaker>PILOT</Speaker>
+    <Text>TT:to-slow-for-a-scramble</Text>
+    <PackageName>natlose-missions-mh60checkride</PackageName>
+    <EndActions>
+        <ObjectReference id="Finish to-slow-for-a-scramble" InstanceId="{4d02a0c7-fb2d-404b-bfd9-0281d006b829}"/>
+    </EndActions>
+</SimMission.DialogAction>
+<SimMission.ObjectActivationAction id="Finish to-slow-for-a-scramble" InstanceId="{4d02a0c7-fb2d-404b-bfd9-0281d006b829}">
+    <NewObjectState>true</NewObjectState>
+    <ObjectReferenceList>
+        <ObjectReference id="Finish to-slow-for-a-scramble Calculator" InstanceId="{feab40ae-5149-49ed-a02a-78abb6a39830}"/>
+    </ObjectReferenceList>
+</SimMission.ObjectActivationAction>
+<SimMission.Calculator id="Finish to-slow-for-a-scramble Calculator" InstanceId="{feab40ae-5149-49ed-a02a-78abb6a39830}">
+<Activated>False</Activated>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
+            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
+            10891340 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
+            829268 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
+            83489 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
+            562032 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
+            806485 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
+            3604256 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
+            1
+        }
+        els{ 0 }
+    </CalculatorFormula>
+    <DeactivateAfterExecution>true</DeactivateAfterExecution>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+<SimMission.DialogAction id="cc1b3b3a2a044d18918a92a99bf9c3e3" InstanceId="{c564e6a6-926c-4c57-a615-0e2a81d222e7}">
+    <Immediate>False</Immediate>
+    <Skippable>True</Skippable>
+    <Speaker>PILOT</Speaker>
+    <Text>We are still on the ground. Get yourself together!</Text>
+    <EndActions>
+        <ObjectReference id="Finish cc1b3b3a2a044d18918a92a99bf9c3e3" InstanceId="{3070e505-2357-461a-912b-b5b1b7dcff74}"/>
+    </EndActions>
+</SimMission.DialogAction>
+<SimMission.ObjectActivationAction id="Finish cc1b3b3a2a044d18918a92a99bf9c3e3" InstanceId="{3070e505-2357-461a-912b-b5b1b7dcff74}">
+    <NewObjectState>true</NewObjectState>
+    <ObjectReferenceList>
+        <ObjectReference id="Finish cc1b3b3a2a044d18918a92a99bf9c3e3 Calculator" InstanceId="{55555813-144b-4417-99b4-809029511b7d}"/>
+    </ObjectReferenceList>
+</SimMission.ObjectActivationAction>
+<SimMission.Calculator id="Finish cc1b3b3a2a044d18918a92a99bf9c3e3 Calculator" InstanceId="{55555813-144b-4417-99b4-809029511b7d}">
+<Activated>False</Activated>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
+            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
+            13376315 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
+            238240 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
+            281880 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
+            596137 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
+            174491 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
+            16368611 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
+            1
+        }
+        els{ 0 }
+    </CalculatorFormula>
+    <DeactivateAfterExecution>true</DeactivateAfterExecution>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+<SimMission.DialogAction id="4b2e9ff378f54fbcb2653701217cdad3" InstanceId="{517679c4-d108-4fb0-9566-9dcd5a402ac4}">
+    <Immediate>False</Immediate>
+    <Skippable>True</Skippable>
+    <Speaker>PILOT</Speaker>
+    <Text>You struggle, you better practice hovering.</Text>
+    <EndActions>
+        <ObjectReference id="Finish 4b2e9ff378f54fbcb2653701217cdad3" InstanceId="{380487ac-74d0-476b-9255-f09e9ad85946}"/>
+    </EndActions>
+</SimMission.DialogAction>
+<SimMission.ObjectActivationAction id="Finish 4b2e9ff378f54fbcb2653701217cdad3" InstanceId="{380487ac-74d0-476b-9255-f09e9ad85946}">
+    <NewObjectState>true</NewObjectState>
+    <ObjectReferenceList>
+        <ObjectReference id="Finish 4b2e9ff378f54fbcb2653701217cdad3 Calculator" InstanceId="{ae19f0ae-d033-440e-9019-bd342b23f8d8}"/>
+    </ObjectReferenceList>
+</SimMission.ObjectActivationAction>
+<SimMission.Calculator id="Finish 4b2e9ff378f54fbcb2653701217cdad3 Calculator" InstanceId="{ae19f0ae-d033-440e-9019-bd342b23f8d8}">
+<Activated>False</Activated>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
+            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
+            4927135 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
+            997263 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
+            348092 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
+            730707 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
+            459041 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
+            8182483 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
+            1
+        }
+        els{ 0 }
+    </CalculatorFormula>
+    <DeactivateAfterExecution>true</DeactivateAfterExecution>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+<SimMission.DialogAction id="7f3724e48b6d4aaf93ff01f8c9acc9fe" InstanceId="{c3d314f4-c310-46d1-98bc-6a22cfb1fbd2}">
+    <Immediate>False</Immediate>
+    <Skippable>True</Skippable>
+    <Speaker>PILOT</Speaker>
+    <Text>Proceed to LZ Alpha. Maximum speed. Altitude at your discretion.</Text>
+    <EndActions>
+        <ObjectReference id="Finish 7f3724e48b6d4aaf93ff01f8c9acc9fe" InstanceId="{a76c117a-1323-4142-b50a-0858c48054d8}"/>
+    </EndActions>
+</SimMission.DialogAction>
+<SimMission.ObjectActivationAction id="Finish 7f3724e48b6d4aaf93ff01f8c9acc9fe" InstanceId="{a76c117a-1323-4142-b50a-0858c48054d8}">
+    <NewObjectState>true</NewObjectState>
+    <ObjectReferenceList>
+        <ObjectReference id="Finish 7f3724e48b6d4aaf93ff01f8c9acc9fe Calculator" InstanceId="{e4c40903-c673-43b2-8f5e-918473a036bc}"/>
+    </ObjectReferenceList>
+</SimMission.ObjectActivationAction>
+<SimMission.Calculator id="Finish 7f3724e48b6d4aaf93ff01f8c9acc9fe Calculator" InstanceId="{e4c40903-c673-43b2-8f5e-918473a036bc}">
+<Activated>False</Activated>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
+            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
+            8337188 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
+            936118 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
+            871087 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
+            606192 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
+            129225 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
+            11323902 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
+            1
+        }
+        els{ 0 }
+    </CalculatorFormula>
+    <DeactivateAfterExecution>true</DeactivateAfterExecution>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+<SimMission.DialogAction id="f2b8d7d278384e65b339d237586c5e5d" InstanceId="{2c0f7a6e-48c7-49e4-b871-a9e263046105}">
+    <Immediate>False</Immediate>
+    <Skippable>True</Skippable>
+    <Speaker>PILOT</Speaker>
+    <Text>You may proceed to LZ Bravo. Keep a low profile over the river to avoid radar detection.</Text>
+    <EndActions>
+        <ObjectReference id="Finish f2b8d7d278384e65b339d237586c5e5d" InstanceId="{f5066a43-107d-4a1d-91e3-e64e90a9bb0e}"/>
+    </EndActions>
+</SimMission.DialogAction>
+<SimMission.ObjectActivationAction id="Finish f2b8d7d278384e65b339d237586c5e5d" InstanceId="{f5066a43-107d-4a1d-91e3-e64e90a9bb0e}">
+    <NewObjectState>true</NewObjectState>
+    <ObjectReferenceList>
+        <ObjectReference id="Finish f2b8d7d278384e65b339d237586c5e5d Calculator" InstanceId="{92c2b30d-8410-4a44-af97-e44dd6527a55}"/>
+    </ObjectReferenceList>
+</SimMission.ObjectActivationAction>
+<SimMission.Calculator id="Finish f2b8d7d278384e65b339d237586c5e5d Calculator" InstanceId="{92c2b30d-8410-4a44-af97-e44dd6527a55}">
+<Activated>False</Activated>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
+            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
+            15907031 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
+            862083 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
+            544357 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
+            734109 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
+            145240 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
+            7102045 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
+            1
+        }
+        els{ 0 }
+    </CalculatorFormula>
+    <DeactivateAfterExecution>true</DeactivateAfterExecution>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+<SimMission.DialogAction id="ea979e8405f642c180336b6885d51dd8" InstanceId="{44a0a85f-3c4c-41e3-9cdf-70dace76abc3}">
+    <Immediate>False</Immediate>
+    <Skippable>True</Skippable>
+    <Speaker>PILOT</Speaker>
+    <Text>Next waypoint LZ Charlie. Here you have location data. Tune your IFR equipments before takeoff.</Text>
+    <EndActions>
+        <ObjectReference id="Finish ea979e8405f642c180336b6885d51dd8" InstanceId="{cdada883-2b51-4e12-b2d1-1ac9f8fccd34}"/>
+    </EndActions>
+</SimMission.DialogAction>
+<SimMission.ObjectActivationAction id="Finish ea979e8405f642c180336b6885d51dd8" InstanceId="{cdada883-2b51-4e12-b2d1-1ac9f8fccd34}">
+    <NewObjectState>true</NewObjectState>
+    <ObjectReferenceList>
+        <ObjectReference id="Finish ea979e8405f642c180336b6885d51dd8 Calculator" InstanceId="{27b64806-55b2-4588-8991-e8e6971034a0}"/>
+    </ObjectReferenceList>
+</SimMission.ObjectActivationAction>
+<SimMission.Calculator id="Finish ea979e8405f642c180336b6885d51dd8 Calculator" InstanceId="{27b64806-55b2-4588-8991-e8e6971034a0}">
+<Activated>False</Activated>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
+            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
+            15374238 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
+            540767 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
+            410305 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
+            525110 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
+            747653 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
+            13966808 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
+            1
+        }
+        els{ 0 }
+    </CalculatorFormula>
+    <DeactivateAfterExecution>true</DeactivateAfterExecution>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+<SimMission.DialogAction id="f60014e202244201b4a1c58630a7014b" InstanceId="{081cc6c3-d474-429b-a2ee-cddc8e158268}">
+    <Immediate>False</Immediate>
+    <Skippable>True</Skippable>
+    <Speaker>PILOT</Speaker>
+    <Text>We are late to LZ Charlie, 3 penalties.</Text>
+    <EndActions>
+        <ObjectReference id="Finish f60014e202244201b4a1c58630a7014b" InstanceId="{a4b5ac20-1ce6-47a7-8b13-6e43aa176ed6}"/>
+    </EndActions>
+</SimMission.DialogAction>
+<SimMission.ObjectActivationAction id="Finish f60014e202244201b4a1c58630a7014b" InstanceId="{a4b5ac20-1ce6-47a7-8b13-6e43aa176ed6}">
+    <NewObjectState>true</NewObjectState>
+    <ObjectReferenceList>
+        <ObjectReference id="Finish f60014e202244201b4a1c58630a7014b Calculator" InstanceId="{930a25d7-87d0-45ff-9ff8-413c36dd543b}"/>
+    </ObjectReferenceList>
+</SimMission.ObjectActivationAction>
+<SimMission.Calculator id="Finish f60014e202244201b4a1c58630a7014b Calculator" InstanceId="{930a25d7-87d0-45ff-9ff8-413c36dd543b}">
+<Activated>False</Activated>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
+            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
+            16121876 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
+            925730 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
+            279041 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
+            739868 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
+            362032 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
+            10944843 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
+            1
+        }
+        els{ 0 }
+    </CalculatorFormula>
+    <DeactivateAfterExecution>true</DeactivateAfterExecution>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+<SimMission.DialogAction id="9e0f63acd1814581b91118d3e2c65bfe" InstanceId="{fe83a8b1-e930-4c85-bd85-a3c14929de9b}">
+    <Immediate>False</Immediate>
+    <Skippable>True</Skippable>
+    <Speaker>PILOT</Speaker>
+    <Text>Minimum safe altitude is 5300 feet in this area.</Text>
+    <EndActions>
+        <ObjectReference id="Finish 9e0f63acd1814581b91118d3e2c65bfe" InstanceId="{df6e19fa-e34d-4496-91ed-a832dd4a7c23}"/>
+    </EndActions>
+</SimMission.DialogAction>
+<SimMission.ObjectActivationAction id="Finish 9e0f63acd1814581b91118d3e2c65bfe" InstanceId="{df6e19fa-e34d-4496-91ed-a832dd4a7c23}">
+    <NewObjectState>true</NewObjectState>
+    <ObjectReferenceList>
+        <ObjectReference id="Finish 9e0f63acd1814581b91118d3e2c65bfe Calculator" InstanceId="{cf8a6620-2b1b-4fe7-bd13-e5c73a81e6ae}"/>
+    </ObjectReferenceList>
+</SimMission.ObjectActivationAction>
+<SimMission.Calculator id="Finish 9e0f63acd1814581b91118d3e2c65bfe Calculator" InstanceId="{cf8a6620-2b1b-4fe7-bd13-e5c73a81e6ae}">
+<Activated>False</Activated>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
+            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
+            10358627 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
+            707864 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
+            83329 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
+            758033 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
+            578530 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
+            12999678 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
+            1
+        }
+        els{ 0 }
+    </CalculatorFormula>
+    <DeactivateAfterExecution>true</DeactivateAfterExecution>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+<SimMission.DialogAction id="3337308caf484056bde89cfa790fbeeb" InstanceId="{f91e6813-abcd-49d5-9415-1cec0fb88687}">
+    <Immediate>False</Immediate>
+    <Skippable>True</Skippable>
+    <Speaker>PILOT</Speaker>
+    <Text>It was a walk in the park, right? Return to base.</Text>
+    <EndActions>
+        <ObjectReference id="Finish 3337308caf484056bde89cfa790fbeeb" InstanceId="{18cdbdd9-bc02-44c7-accb-7084eb05255d}"/>
+    </EndActions>
+</SimMission.DialogAction>
+<SimMission.ObjectActivationAction id="Finish 3337308caf484056bde89cfa790fbeeb" InstanceId="{18cdbdd9-bc02-44c7-accb-7084eb05255d}">
+    <NewObjectState>true</NewObjectState>
+    <ObjectReferenceList>
+        <ObjectReference id="Finish 3337308caf484056bde89cfa790fbeeb Calculator" InstanceId="{d10a4ae4-82a9-4741-85e3-464073ae331a}"/>
+    </ObjectReferenceList>
+</SimMission.ObjectActivationAction>
+<SimMission.Calculator id="Finish 3337308caf484056bde89cfa790fbeeb Calculator" InstanceId="{d10a4ae4-82a9-4741-85e3-464073ae331a}">
+<Activated>False</Activated>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
+            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
+            3356464 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
+            576244 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
+            540758 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
+            777865 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
+            850553 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
+            1031915 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
+            1
+        }
+        els{ 0 }
+    </CalculatorFormula>
+    <DeactivateAfterExecution>true</DeactivateAfterExecution>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+<SimMission.DialogAction id="0978e866fb2a4419a12987ef1c9ca996" InstanceId="{0e36f997-0df7-4d69-861f-72cec8920bbc}">
+    <Immediate>False</Immediate>
+    <Skippable>True</Skippable>
+    <Speaker>PILOT</Speaker>
+    <Text>Almost home. Land on the apron, I deserve a breakfast.</Text>
+    <EndActions>
+        <ObjectReference id="Finish 0978e866fb2a4419a12987ef1c9ca996" InstanceId="{492e9f7c-6636-4bb0-a3a4-ff756408d7bf}"/>
+    </EndActions>
+</SimMission.DialogAction>
+<SimMission.ObjectActivationAction id="Finish 0978e866fb2a4419a12987ef1c9ca996" InstanceId="{492e9f7c-6636-4bb0-a3a4-ff756408d7bf}">
+    <NewObjectState>true</NewObjectState>
+    <ObjectReferenceList>
+        <ObjectReference id="Finish 0978e866fb2a4419a12987ef1c9ca996 Calculator" InstanceId="{bfd45e0a-205e-4824-beee-26fc7f7b81d9}"/>
+    </ObjectReferenceList>
+</SimMission.ObjectActivationAction>
+<SimMission.Calculator id="Finish 0978e866fb2a4419a12987ef1c9ca996 Calculator" InstanceId="{bfd45e0a-205e-4824-beee-26fc7f7b81d9}">
+<Activated>False</Activated>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
+            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
+            620776 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
+            421810 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
+            672793 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
+            660120 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
+            519964 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
+            10267030 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
+            1
+        }
+        els{ 0 }
+    </CalculatorFormula>
+    <DeactivateAfterExecution>true</DeactivateAfterExecution>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+<SimMission.DialogAction id="6fd5f880308c4ccf9921cdc9a1cfe2dd" InstanceId="{7f20b2bd-564f-4fb0-a338-b37078f95f1b}">
+    <Immediate>False</Immediate>
+    <Skippable>True</Skippable>
+    <Speaker>PILOT</Speaker>
+    <Text>Secure the aircraft. Tired? We are almost done.</Text>
+    <EndActions>
+        <ObjectReference id="Finish 6fd5f880308c4ccf9921cdc9a1cfe2dd" InstanceId="{77d02cbd-fedf-4e81-85d4-4a35edecdc35}"/>
+    </EndActions>
+</SimMission.DialogAction>
+<SimMission.ObjectActivationAction id="Finish 6fd5f880308c4ccf9921cdc9a1cfe2dd" InstanceId="{77d02cbd-fedf-4e81-85d4-4a35edecdc35}">
+    <NewObjectState>true</NewObjectState>
+    <ObjectReferenceList>
+        <ObjectReference id="Finish 6fd5f880308c4ccf9921cdc9a1cfe2dd Calculator" InstanceId="{eebb6970-069f-4c9e-88f7-99afd3fe845a}"/>
+    </ObjectReferenceList>
+</SimMission.ObjectActivationAction>
+<SimMission.Calculator id="Finish 6fd5f880308c4ccf9921cdc9a1cfe2dd Calculator" InstanceId="{eebb6970-069f-4c9e-88f7-99afd3fe845a}">
+<Activated>False</Activated>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
+            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
+            7329272 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
+            525064 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
+            806095 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
+            627228 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
+            903585 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
+            13624029 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
+            1
+        }
+        els{ 0 }
+    </CalculatorFormula>
+    <DeactivateAfterExecution>true</DeactivateAfterExecution>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+<SimMission.DialogAction id="b7a9007ff9fd4b58995e2f43b53dd855" InstanceId="{410e271c-ec5c-4641-8a4b-45d21e4f78d1}">
+    <Immediate>False</Immediate>
+    <Skippable>True</Skippable>
+    <Speaker>PILOT</Speaker>
+    <Text>Perform shutdown checklist. I wait for engines shut down, rotor stopped, dark cockpit.</Text>
+    <EndActions>
+        <ObjectReference id="Finish b7a9007ff9fd4b58995e2f43b53dd855" InstanceId="{aeecde93-d619-439d-af97-0b88fc13952d}"/>
+    </EndActions>
+</SimMission.DialogAction>
+<SimMission.ObjectActivationAction id="Finish b7a9007ff9fd4b58995e2f43b53dd855" InstanceId="{aeecde93-d619-439d-af97-0b88fc13952d}">
+    <NewObjectState>true</NewObjectState>
+    <ObjectReferenceList>
+        <ObjectReference id="Finish b7a9007ff9fd4b58995e2f43b53dd855 Calculator" InstanceId="{21731a14-98b2-4d5e-a9d4-1359d43b13fe}"/>
+    </ObjectReferenceList>
+</SimMission.ObjectActivationAction>
+<SimMission.Calculator id="Finish b7a9007ff9fd4b58995e2f43b53dd855 Calculator" InstanceId="{21731a14-98b2-4d5e-a9d4-1359d43b13fe}">
+<Activated>False</Activated>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
+            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
+            12036352 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
+            524191 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
+            871256 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
+            628194 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
+            1000373 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
+            4053077 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
+            1
+        }
+        els{ 0 }
+    </CalculatorFormula>
+    <DeactivateAfterExecution>true</DeactivateAfterExecution>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+<SimMission.DialogAction id="254f9f6c428345378d8c966b2ed31028" InstanceId="{8cb0414a-f5d1-480f-a837-37ca1456c76d}">
+    <Immediate>False</Immediate>
+    <Skippable>True</Skippable>
+    <Speaker>PILOT</Speaker>
+    <Text>Checkride complete. Excellent control and discipline. You’re qualified. Welcome to the line.</Text>
+    <EndActions>
+        <ObjectReference id="Finish 254f9f6c428345378d8c966b2ed31028" InstanceId="{1282765a-921f-4a39-b94f-00ce7dfdb565}"/>
+    </EndActions>
+</SimMission.DialogAction>
+<SimMission.ObjectActivationAction id="Finish 254f9f6c428345378d8c966b2ed31028" InstanceId="{1282765a-921f-4a39-b94f-00ce7dfdb565}">
+    <NewObjectState>true</NewObjectState>
+    <ObjectReferenceList>
+        <ObjectReference id="Finish 254f9f6c428345378d8c966b2ed31028 Calculator" InstanceId="{970bf484-0ea5-457a-9233-1ee7e3e8e15f}"/>
+    </ObjectReferenceList>
+</SimMission.ObjectActivationAction>
+<SimMission.Calculator id="Finish 254f9f6c428345378d8c966b2ed31028 Calculator" InstanceId="{970bf484-0ea5-457a-9233-1ee7e3e8e15f}">
+<Activated>False</Activated>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
+            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
+            2445215 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
+            443432 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
+            214327 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
+            579785 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
+            420654 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
+            13832232 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
+            1
+        }
+        els{ 0 }
+    </CalculatorFormula>
+    <DeactivateAfterExecution>true</DeactivateAfterExecution>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+<SimMission.DialogAction id="e94dcf47f4eb44348f2296f74b3534bb" InstanceId="{71196eb1-c2db-4ed5-800a-802e6cc16116}">
+    <Immediate>False</Immediate>
+    <Skippable>True</Skippable>
+    <Speaker>PILOT</Speaker>
+    <Text>Checkride complete. Pass. Performance acceptable. Tighten it up.</Text>
+    <EndActions>
+        <ObjectReference id="Finish e94dcf47f4eb44348f2296f74b3534bb" InstanceId="{5bf87e07-4cd7-43e0-a9b7-610df40b9faa}"/>
+    </EndActions>
+</SimMission.DialogAction>
+<SimMission.ObjectActivationAction id="Finish e94dcf47f4eb44348f2296f74b3534bb" InstanceId="{5bf87e07-4cd7-43e0-a9b7-610df40b9faa}">
+    <NewObjectState>true</NewObjectState>
+    <ObjectReferenceList>
+        <ObjectReference id="Finish e94dcf47f4eb44348f2296f74b3534bb Calculator" InstanceId="{9db31f92-88e5-46c8-9fbb-f5eaa70854cf}"/>
+    </ObjectReferenceList>
+</SimMission.ObjectActivationAction>
+<SimMission.Calculator id="Finish e94dcf47f4eb44348f2296f74b3534bb Calculator" InstanceId="{9db31f92-88e5-46c8-9fbb-f5eaa70854cf}">
+<Activated>False</Activated>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
+            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
+            15289807 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
+            294734 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
+            738356 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
+            586281 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
+            456523 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
+            3486907 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
+            1
+        }
+        els{ 0 }
+    </CalculatorFormula>
+    <DeactivateAfterExecution>true</DeactivateAfterExecution>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+<SimMission.DialogAction id="66460653f85046cfb544105d97a5948b" InstanceId="{cf0bb277-d81e-4c00-a68b-58421636f148}">
+    <Immediate>False</Immediate>
+    <Skippable>True</Skippable>
+    <Speaker>PILOT</Speaker>
+    <Text>Checkride complete. Pass — marginal. You meet the standard, barely. Fix the basics.</Text>
+    <EndActions>
+        <ObjectReference id="Finish 66460653f85046cfb544105d97a5948b" InstanceId="{b3a0c27b-0608-44e3-940f-6032f2add6f9}"/>
+    </EndActions>
+</SimMission.DialogAction>
+<SimMission.ObjectActivationAction id="Finish 66460653f85046cfb544105d97a5948b" InstanceId="{b3a0c27b-0608-44e3-940f-6032f2add6f9}">
+    <NewObjectState>true</NewObjectState>
+    <ObjectReferenceList>
+        <ObjectReference id="Finish 66460653f85046cfb544105d97a5948b Calculator" InstanceId="{1df4fb65-1c53-4a87-959d-bde87083e93a}"/>
+    </ObjectReferenceList>
+</SimMission.ObjectActivationAction>
+<SimMission.Calculator id="Finish 66460653f85046cfb544105d97a5948b Calculator" InstanceId="{1df4fb65-1c53-4a87-959d-bde87083e93a}">
+<Activated>False</Activated>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
+            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
+            6702598 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
+            343941 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
+            18127 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
+            742465 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
+            23959 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
+            10851467 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
+            1
+        }
+        els{ 0 }
+    </CalculatorFormula>
+    <DeactivateAfterExecution>true</DeactivateAfterExecution>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+<SimMission.DialogAction id="28137d19017f41d387ec97b770815838" InstanceId="{4495a92d-baa7-4a3c-845c-8722efe0a582}">
+    <Immediate>False</Immediate>
+    <Skippable>True</Skippable>
+    <Speaker>PILOT</Speaker>
+    <Text>Checkride complete. Pass by tolerance only. One more mistake would have ended it.</Text>
+    <EndActions>
+        <ObjectReference id="Finish 28137d19017f41d387ec97b770815838" InstanceId="{ebd2088b-7356-416b-b59e-02cb041a0948}"/>
+    </EndActions>
+</SimMission.DialogAction>
+<SimMission.ObjectActivationAction id="Finish 28137d19017f41d387ec97b770815838" InstanceId="{ebd2088b-7356-416b-b59e-02cb041a0948}">
+    <NewObjectState>true</NewObjectState>
+    <ObjectReferenceList>
+        <ObjectReference id="Finish 28137d19017f41d387ec97b770815838 Calculator" InstanceId="{41b3a250-a946-46d3-8e3b-ecdc77e46217}"/>
+    </ObjectReferenceList>
+</SimMission.ObjectActivationAction>
+<SimMission.Calculator id="Finish 28137d19017f41d387ec97b770815838 Calculator" InstanceId="{41b3a250-a946-46d3-8e3b-ecdc77e46217}">
+<Activated>False</Activated>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
+            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
+            2626429 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
+            102423 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
+            999891 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
+            556745 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
+            505712 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
+            8476728 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
+            1
+        }
+        els{ 0 }
+    </CalculatorFormula>
+    <DeactivateAfterExecution>true</DeactivateAfterExecution>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+<SimMission.DialogAction id="18ee1ef553ab43878699336c768ac9f0" InstanceId="{aa379fe0-949f-4bf0-ac89-db6cf3b87c28}">
+    <Immediate>False</Immediate>
+    <Skippable>True</Skippable>
+    <Speaker>PILOT</Speaker>
+    <Text>That’s ten. Checkride terminated. Unsatisfactory. Practice, practice, and practice.</Text>
+    <EndActions>
+        <ObjectReference id="Finish 18ee1ef553ab43878699336c768ac9f0" InstanceId="{3a5c1066-9f39-4df2-aecf-7bbff0cdc4a6}"/>
+    </EndActions>
+</SimMission.DialogAction>
+<SimMission.ObjectActivationAction id="Finish 18ee1ef553ab43878699336c768ac9f0" InstanceId="{3a5c1066-9f39-4df2-aecf-7bbff0cdc4a6}">
+    <NewObjectState>true</NewObjectState>
+    <ObjectReferenceList>
+        <ObjectReference id="Finish 18ee1ef553ab43878699336c768ac9f0 Calculator" InstanceId="{d1a72b50-4f21-4829-a907-04534e85d23e}"/>
+    </ObjectReferenceList>
+</SimMission.ObjectActivationAction>
+<SimMission.Calculator id="Finish 18ee1ef553ab43878699336c768ac9f0 Calculator" InstanceId="{d1a72b50-4f21-4829-a907-04534e85d23e}">
+<Activated>False</Activated>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
+            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
+            1633822 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
+            1004858 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
+            738183 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
+            551315 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
+            224374 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
+            9095664 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
+            1
+        }
+        els{ 0 }
+    </CalculatorFormula>
+    <DeactivateAfterExecution>true</DeactivateAfterExecution>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+<SimMission.DialogAction id="441c13c0c2ca47499e3311e3a936a2a7" InstanceId="{1858249b-a6e4-4dc6-8b4e-045f3f3b3e33}">
+    <Immediate>False</Immediate>
+    <Skippable>True</Skippable>
+    <Speaker>PILOT</Speaker>
+    <Text>Lieutenant. This is your aircraft. Five minutes to a stable hover. Don’t waste it.</Text>
+    <EndActions>
+        <ObjectReference id="Finish 441c13c0c2ca47499e3311e3a936a2a7" InstanceId="{c66ee683-661a-4875-a5ed-d6a202e96251}"/>
+    </EndActions>
+</SimMission.DialogAction>
+<SimMission.ObjectActivationAction id="Finish 441c13c0c2ca47499e3311e3a936a2a7" InstanceId="{c66ee683-661a-4875-a5ed-d6a202e96251}">
+    <NewObjectState>true</NewObjectState>
+    <ObjectReferenceList>
+        <ObjectReference id="Finish 441c13c0c2ca47499e3311e3a936a2a7 Calculator" InstanceId="{e90e74cc-2820-405a-8ba9-359886539500}"/>
+    </ObjectReferenceList>
+</SimMission.ObjectActivationAction>
+<SimMission.Calculator id="Finish 441c13c0c2ca47499e3311e3a936a2a7 Calculator" InstanceId="{e90e74cc-2820-405a-8ba9-359886539500}">
+<Activated>False</Activated>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
+            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
+            4463635 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
+            789548 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
+            673609 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
+            647985 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
+            123817 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
+            3580583 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
+            1
+        }
+        els{ 0 }
+    </CalculatorFormula>
+    <DeactivateAfterExecution>true</DeactivateAfterExecution>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+<SimMission.DialogAction id="b95fe9e7745042d5901c75b5c6b4ba89" InstanceId="{5e1048e8-0768-4fad-b45e-cf07e251cc6e}">
+    <Immediate>False</Immediate>
+    <Skippable>True</Skippable>
+    <Speaker>PILOT</Speaker>
+    <Text>Payerne Tower, Kilo Bravo Three Five, request start.</Text>
+    <EndActions>
+        <ObjectReference id="Finish b95fe9e7745042d5901c75b5c6b4ba89" InstanceId="{b1fe782f-c829-4d4d-95a6-261e3a04308c}"/>
+    </EndActions>
+</SimMission.DialogAction>
+<SimMission.ObjectActivationAction id="Finish b95fe9e7745042d5901c75b5c6b4ba89" InstanceId="{b1fe782f-c829-4d4d-95a6-261e3a04308c}">
+    <NewObjectState>true</NewObjectState>
+    <ObjectReferenceList>
+        <ObjectReference id="Finish b95fe9e7745042d5901c75b5c6b4ba89 Calculator" InstanceId="{eb7c356d-dded-40a1-8ee7-a9335153fd97}"/>
+    </ObjectReferenceList>
+</SimMission.ObjectActivationAction>
+<SimMission.Calculator id="Finish b95fe9e7745042d5901c75b5c6b4ba89 Calculator" InstanceId="{eb7c356d-dded-40a1-8ee7-a9335153fd97}">
+<Activated>False</Activated>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
+            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
+            12148713 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
+            948037 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
+            17109 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
+            590279 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
+            374214 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
+            11844233 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
+            1
+        }
+        els{ 0 }
+    </CalculatorFormula>
+    <DeactivateAfterExecution>true</DeactivateAfterExecution>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+<SimMission.DialogAction id="cleared-for-start" InstanceId="{f944f87f-cbfc-481d-ba79-74b33ae31807}">
+    <Immediate>False</Immediate>
+    <Skippable>True</Skippable>
+    <Speaker>PILOT</Speaker>
+    <Text>TT:cleared-for-start</Text>
+    <PackageName>natlose-missions-mh60checkride</PackageName>
+    <EndActions>
+        <ObjectReference id="Finish cleared-for-start" InstanceId="{3171396f-1c80-44ea-b529-1e8cf105a0bf}"/>
+    </EndActions>
+</SimMission.DialogAction>
+<SimMission.ObjectActivationAction id="Finish cleared-for-start" InstanceId="{3171396f-1c80-44ea-b529-1e8cf105a0bf}">
+    <NewObjectState>true</NewObjectState>
+    <ObjectReferenceList>
+        <ObjectReference id="Finish cleared-for-start Calculator" InstanceId="{12bb3f45-ee4e-45dd-ba76-2fdf3c2c42e0}"/>
+    </ObjectReferenceList>
+</SimMission.ObjectActivationAction>
+<SimMission.Calculator id="Finish cleared-for-start Calculator" InstanceId="{12bb3f45-ee4e-45dd-ba76-2fdf3c2c42e0}">
+<Activated>False</Activated>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
+            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
+            10579988 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
+            565127 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
+            805051 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
+            562312 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
+            874899 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
+            5169308 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
+            1
+        }
+        els{ 0 }
+    </CalculatorFormula>
+    <DeactivateAfterExecution>true</DeactivateAfterExecution>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+<SimMission.DialogAction id="2386569c32bc4fc99ff3c57755d66c65" InstanceId="{06126f49-8d10-48ad-8edd-a30e6d109cc8}">
+    <Immediate>False</Immediate>
+    <Skippable>True</Skippable>
+    <Speaker>PILOT</Speaker>
+    <Text>Kilo Bravo</Text>
+    <EndActions>
+        <ObjectReference id="Finish 2386569c32bc4fc99ff3c57755d66c65" InstanceId="{08b05a4a-2587-409b-b483-18bf989eea5b}"/>
+    </EndActions>
+</SimMission.DialogAction>
+<SimMission.ObjectActivationAction id="Finish 2386569c32bc4fc99ff3c57755d66c65" InstanceId="{08b05a4a-2587-409b-b483-18bf989eea5b}">
+    <NewObjectState>true</NewObjectState>
+    <ObjectReferenceList>
+        <ObjectReference id="Finish 2386569c32bc4fc99ff3c57755d66c65 Calculator" InstanceId="{fb38f209-da0d-461a-a57f-8ed208639fd6}"/>
+    </ObjectReferenceList>
+</SimMission.ObjectActivationAction>
+<SimMission.Calculator id="Finish 2386569c32bc4fc99ff3c57755d66c65 Calculator" InstanceId="{fb38f209-da0d-461a-a57f-8ed208639fd6}">
+<Activated>False</Activated>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
+            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
+            2328150 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
+            639787 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
+            806857 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
+            655164 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
+            358229 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
+            14052453 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
+            1
+        }
+        els{ 0 }
+    </CalculatorFormula>
+    <DeactivateAfterExecution>true</DeactivateAfterExecution>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+<SimMission.DialogAction id="6c5192decb8844edb4f3c872a80a082d" InstanceId="{1f7e7799-0989-4bde-86aa-e6a4ed4168c8}">
+    <Immediate>False</Immediate>
+    <Skippable>True</Skippable>
+    <Speaker>PILOT</Speaker>
+    <Text>Payerne Tower, Kilo Bravo Three Five, request takeoff.</Text>
+    <EndActions>
+        <ObjectReference id="Finish 6c5192decb8844edb4f3c872a80a082d" InstanceId="{5fdebdf0-3fe9-435f-92dc-51f961297882}"/>
+    </EndActions>
+</SimMission.DialogAction>
+<SimMission.ObjectActivationAction id="Finish 6c5192decb8844edb4f3c872a80a082d" InstanceId="{5fdebdf0-3fe9-435f-92dc-51f961297882}">
+    <NewObjectState>true</NewObjectState>
+    <ObjectReferenceList>
+        <ObjectReference id="Finish 6c5192decb8844edb4f3c872a80a082d Calculator" InstanceId="{1f3e058d-dfaf-4a1a-a18c-df430a05eae7}"/>
+    </ObjectReferenceList>
+</SimMission.ObjectActivationAction>
+<SimMission.Calculator id="Finish 6c5192decb8844edb4f3c872a80a082d Calculator" InstanceId="{1f3e058d-dfaf-4a1a-a18c-df430a05eae7}">
+<Activated>False</Activated>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
+            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
+            7098770 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
+            912568 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
+            541933 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
+            741180 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
+            553640 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
+            657453 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
+            1
+        }
+        els{ 0 }
+    </CalculatorFormula>
+    <DeactivateAfterExecution>true</DeactivateAfterExecution>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+<SimMission.DialogAction id="cleared-for-takeoff" InstanceId="{a07924af-d0e1-4305-964e-785f6324fa58}">
+    <Immediate>False</Immediate>
+    <Skippable>True</Skippable>
+    <Speaker>PILOT</Speaker>
+    <Text>TT:cleared-for-takeoff</Text>
+    <PackageName>natlose-missions-mh60checkride</PackageName>
+    <EndActions>
+        <ObjectReference id="Finish cleared-for-takeoff" InstanceId="{1d1d0300-97d5-49a0-b650-7fe589ee02a0}"/>
+    </EndActions>
+</SimMission.DialogAction>
+<SimMission.ObjectActivationAction id="Finish cleared-for-takeoff" InstanceId="{1d1d0300-97d5-49a0-b650-7fe589ee02a0}">
+    <NewObjectState>true</NewObjectState>
+    <ObjectReferenceList>
+        <ObjectReference id="Finish cleared-for-takeoff Calculator" InstanceId="{ca3c40d7-ed34-419c-a0c9-32a89287e34a}"/>
+    </ObjectReferenceList>
+</SimMission.ObjectActivationAction>
+<SimMission.Calculator id="Finish cleared-for-takeoff Calculator" InstanceId="{ca3c40d7-ed34-419c-a0c9-32a89287e34a}">
+<Activated>False</Activated>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
+            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
+            10924489 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
+            972435 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
+            82871 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
+            672933 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
+            757660 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
+            4810941 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
+            1
+        }
+        els{ 0 }
+    </CalculatorFormula>
+    <DeactivateAfterExecution>true</DeactivateAfterExecution>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+<SimMission.DialogAction id="f81d2653624041c78a19487a1dc13c90" InstanceId="{ab5b950d-5948-4c5f-8de7-34b4c274c11b}">
+    <Immediate>False</Immediate>
+    <Skippable>True</Skippable>
+    <Speaker>PILOT</Speaker>
+    <Text>Kilo Bravo</Text>
+    <EndActions>
+        <ObjectReference id="Finish f81d2653624041c78a19487a1dc13c90" InstanceId="{771a6131-bb62-4da4-b83d-cfd9f40fcd01}"/>
+    </EndActions>
+</SimMission.DialogAction>
+<SimMission.ObjectActivationAction id="Finish f81d2653624041c78a19487a1dc13c90" InstanceId="{771a6131-bb62-4da4-b83d-cfd9f40fcd01}">
+    <NewObjectState>true</NewObjectState>
+    <ObjectReferenceList>
+        <ObjectReference id="Finish f81d2653624041c78a19487a1dc13c90 Calculator" InstanceId="{fe68a1ed-d3ff-49b9-9e00-e464c0b9e126}"/>
+    </ObjectReferenceList>
+</SimMission.ObjectActivationAction>
+<SimMission.Calculator id="Finish f81d2653624041c78a19487a1dc13c90 Calculator" InstanceId="{fe68a1ed-d3ff-49b9-9e00-e464c0b9e126}">
+<Activated>False</Activated>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
+            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
+            16260390 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
+            341540 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
+            16839 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
+            565652 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
+            555549 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
+            12663952 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
+            1
+        }
+        els{ 0 }
+    </CalculatorFormula>
+    <DeactivateAfterExecution>true</DeactivateAfterExecution>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+<SimMission.DialogAction id="radar-contact" InstanceId="{afe28c90-216d-4920-ab73-81c6fcbc5065}">
+    <Immediate>False</Immediate>
+    <Skippable>True</Skippable>
+    <Speaker>PILOT</Speaker>
+    <Text>TT:radar-contact</Text>
+    <PackageName>natlose-missions-mh60checkride</PackageName>
+    <EndActions>
+        <ObjectReference id="Finish radar-contact" InstanceId="{c02cf499-5ff2-4932-adec-676f2a12bd8e}"/>
+    </EndActions>
+</SimMission.DialogAction>
+<SimMission.ObjectActivationAction id="Finish radar-contact" InstanceId="{c02cf499-5ff2-4932-adec-676f2a12bd8e}">
+    <NewObjectState>true</NewObjectState>
+    <ObjectReferenceList>
+        <ObjectReference id="Finish radar-contact Calculator" InstanceId="{94c9240d-8237-49bc-b164-23147d6091e3}"/>
+    </ObjectReferenceList>
+</SimMission.ObjectActivationAction>
+<SimMission.Calculator id="Finish radar-contact Calculator" InstanceId="{94c9240d-8237-49bc-b164-23147d6091e3}">
+<Activated>False</Activated>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
+            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
+            13949955 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
+            297196 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
+            413610 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
+            608611 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
+            347838 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
+            11496459 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
+            1
+        }
+        els{ 0 }
+    </CalculatorFormula>
+    <DeactivateAfterExecution>true</DeactivateAfterExecution>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+<SimMission.DialogAction id="45a0ffefbad9460ebf20e01c082d1036" InstanceId="{aaa0cb62-1540-4684-949b-c763f4ec450d}">
+    <Immediate>False</Immediate>
+    <Skippable>True</Skippable>
+    <Speaker>PILOT</Speaker>
+    <Text>Kilo Bravo</Text>
+    <EndActions>
+        <ObjectReference id="Finish 45a0ffefbad9460ebf20e01c082d1036" InstanceId="{f03073b0-b33b-4bb1-afaf-7d26f60fb282}"/>
+    </EndActions>
+</SimMission.DialogAction>
+<SimMission.ObjectActivationAction id="Finish 45a0ffefbad9460ebf20e01c082d1036" InstanceId="{f03073b0-b33b-4bb1-afaf-7d26f60fb282}">
+    <NewObjectState>true</NewObjectState>
+    <ObjectReferenceList>
+        <ObjectReference id="Finish 45a0ffefbad9460ebf20e01c082d1036 Calculator" InstanceId="{63b48de7-3ab2-44c3-9fa7-1baa82895318}"/>
+    </ObjectReferenceList>
+</SimMission.ObjectActivationAction>
+<SimMission.Calculator id="Finish 45a0ffefbad9460ebf20e01c082d1036 Calculator" InstanceId="{63b48de7-3ab2-44c3-9fa7-1baa82895318}">
+<Activated>False</Activated>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
+            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
+            4563199 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
+            981933 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
+            607758 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
+            782862 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
+            7176 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
+            2953270 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
+            1
+        }
+        els{ 0 }
+    </CalculatorFormula>
+    <DeactivateAfterExecution>true</DeactivateAfterExecution>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+<SimMission.DialogAction id="05b82b409c2c45fca62e1ae514bea345" InstanceId="{4706b509-cb0f-4846-b5f2-3e2e301720bc}">
+    <Immediate>False</Immediate>
+    <Skippable>True</Skippable>
+    <Speaker>PILOT</Speaker>
+    <Text>Get back on course. Check the tablet.</Text>
+    <EndActions>
+        <ObjectReference id="Finish 05b82b409c2c45fca62e1ae514bea345" InstanceId="{be2bc96e-6445-4fd8-83a9-52c4ba682f63}"/>
+    </EndActions>
+</SimMission.DialogAction>
+<SimMission.ObjectActivationAction id="Finish 05b82b409c2c45fca62e1ae514bea345" InstanceId="{be2bc96e-6445-4fd8-83a9-52c4ba682f63}">
+    <NewObjectState>true</NewObjectState>
+    <ObjectReferenceList>
+        <ObjectReference id="Finish 05b82b409c2c45fca62e1ae514bea345 Calculator" InstanceId="{29ee826f-be51-42bf-9e8c-dcd0ee1dd04b}"/>
+    </ObjectReferenceList>
+</SimMission.ObjectActivationAction>
+<SimMission.Calculator id="Finish 05b82b409c2c45fca62e1ae514bea345 Calculator" InstanceId="{29ee826f-be51-42bf-9e8c-dcd0ee1dd04b}">
+<Activated>False</Activated>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
+            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
+            374827 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
+            264642 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
+            804348 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
+            680673 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
+            714004 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
+            12493637 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
+            1
+        }
+        els{ 0 }
+    </CalculatorFormula>
+    <DeactivateAfterExecution>true</DeactivateAfterExecution>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+<SimMission.DialogAction id="7ad19af623164f89a93a969524732e30" InstanceId="{227db2c0-02a5-4a45-b9ca-3190a526bf6e}">
+    <Immediate>False</Immediate>
+    <Skippable>True</Skippable>
+    <Speaker>PILOT</Speaker>
+    <Text>Ignore the freight terminal. Main Station is city center.</Text>
+    <EndActions>
+        <ObjectReference id="Finish 7ad19af623164f89a93a969524732e30" InstanceId="{5f1d8c5c-67f1-4cda-85a7-f6abf9a09cc9}"/>
+    </EndActions>
+</SimMission.DialogAction>
+<SimMission.ObjectActivationAction id="Finish 7ad19af623164f89a93a969524732e30" InstanceId="{5f1d8c5c-67f1-4cda-85a7-f6abf9a09cc9}">
+    <NewObjectState>true</NewObjectState>
+    <ObjectReferenceList>
+        <ObjectReference id="Finish 7ad19af623164f89a93a969524732e30 Calculator" InstanceId="{2eaa949c-13a1-4dbb-8d94-ae295188eb08}"/>
+    </ObjectReferenceList>
+</SimMission.ObjectActivationAction>
+<SimMission.Calculator id="Finish 7ad19af623164f89a93a969524732e30 Calculator" InstanceId="{2eaa949c-13a1-4dbb-8d94-ae295188eb08}">
+<Activated>False</Activated>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
+            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
+            8049050 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
+            1008177 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
+            413577 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
+            693161 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
+            431396 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
+            7548464 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
+            1
+        }
+        els{ 0 }
+    </CalculatorFormula>
+    <DeactivateAfterExecution>true</DeactivateAfterExecution>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+<SimMission.DialogAction id="8dc05d73096e417781f15fcb1e317e13" InstanceId="{0728e8b6-5b93-46ad-a94c-f2ad4b6391ca}">
+    <Immediate>False</Immediate>
+    <Skippable>True</Skippable>
+    <Speaker>PILOT</Speaker>
+    <Text>Payerne Tower, Kilo Bravo Three Five, inbound, request recovery.</Text>
+    <EndActions>
+        <ObjectReference id="Finish 8dc05d73096e417781f15fcb1e317e13" InstanceId="{a0cebcbc-7639-4d43-9551-d00e3b29e537}"/>
+    </EndActions>
+</SimMission.DialogAction>
+<SimMission.ObjectActivationAction id="Finish 8dc05d73096e417781f15fcb1e317e13" InstanceId="{a0cebcbc-7639-4d43-9551-d00e3b29e537}">
+    <NewObjectState>true</NewObjectState>
+    <ObjectReferenceList>
+        <ObjectReference id="Finish 8dc05d73096e417781f15fcb1e317e13 Calculator" InstanceId="{38db2a12-3891-4eae-b00b-62a3c6b22932}"/>
+    </ObjectReferenceList>
+</SimMission.ObjectActivationAction>
+<SimMission.Calculator id="Finish 8dc05d73096e417781f15fcb1e317e13 Calculator" InstanceId="{38db2a12-3891-4eae-b00b-62a3c6b22932}">
+<Activated>False</Activated>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
+            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
+            9289821 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
+            471190 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
+            934263 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
+            532245 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
+            1035038 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
+            3243539 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
+            1
+        }
+        els{ 0 }
+    </CalculatorFormula>
+    <DeactivateAfterExecution>true</DeactivateAfterExecution>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+<SimMission.DialogAction id="proceed-direct-apron" InstanceId="{f803f00d-5292-4eea-8c4c-f3b1d38693b5}">
+    <Immediate>False</Immediate>
+    <Skippable>True</Skippable>
+    <Speaker>PILOT</Speaker>
+    <Text>TT:proceed-direct-apron</Text>
+    <PackageName>natlose-missions-mh60checkride</PackageName>
+    <EndActions>
+        <ObjectReference id="Finish proceed-direct-apron" InstanceId="{8459709d-15fc-43c1-8b3c-cf5b64d16326}"/>
+    </EndActions>
+</SimMission.DialogAction>
+<SimMission.ObjectActivationAction id="Finish proceed-direct-apron" InstanceId="{8459709d-15fc-43c1-8b3c-cf5b64d16326}">
+    <NewObjectState>true</NewObjectState>
+    <ObjectReferenceList>
+        <ObjectReference id="Finish proceed-direct-apron Calculator" InstanceId="{f96fc13e-63f3-4d3d-adf1-86d090a9d7b6}"/>
+    </ObjectReferenceList>
+</SimMission.ObjectActivationAction>
+<SimMission.Calculator id="Finish proceed-direct-apron Calculator" InstanceId="{f96fc13e-63f3-4d3d-adf1-86d090a9d7b6}">
+<Activated>False</Activated>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
+            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
+            32067 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
+            491000 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
+            999649 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
+            638005 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
+            874975 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
+            4546091 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
+            1
+        }
+        els{ 0 }
+    </CalculatorFormula>
+    <DeactivateAfterExecution>true</DeactivateAfterExecution>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+<SimMission.DialogAction id="99c237420a564843ad209b8323ce4a45" InstanceId="{151e825e-6aba-42d7-b37a-3177d1e0a519}">
+    <Immediate>False</Immediate>
+    <Skippable>True</Skippable>
+    <Speaker>PILOT</Speaker>
+    <Text>Kilo Bravo</Text>
+    <EndActions>
+        <ObjectReference id="Finish 99c237420a564843ad209b8323ce4a45" InstanceId="{4fda8544-e5cc-4b6b-a678-94538a101768}"/>
+    </EndActions>
+</SimMission.DialogAction>
+<SimMission.ObjectActivationAction id="Finish 99c237420a564843ad209b8323ce4a45" InstanceId="{4fda8544-e5cc-4b6b-a678-94538a101768}">
+    <NewObjectState>true</NewObjectState>
+    <ObjectReferenceList>
+        <ObjectReference id="Finish 99c237420a564843ad209b8323ce4a45 Calculator" InstanceId="{85a1c092-9052-4275-a72c-ea8b10cb3490}"/>
+    </ObjectReferenceList>
+</SimMission.ObjectActivationAction>
+<SimMission.Calculator id="Finish 99c237420a564843ad209b8323ce4a45 Calculator" InstanceId="{85a1c092-9052-4275-a72c-ea8b10cb3490}">
+<Activated>False</Activated>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
+            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
+            10076727 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
+            270501 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
+            411715 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
+            709129 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
+            754467 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
+            13519429 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
+            1
+        }
+        els{ 0 }
+    </CalculatorFormula>
+    <DeactivateAfterExecution>true</DeactivateAfterExecution>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+<SimMission.DialogAction id="cleared-to-land" InstanceId="{c434cb9c-3455-408b-b586-beb87de8246f}">
+    <Immediate>False</Immediate>
+    <Skippable>True</Skippable>
+    <Speaker>PILOT</Speaker>
+    <Text>TT:cleared-to-land</Text>
+    <PackageName>natlose-missions-mh60checkride</PackageName>
+    <EndActions>
+        <ObjectReference id="Finish cleared-to-land" InstanceId="{d185c47b-fb16-4d31-b5fc-045641e9ec7d}"/>
+    </EndActions>
+</SimMission.DialogAction>
+<SimMission.ObjectActivationAction id="Finish cleared-to-land" InstanceId="{d185c47b-fb16-4d31-b5fc-045641e9ec7d}">
+    <NewObjectState>true</NewObjectState>
+    <ObjectReferenceList>
+        <ObjectReference id="Finish cleared-to-land Calculator" InstanceId="{68d4b013-e3d6-477c-94de-5418855537e4}"/>
+    </ObjectReferenceList>
+</SimMission.ObjectActivationAction>
+<SimMission.Calculator id="Finish cleared-to-land Calculator" InstanceId="{68d4b013-e3d6-477c-94de-5418855537e4}">
+<Activated>False</Activated>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
+            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
+            12311630 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
+            1034101 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
+            18600 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
+            609223 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
+            717014 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
+            6937181 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
+            1
+        }
+        els{ 0 }
+    </CalculatorFormula>
+    <DeactivateAfterExecution>true</DeactivateAfterExecution>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+<SimMission.DialogAction id="36cdab4ded7641df930566d002a16dd2" InstanceId="{04747b2f-3be1-43e4-993c-3f516efe8797}">
+    <Immediate>False</Immediate>
+    <Skippable>True</Skippable>
+    <Speaker>PILOT</Speaker>
+    <Text>Cleared to land, Kilo Bravo</Text>
+    <EndActions>
+        <ObjectReference id="Finish 36cdab4ded7641df930566d002a16dd2" InstanceId="{02ab790d-69c9-4884-b109-49b9d023ca61}"/>
+    </EndActions>
+</SimMission.DialogAction>
+<SimMission.ObjectActivationAction id="Finish 36cdab4ded7641df930566d002a16dd2" InstanceId="{02ab790d-69c9-4884-b109-49b9d023ca61}">
+    <NewObjectState>true</NewObjectState>
+    <ObjectReferenceList>
+        <ObjectReference id="Finish 36cdab4ded7641df930566d002a16dd2 Calculator" InstanceId="{f96d58bc-56ba-49b9-ac6e-02137134e253}"/>
+    </ObjectReferenceList>
+</SimMission.ObjectActivationAction>
+<SimMission.Calculator id="Finish 36cdab4ded7641df930566d002a16dd2 Calculator" InstanceId="{f96d58bc-56ba-49b9-ac6e-02137134e253}">
+<Activated>False</Activated>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
+            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
+            3591595 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
+            319191 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
+            410079 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
+            602198 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
+            446466 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
+            10579410 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
+            1
+        }
+        els{ 0 }
+    </CalculatorFormula>
+    <DeactivateAfterExecution>true</DeactivateAfterExecution>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+<SimMission.DialogAction id="f7845a404cd74ab1b16501860fb9fcce" InstanceId="{a292d569-8c7e-4ef1-92e0-ba14a7890292}">
+    <Immediate>False</Immediate>
+    <Skippable>True</Skippable>
+    <Speaker>PILOT</Speaker>
+    <Text>Timing matters, Lieutenant. Three penalties.</Text>
+    <EndActions>
+        <ObjectReference id="Finish f7845a404cd74ab1b16501860fb9fcce" InstanceId="{2ba13f2f-6ec6-4911-b430-7e1e634bd4a4}"/>
+    </EndActions>
+</SimMission.DialogAction>
+<SimMission.ObjectActivationAction id="Finish f7845a404cd74ab1b16501860fb9fcce" InstanceId="{2ba13f2f-6ec6-4911-b430-7e1e634bd4a4}">
+    <NewObjectState>true</NewObjectState>
+    <ObjectReferenceList>
+        <ObjectReference id="Finish f7845a404cd74ab1b16501860fb9fcce Calculator" InstanceId="{3f409476-00a3-4b35-9b08-d816efa43052}"/>
+    </ObjectReferenceList>
+</SimMission.ObjectActivationAction>
+<SimMission.Calculator id="Finish f7845a404cd74ab1b16501860fb9fcce Calculator" InstanceId="{3f409476-00a3-4b35-9b08-d816efa43052}">
+<Activated>False</Activated>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
+            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
+            16221274 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
+            263373 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
+            477873 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
+            726608 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
+            99855 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
+            12188878 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
+            1
+        }
+        els{ 0 }
+    </CalculatorFormula>
+    <DeactivateAfterExecution>true</DeactivateAfterExecution>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+<SimMission.DialogAction id="35fc56ea29844ce6928bd5b87f3b75e6" InstanceId="{4e0d0d2c-3ab7-405e-8042-b873252886c8}">
+    <Immediate>False</Immediate>
+    <Skippable>True</Skippable>
+    <Speaker>PILOT</Speaker>
+    <Text>You just painted us on radar. Two penalties.</Text>
+    <EndActions>
+        <ObjectReference id="Finish 35fc56ea29844ce6928bd5b87f3b75e6" InstanceId="{03d07c0a-b1af-489e-806e-52bd726af03e}"/>
+    </EndActions>
+</SimMission.DialogAction>
+<SimMission.ObjectActivationAction id="Finish 35fc56ea29844ce6928bd5b87f3b75e6" InstanceId="{03d07c0a-b1af-489e-806e-52bd726af03e}">
+    <NewObjectState>true</NewObjectState>
+    <ObjectReferenceList>
+        <ObjectReference id="Finish 35fc56ea29844ce6928bd5b87f3b75e6 Calculator" InstanceId="{dc259335-e55c-4594-81e4-b6c3c10944c3}"/>
+    </ObjectReferenceList>
+</SimMission.ObjectActivationAction>
+<SimMission.Calculator id="Finish 35fc56ea29844ce6928bd5b87f3b75e6 Calculator" InstanceId="{dc259335-e55c-4594-81e4-b6c3c10944c3}">
+<Activated>False</Activated>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
+            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
+            3538006 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
+            959128 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
+            281830 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
+            600253 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
+            374911 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
+            3896806 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
+            1
+        }
+        els{ 0 }
+    </CalculatorFormula>
+    <DeactivateAfterExecution>true</DeactivateAfterExecution>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+<SimMission.DialogAction id="f9e1a633611b4b1ba1e435bc36412330" InstanceId="{e56894ec-bbc1-41a9-a85c-4f7b485c6c68}">
+    <Immediate>False</Immediate>
+    <Skippable>True</Skippable>
+    <Speaker>PILOT</Speaker>
+    <Text>Never get tired of that view… beautiful, isn’t it?</Text>
+    <EndActions>
+        <ObjectReference id="Finish f9e1a633611b4b1ba1e435bc36412330" InstanceId="{5b0bb995-e437-4499-8dbb-34b0764fc67a}"/>
+    </EndActions>
+</SimMission.DialogAction>
+<SimMission.ObjectActivationAction id="Finish f9e1a633611b4b1ba1e435bc36412330" InstanceId="{5b0bb995-e437-4499-8dbb-34b0764fc67a}">
+    <NewObjectState>true</NewObjectState>
+    <ObjectReferenceList>
+        <ObjectReference id="Finish f9e1a633611b4b1ba1e435bc36412330 Calculator" InstanceId="{6d5d3d74-b236-45b1-9f64-b2b92567cc91}"/>
+    </ObjectReferenceList>
+</SimMission.ObjectActivationAction>
+<SimMission.Calculator id="Finish f9e1a633611b4b1ba1e435bc36412330 Calculator" InstanceId="{6d5d3d74-b236-45b1-9f64-b2b92567cc91}">
+<Activated>False</Activated>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
+            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
+            16376230 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
+            210449 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
+            740123 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
+            663107 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
+            375862 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
+            4268848 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
+            1
+        }
+        els{ 0 }
+    </CalculatorFormula>
+    <DeactivateAfterExecution>true</DeactivateAfterExecution>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+<SimMission.Calculator id="Dialog Calculator" InstanceId="{251ae170-b496-4982-ad2c-8810f7a2d389}">
+<Activated>True</Activated>
+<DisplayAllowed>True</DisplayAllowed>
+<CalculatorParameterList>
+    <FormulaParameter NameInFormula="WantedDialog1" OnActivatedValue="0">
+        <CalculatorFormula>(L:MMH_DIALOG_CUSTOM_1)</CalculatorFormula>
+    </FormulaParameter>
+    <FormulaParameter NameInFormula="WantedDialog2" OnActivatedValue="0">
+        <CalculatorFormula>(L:MMH_DIALOG_CUSTOM_2)</CalculatorFormula>
+    </FormulaParameter>
+    <FormulaParameter NameInFormula="WantedDialog3" OnActivatedValue="0">
+        <CalculatorFormula>(L:MMH_DIALOG_CUSTOM_3)</CalculatorFormula>
+    </FormulaParameter>
+    <FormulaParameter NameInFormula="WantedDialog4" OnActivatedValue="0">
+        <CalculatorFormula>(L:MMH_DIALOG_CUSTOM_4)</CalculatorFormula>
+    </FormulaParameter>
+    <FormulaParameter NameInFormula="WantedDialog5" OnActivatedValue="0">
+        <CalculatorFormula>(L:MMH_DIALOG_CUSTOM_5)</CalculatorFormula>
+    </FormulaParameter>
+    <FormulaParameter NameInFormula="WantedDialog6" OnActivatedValue="0">
+        <CalculatorFormula>(L:MMH_DIALOG_CUSTOM_6)</CalculatorFormula>
+    </FormulaParameter>
+    <FormulaParameter NameInFormula="ResetDialog" StartValue="0"/>
+</CalculatorParameterList>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:WantedDialog1) 9153181 ==
+        (X:WantedDialog2) 721589 ==
+        (X:WantedDialog3) 478742 ==
+        (X:WantedDialog4) 614702 ==
+        (X:WantedDialog5) 977750 ==
+        (X:WantedDialog6) 5389455 ==
+        and and and and and
+        if{ 1 (&gt;X:ResetDialog) 1 }
+    </CalculatorFormula>
+    <Actions>
+        <ObjectReference id="8baa9db02b574e169612eeeb56523c8f" InstanceId="{0d0c54aa-bb4a-4464-8f8e-e3eb8b9c4759}"/>
+    </Actions>
+</CalculatorAction>
+
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:WantedDialog1) 5120511 ==
+        (X:WantedDialog2) 386281 ==
+        (X:WantedDialog3) 84453 ==
+        (X:WantedDialog4) 674164 ==
+        (X:WantedDialog5) 446817 ==
+        (X:WantedDialog6) 1184552 ==
+        and and and and and
+        if{ 1 (&gt;X:ResetDialog) 1 }
+    </CalculatorFormula>
+    <Actions>
+        <ObjectReference id="4e21ff5e4e9149e5a49746d161121328" InstanceId="{2b9a2e85-9f23-4617-94d1-216f0da92d19}"/>
+    </Actions>
+</CalculatorAction>
+
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:WantedDialog1) 10762030 ==
+        (X:WantedDialog2) 37367 ==
+        (X:WantedDialog3) 672651 ==
+        (X:WantedDialog4) 539241 ==
+        (X:WantedDialog5) 46382 ==
+        (X:WantedDialog6) 4430867 ==
+        and and and and and
+        if{ 1 (&gt;X:ResetDialog) 1 }
+    </CalculatorFormula>
+    <Actions>
+        <ObjectReference id="a4372e091f7a438b83a690b52e439c13" InstanceId="{2ee33f79-fa00-4982-aa77-7e4f538804cb}"/>
+    </Actions>
+</CalculatorAction>
+
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:WantedDialog1) 11733621 ==
+        (X:WantedDialog2) 380305 ==
+        (X:WantedDialog3) 477171 ==
+        (X:WantedDialog4) 712394 ==
+        (X:WantedDialog5) 453898 ==
+        (X:WantedDialog6) 2291659 ==
+        and and and and and
+        if{ 1 (&gt;X:ResetDialog) 1 }
+    </CalculatorFormula>
+    <Actions>
+        <ObjectReference id="b30a755cd91747f3adeca6ed0a22f7cb" InstanceId="{1ba5f694-450b-4581-9e95-7423d593f739}"/>
+    </Actions>
+</CalculatorAction>
+
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:WantedDialog1) 4366133 ==
+        (X:WantedDialog2) 300174 ==
+        (X:WantedDialog3) 17956 ==
+        (X:WantedDialog4) 632501 ==
+        (X:WantedDialog5) 941995 ==
+        (X:WantedDialog6) 2428279 ==
+        and and and and and
+        if{ 1 (&gt;X:ResetDialog) 1 }
+    </CalculatorFormula>
+    <Actions>
+        <ObjectReference id="429f354948e046249a6b5e5fab250d77" InstanceId="{336fb434-6737-43ce-bfa4-5a393006d4b0}"/>
+    </Actions>
+</CalculatorAction>
+
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:WantedDialog1) 10891340 ==
+        (X:WantedDialog2) 829268 ==
+        (X:WantedDialog3) 83489 ==
+        (X:WantedDialog4) 562032 ==
+        (X:WantedDialog5) 806485 ==
+        (X:WantedDialog6) 3604256 ==
+        and and and and and
+        if{ 1 (&gt;X:ResetDialog) 1 }
+    </CalculatorFormula>
+    <Actions>
+        <ObjectReference id="to-slow-for-a-scramble" InstanceId="{8e3f2ea9-aafe-48a8-ad4c-86db2a7923e5}"/>
+    </Actions>
+</CalculatorAction>
+
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:WantedDialog1) 13376315 ==
+        (X:WantedDialog2) 238240 ==
+        (X:WantedDialog3) 281880 ==
+        (X:WantedDialog4) 596137 ==
+        (X:WantedDialog5) 174491 ==
+        (X:WantedDialog6) 16368611 ==
+        and and and and and
+        if{ 1 (&gt;X:ResetDialog) 1 }
+    </CalculatorFormula>
+    <Actions>
+        <ObjectReference id="cc1b3b3a2a044d18918a92a99bf9c3e3" InstanceId="{c564e6a6-926c-4c57-a615-0e2a81d222e7}"/>
+    </Actions>
+</CalculatorAction>
+
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:WantedDialog1) 4927135 ==
+        (X:WantedDialog2) 997263 ==
+        (X:WantedDialog3) 348092 ==
+        (X:WantedDialog4) 730707 ==
+        (X:WantedDialog5) 459041 ==
+        (X:WantedDialog6) 8182483 ==
+        and and and and and
+        if{ 1 (&gt;X:ResetDialog) 1 }
+    </CalculatorFormula>
+    <Actions>
+        <ObjectReference id="4b2e9ff378f54fbcb2653701217cdad3" InstanceId="{517679c4-d108-4fb0-9566-9dcd5a402ac4}"/>
+    </Actions>
+</CalculatorAction>
+
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:WantedDialog1) 8337188 ==
+        (X:WantedDialog2) 936118 ==
+        (X:WantedDialog3) 871087 ==
+        (X:WantedDialog4) 606192 ==
+        (X:WantedDialog5) 129225 ==
+        (X:WantedDialog6) 11323902 ==
+        and and and and and
+        if{ 1 (&gt;X:ResetDialog) 1 }
+    </CalculatorFormula>
+    <Actions>
+        <ObjectReference id="7f3724e48b6d4aaf93ff01f8c9acc9fe" InstanceId="{c3d314f4-c310-46d1-98bc-6a22cfb1fbd2}"/>
+    </Actions>
+</CalculatorAction>
+
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:WantedDialog1) 15907031 ==
+        (X:WantedDialog2) 862083 ==
+        (X:WantedDialog3) 544357 ==
+        (X:WantedDialog4) 734109 ==
+        (X:WantedDialog5) 145240 ==
+        (X:WantedDialog6) 7102045 ==
+        and and and and and
+        if{ 1 (&gt;X:ResetDialog) 1 }
+    </CalculatorFormula>
+    <Actions>
+        <ObjectReference id="f2b8d7d278384e65b339d237586c5e5d" InstanceId="{2c0f7a6e-48c7-49e4-b871-a9e263046105}"/>
+    </Actions>
+</CalculatorAction>
+
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:WantedDialog1) 15374238 ==
+        (X:WantedDialog2) 540767 ==
+        (X:WantedDialog3) 410305 ==
+        (X:WantedDialog4) 525110 ==
+        (X:WantedDialog5) 747653 ==
+        (X:WantedDialog6) 13966808 ==
+        and and and and and
+        if{ 1 (&gt;X:ResetDialog) 1 }
+    </CalculatorFormula>
+    <Actions>
+        <ObjectReference id="ea979e8405f642c180336b6885d51dd8" InstanceId="{44a0a85f-3c4c-41e3-9cdf-70dace76abc3}"/>
+    </Actions>
+</CalculatorAction>
+
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:WantedDialog1) 16121876 ==
+        (X:WantedDialog2) 925730 ==
+        (X:WantedDialog3) 279041 ==
+        (X:WantedDialog4) 739868 ==
+        (X:WantedDialog5) 362032 ==
+        (X:WantedDialog6) 10944843 ==
+        and and and and and
+        if{ 1 (&gt;X:ResetDialog) 1 }
+    </CalculatorFormula>
+    <Actions>
+        <ObjectReference id="f60014e202244201b4a1c58630a7014b" InstanceId="{081cc6c3-d474-429b-a2ee-cddc8e158268}"/>
+    </Actions>
+</CalculatorAction>
+
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:WantedDialog1) 10358627 ==
+        (X:WantedDialog2) 707864 ==
+        (X:WantedDialog3) 83329 ==
+        (X:WantedDialog4) 758033 ==
+        (X:WantedDialog5) 578530 ==
+        (X:WantedDialog6) 12999678 ==
+        and and and and and
+        if{ 1 (&gt;X:ResetDialog) 1 }
+    </CalculatorFormula>
+    <Actions>
+        <ObjectReference id="9e0f63acd1814581b91118d3e2c65bfe" InstanceId="{fe83a8b1-e930-4c85-bd85-a3c14929de9b}"/>
+    </Actions>
+</CalculatorAction>
+
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:WantedDialog1) 3356464 ==
+        (X:WantedDialog2) 576244 ==
+        (X:WantedDialog3) 540758 ==
+        (X:WantedDialog4) 777865 ==
+        (X:WantedDialog5) 850553 ==
+        (X:WantedDialog6) 1031915 ==
+        and and and and and
+        if{ 1 (&gt;X:ResetDialog) 1 }
+    </CalculatorFormula>
+    <Actions>
+        <ObjectReference id="3337308caf484056bde89cfa790fbeeb" InstanceId="{f91e6813-abcd-49d5-9415-1cec0fb88687}"/>
+    </Actions>
+</CalculatorAction>
+
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:WantedDialog1) 620776 ==
+        (X:WantedDialog2) 421810 ==
+        (X:WantedDialog3) 672793 ==
+        (X:WantedDialog4) 660120 ==
+        (X:WantedDialog5) 519964 ==
+        (X:WantedDialog6) 10267030 ==
+        and and and and and
+        if{ 1 (&gt;X:ResetDialog) 1 }
+    </CalculatorFormula>
+    <Actions>
+        <ObjectReference id="0978e866fb2a4419a12987ef1c9ca996" InstanceId="{0e36f997-0df7-4d69-861f-72cec8920bbc}"/>
+    </Actions>
+</CalculatorAction>
+
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:WantedDialog1) 7329272 ==
+        (X:WantedDialog2) 525064 ==
+        (X:WantedDialog3) 806095 ==
+        (X:WantedDialog4) 627228 ==
+        (X:WantedDialog5) 903585 ==
+        (X:WantedDialog6) 13624029 ==
+        and and and and and
+        if{ 1 (&gt;X:ResetDialog) 1 }
+    </CalculatorFormula>
+    <Actions>
+        <ObjectReference id="6fd5f880308c4ccf9921cdc9a1cfe2dd" InstanceId="{7f20b2bd-564f-4fb0-a338-b37078f95f1b}"/>
+    </Actions>
+</CalculatorAction>
+
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:WantedDialog1) 12036352 ==
+        (X:WantedDialog2) 524191 ==
+        (X:WantedDialog3) 871256 ==
+        (X:WantedDialog4) 628194 ==
+        (X:WantedDialog5) 1000373 ==
+        (X:WantedDialog6) 4053077 ==
+        and and and and and
+        if{ 1 (&gt;X:ResetDialog) 1 }
+    </CalculatorFormula>
+    <Actions>
+        <ObjectReference id="b7a9007ff9fd4b58995e2f43b53dd855" InstanceId="{410e271c-ec5c-4641-8a4b-45d21e4f78d1}"/>
+    </Actions>
+</CalculatorAction>
+
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:WantedDialog1) 2445215 ==
+        (X:WantedDialog2) 443432 ==
+        (X:WantedDialog3) 214327 ==
+        (X:WantedDialog4) 579785 ==
+        (X:WantedDialog5) 420654 ==
+        (X:WantedDialog6) 13832232 ==
+        and and and and and
+        if{ 1 (&gt;X:ResetDialog) 1 }
+    </CalculatorFormula>
+    <Actions>
+        <ObjectReference id="254f9f6c428345378d8c966b2ed31028" InstanceId="{8cb0414a-f5d1-480f-a837-37ca1456c76d}"/>
+    </Actions>
+</CalculatorAction>
+
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:WantedDialog1) 15289807 ==
+        (X:WantedDialog2) 294734 ==
+        (X:WantedDialog3) 738356 ==
+        (X:WantedDialog4) 586281 ==
+        (X:WantedDialog5) 456523 ==
+        (X:WantedDialog6) 3486907 ==
+        and and and and and
+        if{ 1 (&gt;X:ResetDialog) 1 }
+    </CalculatorFormula>
+    <Actions>
+        <ObjectReference id="e94dcf47f4eb44348f2296f74b3534bb" InstanceId="{71196eb1-c2db-4ed5-800a-802e6cc16116}"/>
+    </Actions>
+</CalculatorAction>
+
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:WantedDialog1) 6702598 ==
+        (X:WantedDialog2) 343941 ==
+        (X:WantedDialog3) 18127 ==
+        (X:WantedDialog4) 742465 ==
+        (X:WantedDialog5) 23959 ==
+        (X:WantedDialog6) 10851467 ==
+        and and and and and
+        if{ 1 (&gt;X:ResetDialog) 1 }
+    </CalculatorFormula>
+    <Actions>
+        <ObjectReference id="66460653f85046cfb544105d97a5948b" InstanceId="{cf0bb277-d81e-4c00-a68b-58421636f148}"/>
+    </Actions>
+</CalculatorAction>
+
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:WantedDialog1) 2626429 ==
+        (X:WantedDialog2) 102423 ==
+        (X:WantedDialog3) 999891 ==
+        (X:WantedDialog4) 556745 ==
+        (X:WantedDialog5) 505712 ==
+        (X:WantedDialog6) 8476728 ==
+        and and and and and
+        if{ 1 (&gt;X:ResetDialog) 1 }
+    </CalculatorFormula>
+    <Actions>
+        <ObjectReference id="28137d19017f41d387ec97b770815838" InstanceId="{4495a92d-baa7-4a3c-845c-8722efe0a582}"/>
+    </Actions>
+</CalculatorAction>
+
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:WantedDialog1) 1633822 ==
+        (X:WantedDialog2) 1004858 ==
+        (X:WantedDialog3) 738183 ==
+        (X:WantedDialog4) 551315 ==
+        (X:WantedDialog5) 224374 ==
+        (X:WantedDialog6) 9095664 ==
+        and and and and and
+        if{ 1 (&gt;X:ResetDialog) 1 }
+    </CalculatorFormula>
+    <Actions>
+        <ObjectReference id="18ee1ef553ab43878699336c768ac9f0" InstanceId="{aa379fe0-949f-4bf0-ac89-db6cf3b87c28}"/>
+    </Actions>
+</CalculatorAction>
+
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:WantedDialog1) 4463635 ==
+        (X:WantedDialog2) 789548 ==
+        (X:WantedDialog3) 673609 ==
+        (X:WantedDialog4) 647985 ==
+        (X:WantedDialog5) 123817 ==
+        (X:WantedDialog6) 3580583 ==
+        and and and and and
+        if{ 1 (&gt;X:ResetDialog) 1 }
+    </CalculatorFormula>
+    <Actions>
+        <ObjectReference id="441c13c0c2ca47499e3311e3a936a2a7" InstanceId="{1858249b-a6e4-4dc6-8b4e-045f3f3b3e33}"/>
+    </Actions>
+</CalculatorAction>
+
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:WantedDialog1) 12148713 ==
+        (X:WantedDialog2) 948037 ==
+        (X:WantedDialog3) 17109 ==
+        (X:WantedDialog4) 590279 ==
+        (X:WantedDialog5) 374214 ==
+        (X:WantedDialog6) 11844233 ==
+        and and and and and
+        if{ 1 (&gt;X:ResetDialog) 1 }
+    </CalculatorFormula>
+    <Actions>
+        <ObjectReference id="b95fe9e7745042d5901c75b5c6b4ba89" InstanceId="{5e1048e8-0768-4fad-b45e-cf07e251cc6e}"/>
+    </Actions>
+</CalculatorAction>
+
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:WantedDialog1) 10579988 ==
+        (X:WantedDialog2) 565127 ==
+        (X:WantedDialog3) 805051 ==
+        (X:WantedDialog4) 562312 ==
+        (X:WantedDialog5) 874899 ==
+        (X:WantedDialog6) 5169308 ==
+        and and and and and
+        if{ 1 (&gt;X:ResetDialog) 1 }
+    </CalculatorFormula>
+    <Actions>
+        <ObjectReference id="cleared-for-start" InstanceId="{f944f87f-cbfc-481d-ba79-74b33ae31807}"/>
+    </Actions>
+</CalculatorAction>
+
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:WantedDialog1) 2328150 ==
+        (X:WantedDialog2) 639787 ==
+        (X:WantedDialog3) 806857 ==
+        (X:WantedDialog4) 655164 ==
+        (X:WantedDialog5) 358229 ==
+        (X:WantedDialog6) 14052453 ==
+        and and and and and
+        if{ 1 (&gt;X:ResetDialog) 1 }
+    </CalculatorFormula>
+    <Actions>
+        <ObjectReference id="2386569c32bc4fc99ff3c57755d66c65" InstanceId="{06126f49-8d10-48ad-8edd-a30e6d109cc8}"/>
+    </Actions>
+</CalculatorAction>
+
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:WantedDialog1) 7098770 ==
+        (X:WantedDialog2) 912568 ==
+        (X:WantedDialog3) 541933 ==
+        (X:WantedDialog4) 741180 ==
+        (X:WantedDialog5) 553640 ==
+        (X:WantedDialog6) 657453 ==
+        and and and and and
+        if{ 1 (&gt;X:ResetDialog) 1 }
+    </CalculatorFormula>
+    <Actions>
+        <ObjectReference id="6c5192decb8844edb4f3c872a80a082d" InstanceId="{1f7e7799-0989-4bde-86aa-e6a4ed4168c8}"/>
+    </Actions>
+</CalculatorAction>
+
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:WantedDialog1) 10924489 ==
+        (X:WantedDialog2) 972435 ==
+        (X:WantedDialog3) 82871 ==
+        (X:WantedDialog4) 672933 ==
+        (X:WantedDialog5) 757660 ==
+        (X:WantedDialog6) 4810941 ==
+        and and and and and
+        if{ 1 (&gt;X:ResetDialog) 1 }
+    </CalculatorFormula>
+    <Actions>
+        <ObjectReference id="cleared-for-takeoff" InstanceId="{a07924af-d0e1-4305-964e-785f6324fa58}"/>
+    </Actions>
+</CalculatorAction>
+
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:WantedDialog1) 16260390 ==
+        (X:WantedDialog2) 341540 ==
+        (X:WantedDialog3) 16839 ==
+        (X:WantedDialog4) 565652 ==
+        (X:WantedDialog5) 555549 ==
+        (X:WantedDialog6) 12663952 ==
+        and and and and and
+        if{ 1 (&gt;X:ResetDialog) 1 }
+    </CalculatorFormula>
+    <Actions>
+        <ObjectReference id="f81d2653624041c78a19487a1dc13c90" InstanceId="{ab5b950d-5948-4c5f-8de7-34b4c274c11b}"/>
+    </Actions>
+</CalculatorAction>
+
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:WantedDialog1) 13949955 ==
+        (X:WantedDialog2) 297196 ==
+        (X:WantedDialog3) 413610 ==
+        (X:WantedDialog4) 608611 ==
+        (X:WantedDialog5) 347838 ==
+        (X:WantedDialog6) 11496459 ==
+        and and and and and
+        if{ 1 (&gt;X:ResetDialog) 1 }
+    </CalculatorFormula>
+    <Actions>
+        <ObjectReference id="radar-contact" InstanceId="{afe28c90-216d-4920-ab73-81c6fcbc5065}"/>
+    </Actions>
+</CalculatorAction>
+
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:WantedDialog1) 4563199 ==
+        (X:WantedDialog2) 981933 ==
+        (X:WantedDialog3) 607758 ==
+        (X:WantedDialog4) 782862 ==
+        (X:WantedDialog5) 7176 ==
+        (X:WantedDialog6) 2953270 ==
+        and and and and and
+        if{ 1 (&gt;X:ResetDialog) 1 }
+    </CalculatorFormula>
+    <Actions>
+        <ObjectReference id="45a0ffefbad9460ebf20e01c082d1036" InstanceId="{aaa0cb62-1540-4684-949b-c763f4ec450d}"/>
+    </Actions>
+</CalculatorAction>
+
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:WantedDialog1) 374827 ==
+        (X:WantedDialog2) 264642 ==
+        (X:WantedDialog3) 804348 ==
+        (X:WantedDialog4) 680673 ==
+        (X:WantedDialog5) 714004 ==
+        (X:WantedDialog6) 12493637 ==
+        and and and and and
+        if{ 1 (&gt;X:ResetDialog) 1 }
+    </CalculatorFormula>
+    <Actions>
+        <ObjectReference id="05b82b409c2c45fca62e1ae514bea345" InstanceId="{4706b509-cb0f-4846-b5f2-3e2e301720bc}"/>
+    </Actions>
+</CalculatorAction>
+
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:WantedDialog1) 8049050 ==
+        (X:WantedDialog2) 1008177 ==
+        (X:WantedDialog3) 413577 ==
+        (X:WantedDialog4) 693161 ==
+        (X:WantedDialog5) 431396 ==
+        (X:WantedDialog6) 7548464 ==
+        and and and and and
+        if{ 1 (&gt;X:ResetDialog) 1 }
+    </CalculatorFormula>
+    <Actions>
+        <ObjectReference id="7ad19af623164f89a93a969524732e30" InstanceId="{227db2c0-02a5-4a45-b9ca-3190a526bf6e}"/>
+    </Actions>
+</CalculatorAction>
+
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:WantedDialog1) 9289821 ==
+        (X:WantedDialog2) 471190 ==
+        (X:WantedDialog3) 934263 ==
+        (X:WantedDialog4) 532245 ==
+        (X:WantedDialog5) 1035038 ==
+        (X:WantedDialog6) 3243539 ==
+        and and and and and
+        if{ 1 (&gt;X:ResetDialog) 1 }
+    </CalculatorFormula>
+    <Actions>
+        <ObjectReference id="8dc05d73096e417781f15fcb1e317e13" InstanceId="{0728e8b6-5b93-46ad-a94c-f2ad4b6391ca}"/>
+    </Actions>
+</CalculatorAction>
+
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:WantedDialog1) 32067 ==
+        (X:WantedDialog2) 491000 ==
+        (X:WantedDialog3) 999649 ==
+        (X:WantedDialog4) 638005 ==
+        (X:WantedDialog5) 874975 ==
+        (X:WantedDialog6) 4546091 ==
+        and and and and and
+        if{ 1 (&gt;X:ResetDialog) 1 }
+    </CalculatorFormula>
+    <Actions>
+        <ObjectReference id="proceed-direct-apron" InstanceId="{f803f00d-5292-4eea-8c4c-f3b1d38693b5}"/>
+    </Actions>
+</CalculatorAction>
+
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:WantedDialog1) 10076727 ==
+        (X:WantedDialog2) 270501 ==
+        (X:WantedDialog3) 411715 ==
+        (X:WantedDialog4) 709129 ==
+        (X:WantedDialog5) 754467 ==
+        (X:WantedDialog6) 13519429 ==
+        and and and and and
+        if{ 1 (&gt;X:ResetDialog) 1 }
+    </CalculatorFormula>
+    <Actions>
+        <ObjectReference id="99c237420a564843ad209b8323ce4a45" InstanceId="{151e825e-6aba-42d7-b37a-3177d1e0a519}"/>
+    </Actions>
+</CalculatorAction>
+
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:WantedDialog1) 12311630 ==
+        (X:WantedDialog2) 1034101 ==
+        (X:WantedDialog3) 18600 ==
+        (X:WantedDialog4) 609223 ==
+        (X:WantedDialog5) 717014 ==
+        (X:WantedDialog6) 6937181 ==
+        and and and and and
+        if{ 1 (&gt;X:ResetDialog) 1 }
+    </CalculatorFormula>
+    <Actions>
+        <ObjectReference id="cleared-to-land" InstanceId="{c434cb9c-3455-408b-b586-beb87de8246f}"/>
+    </Actions>
+</CalculatorAction>
+
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:WantedDialog1) 3591595 ==
+        (X:WantedDialog2) 319191 ==
+        (X:WantedDialog3) 410079 ==
+        (X:WantedDialog4) 602198 ==
+        (X:WantedDialog5) 446466 ==
+        (X:WantedDialog6) 10579410 ==
+        and and and and and
+        if{ 1 (&gt;X:ResetDialog) 1 }
+    </CalculatorFormula>
+    <Actions>
+        <ObjectReference id="36cdab4ded7641df930566d002a16dd2" InstanceId="{04747b2f-3be1-43e4-993c-3f516efe8797}"/>
+    </Actions>
+</CalculatorAction>
+
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:WantedDialog1) 16221274 ==
+        (X:WantedDialog2) 263373 ==
+        (X:WantedDialog3) 477873 ==
+        (X:WantedDialog4) 726608 ==
+        (X:WantedDialog5) 99855 ==
+        (X:WantedDialog6) 12188878 ==
+        and and and and and
+        if{ 1 (&gt;X:ResetDialog) 1 }
+    </CalculatorFormula>
+    <Actions>
+        <ObjectReference id="f7845a404cd74ab1b16501860fb9fcce" InstanceId="{a292d569-8c7e-4ef1-92e0-ba14a7890292}"/>
+    </Actions>
+</CalculatorAction>
+
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:WantedDialog1) 3538006 ==
+        (X:WantedDialog2) 959128 ==
+        (X:WantedDialog3) 281830 ==
+        (X:WantedDialog4) 600253 ==
+        (X:WantedDialog5) 374911 ==
+        (X:WantedDialog6) 3896806 ==
+        and and and and and
+        if{ 1 (&gt;X:ResetDialog) 1 }
+    </CalculatorFormula>
+    <Actions>
+        <ObjectReference id="35fc56ea29844ce6928bd5b87f3b75e6" InstanceId="{4e0d0d2c-3ab7-405e-8042-b873252886c8}"/>
+    </Actions>
+</CalculatorAction>
+
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:WantedDialog1) 16376230 ==
+        (X:WantedDialog2) 210449 ==
+        (X:WantedDialog3) 740123 ==
+        (X:WantedDialog4) 663107 ==
+        (X:WantedDialog5) 375862 ==
+        (X:WantedDialog6) 4268848 ==
+        and and and and and
+        if{ 1 (&gt;X:ResetDialog) 1 }
+    </CalculatorFormula>
+    <Actions>
+        <ObjectReference id="f9e1a633611b4b1ba1e435bc36412330" InstanceId="{e56894ec-bbc1-41a9-a85c-4f7b485c6c68}"/>
+    </Actions>
+</CalculatorAction>
+
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:ResetDialog) 1 == if{ 
+            0 (&gt;L:MMH_DIALOG_CUSTOM_1)
+            0 (&gt;L:MMH_DIALOG_CUSTOM_2)
+            0 (&gt;L:MMH_DIALOG_CUSTOM_3)
+            0 (&gt;L:MMH_DIALOG_CUSTOM_4)
+            0 (&gt;L:MMH_DIALOG_CUSTOM_5)
+            0 (&gt;L:MMH_DIALOG_CUSTOM_6)
+            0 (&gt;X:ResetDialog)
+        1 }
+    </CalculatorFormula>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+</WorldBase.Flight>
+</SimBase.Document>

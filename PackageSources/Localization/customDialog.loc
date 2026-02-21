@@ -1,0 +1,585 @@
+{
+    "LocalisationFile": {
+        "Version": 2,
+        "UUID": "a03c6c57-508b-4ee4-9570-53e484610e84",
+        "Languages": [
+            "en-US"
+        ],
+        "Strings": {
+"8baa9db02b574e169612eeeb56523c8f": {
+    "UUID": "1c406cad-33af-4f88-a68d-5d62f82c2ac4",
+
+    "LastModifiedBy": "User",
+    "LastModifiedDate": "2025-01-01 00:00:00",
+    "LocalizationStatus": "PlaceHolder",
+    "Languages": {
+        "en-US": {
+            "Text": "Keep it stable.",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2025-01-01 00:00:00"
+        }
+    }
+},
+"4e21ff5e4e9149e5a49746d161121328": {
+    "UUID": "9fb523b1-35b9-48e9-9a06-0b47a0e4b121",
+
+    "LastModifiedBy": "User",
+    "LastModifiedDate": "2025-01-01 00:00:00",
+    "LocalizationStatus": "PlaceHolder",
+    "Languages": {
+        "en-US": {
+            "Text": "Well done.",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2025-01-01 00:00:00"
+        }
+    }
+},
+"a4372e091f7a438b83a690b52e439c13": {
+    "UUID": "cb94ab52-0455-4d2e-affd-ff5645fbf8da",
+
+    "LastModifiedBy": "User",
+    "LastModifiedDate": "2025-01-01 00:00:00",
+    "LocalizationStatus": "PlaceHolder",
+    "Languages": {
+        "en-US": {
+            "Text": "Check altitude!",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2025-01-01 00:00:00"
+        }
+    }
+},
+"b30a755cd91747f3adeca6ed0a22f7cb": {
+    "UUID": "a1f37e2f-091b-4f1f-ac4f-1218bcbf69e1",
+
+    "LastModifiedBy": "User",
+    "LastModifiedDate": "2025-01-01 00:00:00",
+    "LocalizationStatus": "PlaceHolder",
+    "Languages": {
+        "en-US": {
+            "Text": "Check speed!",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2025-01-01 00:00:00"
+        }
+    }
+},
+"429f354948e046249a6b5e5fab250d77": {
+    "UUID": "faa64093-6d7a-4f04-a9ad-684f56086111",
+
+    "LastModifiedBy": "User",
+    "LastModifiedDate": "2025-01-01 00:00:00",
+    "LocalizationStatus": "PlaceHolder",
+    "Languages": {
+        "en-US": {
+            "Text": "You better practice this.",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2025-01-01 00:00:00"
+        }
+    }
+},
+"to-slow-for-a-scramble": {
+    "UUID": "39850444-22f9-41d0-97a3-8d144d424700",
+    "Speaker": "PILOT",
+    "LastModifiedBy": "User",
+    "LastModifiedDate": "2025-01-01 00:00:00",
+    "LocalizationStatus": "PlaceHolder",
+    "Languages": {
+        "en-US": {
+            "Text": "This is too slow for a scramble.",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2025-01-01 00:00:00"
+        }
+    }
+},
+"cc1b3b3a2a044d18918a92a99bf9c3e3": {
+    "UUID": "a9d98769-dbbc-4bb8-bbbf-54f388816ebe",
+
+    "LastModifiedBy": "User",
+    "LastModifiedDate": "2025-01-01 00:00:00",
+    "LocalizationStatus": "PlaceHolder",
+    "Languages": {
+        "en-US": {
+            "Text": "We are still on the ground. Get yourself together!",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2025-01-01 00:00:00"
+        }
+    }
+},
+"4b2e9ff378f54fbcb2653701217cdad3": {
+    "UUID": "2134ff13-527a-4fc2-943f-63daff6390d3",
+
+    "LastModifiedBy": "User",
+    "LastModifiedDate": "2025-01-01 00:00:00",
+    "LocalizationStatus": "PlaceHolder",
+    "Languages": {
+        "en-US": {
+            "Text": "You struggle, you better practice hovering.",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2025-01-01 00:00:00"
+        }
+    }
+},
+"7f3724e48b6d4aaf93ff01f8c9acc9fe": {
+    "UUID": "c6d6d03e-1da0-4044-a085-3fb6d35e77fa",
+
+    "LastModifiedBy": "User",
+    "LastModifiedDate": "2025-01-01 00:00:00",
+    "LocalizationStatus": "PlaceHolder",
+    "Languages": {
+        "en-US": {
+            "Text": "Proceed to LZ Alpha. Maximum speed. Altitude at your discretion.",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2025-01-01 00:00:00"
+        }
+    }
+},
+"f2b8d7d278384e65b339d237586c5e5d": {
+    "UUID": "822a9cbf-90a9-4270-9181-44474f0125fa",
+
+    "LastModifiedBy": "User",
+    "LastModifiedDate": "2025-01-01 00:00:00",
+    "LocalizationStatus": "PlaceHolder",
+    "Languages": {
+        "en-US": {
+            "Text": "You may proceed to LZ Bravo. Keep a low profile over the river to avoid radar detection.",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2025-01-01 00:00:00"
+        }
+    }
+},
+"ea979e8405f642c180336b6885d51dd8": {
+    "UUID": "525f3b1f-a804-4c3c-9f02-94a0f2b39625",
+
+    "LastModifiedBy": "User",
+    "LastModifiedDate": "2025-01-01 00:00:00",
+    "LocalizationStatus": "PlaceHolder",
+    "Languages": {
+        "en-US": {
+            "Text": "Next waypoint LZ Charlie. Here you have location data. Tune your IFR equipments before takeoff.",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2025-01-01 00:00:00"
+        }
+    }
+},
+"f60014e202244201b4a1c58630a7014b": {
+    "UUID": "3d3aa485-a1c1-4c7e-bb8b-183a858974ba",
+
+    "LastModifiedBy": "User",
+    "LastModifiedDate": "2025-01-01 00:00:00",
+    "LocalizationStatus": "PlaceHolder",
+    "Languages": {
+        "en-US": {
+            "Text": "We are late to LZ Charlie, 3 penalties.",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2025-01-01 00:00:00"
+        }
+    }
+},
+"9e0f63acd1814581b91118d3e2c65bfe": {
+    "UUID": "e66015ca-b6c8-498a-b000-cc42c0cd4c95",
+
+    "LastModifiedBy": "User",
+    "LastModifiedDate": "2025-01-01 00:00:00",
+    "LocalizationStatus": "PlaceHolder",
+    "Languages": {
+        "en-US": {
+            "Text": "Minimum safe altitude is 5300 feet in this area.",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2025-01-01 00:00:00"
+        }
+    }
+},
+"3337308caf484056bde89cfa790fbeeb": {
+    "UUID": "117f37ec-e9eb-4f0d-aebd-827d1cd110aa",
+
+    "LastModifiedBy": "User",
+    "LastModifiedDate": "2025-01-01 00:00:00",
+    "LocalizationStatus": "PlaceHolder",
+    "Languages": {
+        "en-US": {
+            "Text": "It was a walk in the park, right? Return to base.",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2025-01-01 00:00:00"
+        }
+    }
+},
+"0978e866fb2a4419a12987ef1c9ca996": {
+    "UUID": "7f34bcec-f6ac-40ef-b428-5096ff8e7bac",
+
+    "LastModifiedBy": "User",
+    "LastModifiedDate": "2025-01-01 00:00:00",
+    "LocalizationStatus": "PlaceHolder",
+    "Languages": {
+        "en-US": {
+            "Text": "Almost home. Land on the apron, I deserve a breakfast.",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2025-01-01 00:00:00"
+        }
+    }
+},
+"6fd5f880308c4ccf9921cdc9a1cfe2dd": {
+    "UUID": "00d73067-034e-47a7-9741-8230c8f7d835",
+
+    "LastModifiedBy": "User",
+    "LastModifiedDate": "2025-01-01 00:00:00",
+    "LocalizationStatus": "PlaceHolder",
+    "Languages": {
+        "en-US": {
+            "Text": "Secure the aircraft. Tired? We are almost done.",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2025-01-01 00:00:00"
+        }
+    }
+},
+"b7a9007ff9fd4b58995e2f43b53dd855": {
+    "UUID": "b24e6615-b0fe-44fb-ab5a-f1d24a592248",
+
+    "LastModifiedBy": "User",
+    "LastModifiedDate": "2025-01-01 00:00:00",
+    "LocalizationStatus": "PlaceHolder",
+    "Languages": {
+        "en-US": {
+            "Text": "Perform shutdown checklist. I wait for engines shut down, rotor stopped, dark cockpit.",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2025-01-01 00:00:00"
+        }
+    }
+},
+"254f9f6c428345378d8c966b2ed31028": {
+    "UUID": "5fd3a59c-1c0e-4eee-ad09-81d800379785",
+
+    "LastModifiedBy": "User",
+    "LastModifiedDate": "2025-01-01 00:00:00",
+    "LocalizationStatus": "PlaceHolder",
+    "Languages": {
+        "en-US": {
+            "Text": "Checkride complete. Excellent control and discipline. You’re qualified. Welcome to the line.",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2025-01-01 00:00:00"
+        }
+    }
+},
+"e94dcf47f4eb44348f2296f74b3534bb": {
+    "UUID": "7446d2bc-bb42-4b50-96bd-caccfd06614a",
+
+    "LastModifiedBy": "User",
+    "LastModifiedDate": "2025-01-01 00:00:00",
+    "LocalizationStatus": "PlaceHolder",
+    "Languages": {
+        "en-US": {
+            "Text": "Checkride complete. Pass. Performance acceptable. Tighten it up.",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2025-01-01 00:00:00"
+        }
+    }
+},
+"66460653f85046cfb544105d97a5948b": {
+    "UUID": "d2249e67-bc78-46d9-9ae9-7b6e7dc97216",
+
+    "LastModifiedBy": "User",
+    "LastModifiedDate": "2025-01-01 00:00:00",
+    "LocalizationStatus": "PlaceHolder",
+    "Languages": {
+        "en-US": {
+            "Text": "Checkride complete. Pass — marginal. You meet the standard, barely. Fix the basics.",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2025-01-01 00:00:00"
+        }
+    }
+},
+"28137d19017f41d387ec97b770815838": {
+    "UUID": "c7649b74-54c8-4e5b-9561-ba86d69335fd",
+
+    "LastModifiedBy": "User",
+    "LastModifiedDate": "2025-01-01 00:00:00",
+    "LocalizationStatus": "PlaceHolder",
+    "Languages": {
+        "en-US": {
+            "Text": "Checkride complete. Pass by tolerance only. One more mistake would have ended it.",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2025-01-01 00:00:00"
+        }
+    }
+},
+"18ee1ef553ab43878699336c768ac9f0": {
+    "UUID": "eb26bb3b-5baa-4b2a-9c61-29bc085330cc",
+
+    "LastModifiedBy": "User",
+    "LastModifiedDate": "2025-01-01 00:00:00",
+    "LocalizationStatus": "PlaceHolder",
+    "Languages": {
+        "en-US": {
+            "Text": "That’s ten. Checkride terminated. Unsatisfactory. Practice, practice, and practice.",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2025-01-01 00:00:00"
+        }
+    }
+},
+"441c13c0c2ca47499e3311e3a936a2a7": {
+    "UUID": "af0a34de-56d2-47b3-b06c-74ef12dc9e05",
+
+    "LastModifiedBy": "User",
+    "LastModifiedDate": "2025-01-01 00:00:00",
+    "LocalizationStatus": "PlaceHolder",
+    "Languages": {
+        "en-US": {
+            "Text": "Lieutenant. This is your aircraft. Five minutes to a stable hover. Don’t waste it.",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2025-01-01 00:00:00"
+        }
+    }
+},
+"b95fe9e7745042d5901c75b5c6b4ba89": {
+    "UUID": "0b00fb1c-1b9f-4ac5-8728-d8ed26022b1c",
+
+    "LastModifiedBy": "User",
+    "LastModifiedDate": "2025-01-01 00:00:00",
+    "LocalizationStatus": "PlaceHolder",
+    "Languages": {
+        "en-US": {
+            "Text": "Payerne Tower, Kilo Bravo Three Five, request start.",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2025-01-01 00:00:00"
+        }
+    }
+},
+"cleared-for-start": {
+    "UUID": "3e4c136b-d528-45eb-a51e-b59bcc1426bb",
+    "Speaker": "PILOT",
+    "LastModifiedBy": "User",
+    "LastModifiedDate": "2025-01-01 00:00:00",
+    "LocalizationStatus": "PlaceHolder",
+    "Languages": {
+        "en-US": {
+            "Text": "",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2025-01-01 00:00:00"
+        }
+    }
+},
+"2386569c32bc4fc99ff3c57755d66c65": {
+    "UUID": "ab262cec-a531-46fc-a104-a26534413caa",
+
+    "LastModifiedBy": "User",
+    "LastModifiedDate": "2025-01-01 00:00:00",
+    "LocalizationStatus": "PlaceHolder",
+    "Languages": {
+        "en-US": {
+            "Text": "Kilo Bravo",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2025-01-01 00:00:00"
+        }
+    }
+},
+"6c5192decb8844edb4f3c872a80a082d": {
+    "UUID": "5fae008d-2704-49fe-82c3-a3a46d9d1ec4",
+
+    "LastModifiedBy": "User",
+    "LastModifiedDate": "2025-01-01 00:00:00",
+    "LocalizationStatus": "PlaceHolder",
+    "Languages": {
+        "en-US": {
+            "Text": "Payerne Tower, Kilo Bravo Three Five, request takeoff.",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2025-01-01 00:00:00"
+        }
+    }
+},
+"cleared-for-takeoff": {
+    "UUID": "fae04442-e19e-4944-ace2-db24a87e946f",
+    "Speaker": "PILOT",
+    "LastModifiedBy": "User",
+    "LastModifiedDate": "2025-01-01 00:00:00",
+    "LocalizationStatus": "PlaceHolder",
+    "Languages": {
+        "en-US": {
+            "Text": "",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2025-01-01 00:00:00"
+        }
+    }
+},
+"f81d2653624041c78a19487a1dc13c90": {
+    "UUID": "078bd8bb-78cd-46a2-811f-daafea98d0e2",
+
+    "LastModifiedBy": "User",
+    "LastModifiedDate": "2025-01-01 00:00:00",
+    "LocalizationStatus": "PlaceHolder",
+    "Languages": {
+        "en-US": {
+            "Text": "Kilo Bravo",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2025-01-01 00:00:00"
+        }
+    }
+},
+"radar-contact": {
+    "UUID": "0063d18e-f70d-4ad2-a2df-e88a8585dc1f",
+    "Speaker": "PILOT",
+    "LastModifiedBy": "User",
+    "LastModifiedDate": "2025-01-01 00:00:00",
+    "LocalizationStatus": "PlaceHolder",
+    "Languages": {
+        "en-US": {
+            "Text": "",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2025-01-01 00:00:00"
+        }
+    }
+},
+"45a0ffefbad9460ebf20e01c082d1036": {
+    "UUID": "f17b0e26-49e3-4809-8a21-13d68e6abd57",
+
+    "LastModifiedBy": "User",
+    "LastModifiedDate": "2025-01-01 00:00:00",
+    "LocalizationStatus": "PlaceHolder",
+    "Languages": {
+        "en-US": {
+            "Text": "Kilo Bravo",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2025-01-01 00:00:00"
+        }
+    }
+},
+"05b82b409c2c45fca62e1ae514bea345": {
+    "UUID": "9e94e752-3ba4-4b64-934b-62e7e9cc7a1b",
+
+    "LastModifiedBy": "User",
+    "LastModifiedDate": "2025-01-01 00:00:00",
+    "LocalizationStatus": "PlaceHolder",
+    "Languages": {
+        "en-US": {
+            "Text": "Get back on course. Check the tablet.",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2025-01-01 00:00:00"
+        }
+    }
+},
+"7ad19af623164f89a93a969524732e30": {
+    "UUID": "ebf9f036-1375-45ce-b099-b1a42455e7b8",
+
+    "LastModifiedBy": "User",
+    "LastModifiedDate": "2025-01-01 00:00:00",
+    "LocalizationStatus": "PlaceHolder",
+    "Languages": {
+        "en-US": {
+            "Text": "Ignore the freight terminal. Main Station is city center.",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2025-01-01 00:00:00"
+        }
+    }
+},
+"8dc05d73096e417781f15fcb1e317e13": {
+    "UUID": "c0dd6f59-23b0-4001-aefb-b28b69817784",
+
+    "LastModifiedBy": "User",
+    "LastModifiedDate": "2025-01-01 00:00:00",
+    "LocalizationStatus": "PlaceHolder",
+    "Languages": {
+        "en-US": {
+            "Text": "Payerne Tower, Kilo Bravo Three Five, inbound, request recovery.",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2025-01-01 00:00:00"
+        }
+    }
+},
+"proceed-direct-apron": {
+    "UUID": "da283c5b-c3ea-4d61-b1f1-e755de0c21f4",
+    "Speaker": "PILOT",
+    "LastModifiedBy": "User",
+    "LastModifiedDate": "2025-01-01 00:00:00",
+    "LocalizationStatus": "PlaceHolder",
+    "Languages": {
+        "en-US": {
+            "Text": "",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2025-01-01 00:00:00"
+        }
+    }
+},
+"99c237420a564843ad209b8323ce4a45": {
+    "UUID": "e8720ee3-7525-4565-a15c-e34aeed4fbaf",
+
+    "LastModifiedBy": "User",
+    "LastModifiedDate": "2025-01-01 00:00:00",
+    "LocalizationStatus": "PlaceHolder",
+    "Languages": {
+        "en-US": {
+            "Text": "Kilo Bravo",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2025-01-01 00:00:00"
+        }
+    }
+},
+"cleared-to-land": {
+    "UUID": "8e11e71c-e39b-43ca-bc60-200db5abf802",
+    "Speaker": "PILOT",
+    "LastModifiedBy": "User",
+    "LastModifiedDate": "2025-01-01 00:00:00",
+    "LocalizationStatus": "PlaceHolder",
+    "Languages": {
+        "en-US": {
+            "Text": "",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2025-01-01 00:00:00"
+        }
+    }
+},
+"36cdab4ded7641df930566d002a16dd2": {
+    "UUID": "42b4eda0-4204-44f6-9fba-c25fe91b5260",
+
+    "LastModifiedBy": "User",
+    "LastModifiedDate": "2025-01-01 00:00:00",
+    "LocalizationStatus": "PlaceHolder",
+    "Languages": {
+        "en-US": {
+            "Text": "Cleared to land, Kilo Bravo",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2025-01-01 00:00:00"
+        }
+    }
+},
+"f7845a404cd74ab1b16501860fb9fcce": {
+    "UUID": "91e0236c-cb21-4b72-8321-b5e2fbc38f99",
+
+    "LastModifiedBy": "User",
+    "LastModifiedDate": "2025-01-01 00:00:00",
+    "LocalizationStatus": "PlaceHolder",
+    "Languages": {
+        "en-US": {
+            "Text": "Timing matters, Lieutenant. Three penalties.",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2025-01-01 00:00:00"
+        }
+    }
+},
+"35fc56ea29844ce6928bd5b87f3b75e6": {
+    "UUID": "c52b0b06-d8e8-467f-87bc-4e10398439a9",
+
+    "LastModifiedBy": "User",
+    "LastModifiedDate": "2025-01-01 00:00:00",
+    "LocalizationStatus": "PlaceHolder",
+    "Languages": {
+        "en-US": {
+            "Text": "You just painted us on radar. Two penalties.",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2025-01-01 00:00:00"
+        }
+    }
+},
+"f9e1a633611b4b1ba1e435bc36412330": {
+    "UUID": "ffff03fc-e718-45d7-ba6a-80997e1da2aa",
+
+    "LastModifiedBy": "User",
+    "LastModifiedDate": "2025-01-01 00:00:00",
+    "LocalizationStatus": "PlaceHolder",
+    "Languages": {
+        "en-US": {
+            "Text": "Never get tired of that view… beautiful, isn’t it?",
+            "LocalizationStatus": "TranslationOk",
+            "LastModifiedDate": "2025-01-01 00:00:00"
+        }
+    }
+}
+        }
+    }
+}

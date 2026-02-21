@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AssetPackage Version="1.0.0">
+	<ItemSettings>
+		<ContentType>MISSION</ContentType>
+		<Title>MH60 checkride</Title>
+		<Manufacturer/>
+		<Creator>natlose</Creator>
+	</ItemSettings>
+	<Flags>
+		<VisibleInStore>false</VisibleInStore>
+		<CanBeReferenced>false</CanBeReferenced>
+	</Flags>
+	<PackageOrderHint>CUSTOM_SIMATTACHMENT_LIB</PackageOrderHint>
+	<AssetGroups>
+		<AssetGroup Name="ContentInfo">
+			<Type Version="0">ContentInfo</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageDefinitions\natlose-missions-mh60checkride\ContentInfo\</AssetDir>
+			<OutputDir>ContentInfo\natlose-missions-mh60checkride\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="CustomImage-HTML">
+			<Type Version="0">Copy</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\CustomImage\</AssetDir>
+			<OutputDir>html_ui\natlose\mh60checkride\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="CustomScript-ScriptFile">
+			<Type Version="0">Mission</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\CustomScript\</AssetDir>
+			<OutputDir>Missions\natlose\mh60checkride\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="Dialog-Localization">
+			<Type Version="0">Localization</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\Localization\</AssetDir>
+			<OutputDir>Missions\natlose\mh60checkride\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="Dialog-ScriptFile">
+			<Type Version="0">Mission</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\Dialog\</AssetDir>
+			<OutputDir>Missions\natlose\mh60checkride\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="ScenarioFiles">
+			<Type Version="0">Copy</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\ScenarioFiles\</AssetDir>
+			<OutputDir>html_ui\Miltech\MissionHub\ScenarioFiles\natlose-missions-mh60checkride\</OutputDir>
+		</AssetGroup>
+	</AssetGroups>
+</AssetPackage>
+
