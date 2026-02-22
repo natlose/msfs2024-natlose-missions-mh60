@@ -1,14 +1,14 @@
 {
 	"GUID": "E6D3F984-2F98-45F4-8EE5-74A9FFD10AFE",
-	"Title": "Natlose MH60 missions v1",
+	"Title": "Natlose MH60 missions",
 	"Description": "Various missions for the (payware) Miltech MH60 helicopters.",
 	"Author": "natlose",
 	"Thumbnail": "pack-thumb.jpg",
 	"Files": [
 		{
-			"FileName": "mh60checkride.json",
-			"Thumbnail": "mh60checkride-thumb.jpg",
-			"BriefingImage": "mh60checkride-briefing.jpg"
+			"FileName": "checkride.json",
+			"Thumbnail": "checkride-thumb.jpg",
+			"BriefingImage": "checkride-briefing.jpg"
 		}
 	]
 }

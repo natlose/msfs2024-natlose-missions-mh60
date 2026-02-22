@@ -3,7 +3,7 @@
 	<OutputDirectory>.</OutputDirectory>
 	<TemporaryOutputDirectory>_PackageInt</TemporaryOutputDirectory>
 	<Packages>
-		<Package>PackageDefinitions\natlose-missions-mh60checkride.xml</Package>
+		<Package>PackageDefinitions\natlose-missions-mh60.xml</Package>
 	</Packages>
 	<PublishingGroups/>
 </Project>

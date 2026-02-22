@@ -192,7 +192,7 @@
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>TT:to-slow-for-a-scramble</Text>
-    <PackageName>natlose-missions-mh60checkride</PackageName>
+    <PackageName>natlose-missions-mh60</PackageName>
     <EndActions>
         <ObjectReference id="Finish to-slow-for-a-scramble" InstanceId="{4d02a0c7-fb2d-404b-bfd9-0281d006b829}"/>
     </EndActions>
@@ -896,7 +896,7 @@
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>TT:cleared-for-start</Text>
-    <PackageName>natlose-missions-mh60checkride</PackageName>
+    <PackageName>natlose-missions-mh60</PackageName>
     <EndActions>
         <ObjectReference id="Finish cleared-for-start" InstanceId="{3171396f-1c80-44ea-b529-1e8cf105a0bf}"/>
     </EndActions>
@@ -1008,7 +1008,7 @@
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>TT:cleared-for-takeoff</Text>
-    <PackageName>natlose-missions-mh60checkride</PackageName>
+    <PackageName>natlose-missions-mh60</PackageName>
     <EndActions>
         <ObjectReference id="Finish cleared-for-takeoff" InstanceId="{1d1d0300-97d5-49a0-b650-7fe589ee02a0}"/>
     </EndActions>
@@ -1083,7 +1083,7 @@
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>TT:radar-contact</Text>
-    <PackageName>natlose-missions-mh60checkride</PackageName>
+    <PackageName>natlose-missions-mh60</PackageName>
     <EndActions>
         <ObjectReference id="Finish radar-contact" InstanceId="{c02cf499-5ff2-4932-adec-676f2a12bd8e}"/>
     </EndActions>
@@ -1269,7 +1269,7 @@
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>TT:proceed-direct-apron</Text>
-    <PackageName>natlose-missions-mh60checkride</PackageName>
+    <PackageName>natlose-missions-mh60</PackageName>
     <EndActions>
         <ObjectReference id="Finish proceed-direct-apron" InstanceId="{8459709d-15fc-43c1-8b3c-cf5b64d16326}"/>
     </EndActions>
@@ -1344,7 +1344,7 @@
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>TT:cleared-to-land</Text>
-    <PackageName>natlose-missions-mh60checkride</PackageName>
+    <PackageName>natlose-missions-mh60</PackageName>
     <EndActions>
         <ObjectReference id="Finish cleared-to-land" InstanceId="{d185c47b-fb16-4d31-b5fc-045641e9ec7d}"/>
     </EndActions>

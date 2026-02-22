@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<AssetPackage Version="1.0.0">
+<AssetPackage ReleaseNotes="PackageDefinitions\natlose-missions-mh60\ReleaseNotes.xml" Version="1.0.0">
 	<ItemSettings>
 		<ContentType>MISSION</ContentType>
-		<Title>MH60 checkride</Title>
+		<Title>MH60</Title>
 		<Manufacturer/>
 		<Creator>natlose</Creator>
 	</ItemSettings>
@@ -17,8 +17,8 @@
 			<Flags>
 				<FSXCompatibility>false</FSXCompatibility>
 			</Flags>
-			<AssetDir>PackageDefinitions\natlose-missions-mh60checkride\ContentInfo\</AssetDir>
-			<OutputDir>ContentInfo\natlose-missions-mh60checkride\</OutputDir>
+			<AssetDir>PackageDefinitions\natlose-missions-mh60\ContentInfo\</AssetDir>
+			<OutputDir>ContentInfo\natlose-missions-mh60\</OutputDir>
 		</AssetGroup>
 		<AssetGroup Name="CustomImage-HTML">
 			<Type Version="0">Copy</Type>
@@ -26,7 +26,7 @@
 				<FSXCompatibility>false</FSXCompatibility>
 			</Flags>
 			<AssetDir>PackageSources\CustomImage\</AssetDir>
-			<OutputDir>html_ui\natlose\mh60checkride\</OutputDir>
+			<OutputDir>html_ui\natlose\mh60\</OutputDir>
 		</AssetGroup>
 		<AssetGroup Name="CustomScript-ScriptFile">
 			<Type Version="0">Mission</Type>
@@ -58,7 +58,7 @@
 				<FSXCompatibility>false</FSXCompatibility>
 			</Flags>
 			<AssetDir>PackageSources\ScenarioFiles\</AssetDir>
-			<OutputDir>html_ui\Miltech\MissionHub\ScenarioFiles\natlose-missions-mh60checkride\</OutputDir>
+			<OutputDir>html_ui\Miltech\MissionHub\ScenarioFiles\natlose-missions-mh60\</OutputDir>
 		</AssetGroup>
 	</AssetGroups>
 </AssetPackage>
