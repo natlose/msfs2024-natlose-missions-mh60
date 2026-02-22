@@ -1,0 +1,30 @@
+{
+  "LocalisationPackageAdditionalData": {
+    "Strings": {
+      "cleared-for-start": {
+        "Speaker": "PILOT",
+        "WaveFolder": "Missions\\natlose\\mh60checkride\\Sound"
+      },
+      "cleared-for-takeoff": {
+        "Speaker": "PILOT",
+        "WaveFolder": "Missions\\natlose\\mh60checkride\\Sound"
+      },
+      "cleared-to-land": {
+        "Speaker": "PILOT",
+        "WaveFolder": "Missions\\natlose\\mh60checkride\\Sound"
+      },
+      "proceed-direct-apron": {
+        "Speaker": "PILOT",
+        "WaveFolder": "Missions\\natlose\\mh60checkride\\Sound"
+      },
+      "radar-contact": {
+        "Speaker": "PILOT",
+        "WaveFolder": "Missions\\natlose\\mh60checkride\\Sound"
+      },
+      "to-slow-for-a-scramble": {
+        "Speaker": "PILOT",
+        "WaveFolder": "Missions\\natlose\\mh60checkride\\Sound"
+      }
+    }
+  }
+}

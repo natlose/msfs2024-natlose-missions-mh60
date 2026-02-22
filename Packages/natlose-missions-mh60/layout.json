@@ -1,0 +1,79 @@
+{
+  "content": [
+    {
+      "path": "contentinfo/natlose-missions-mh60/thumbnail.jpg",
+      "size": 12178,
+      "date": 134156404030000000
+    },
+    {
+      "path": "en-us.locpak",
+      "size": 3620,
+      "date": 134161627390000000
+    },
+    {
+      "path": "html_ui/miltech/missionhub/scenariofiles/natlose-missions-mh60/checkride-briefing.jpg",
+      "size": 20296,
+      "date": 134161939670000000
+    },
+    {
+      "path": "html_ui/miltech/missionhub/scenariofiles/natlose-missions-mh60/checkride-thumb.jpg",
+      "size": 160627,
+      "date": 134161939670000000
+    },
+    {
+      "path": "html_ui/miltech/missionhub/scenariofiles/natlose-missions-mh60/checkride.json",
+      "size": 107385,
+      "date": 134161939670000000
+    },
+    {
+      "path": "html_ui/miltech/missionhub/scenariofiles/natlose-missions-mh60/missionpackdefinition.json",
+      "size": 374,
+      "date": 134161939670000000
+    },
+    {
+      "path": "html_ui/miltech/missionhub/scenariofiles/natlose-missions-mh60/pack-thumb.jpg",
+      "size": 112992,
+      "date": 134161939670000000
+    },
+    {
+      "path": "missions/natlose/mh60checkride/customdialog.spb",
+      "size": 60087,
+      "date": 134161937970000001
+    },
+    {
+      "path": "missions/natlose/mh60checkride/natlose-weather-mh60checkride.wpr",
+      "size": 3324,
+      "date": 134156420890000000
+    },
+    {
+      "path": "missions/natlose/mh60checkride/sound/en-us/cleared-for-start.wav",
+      "size": 201380,
+      "date": 134157531070000000
+    },
+    {
+      "path": "missions/natlose/mh60checkride/sound/en-us/cleared-for-takeoff.wav",
+      "size": 576846,
+      "date": 134157531070000000
+    },
+    {
+      "path": "missions/natlose/mh60checkride/sound/en-us/cleared-to-land.wav",
+      "size": 400204,
+      "date": 134157531070000000
+    },
+    {
+      "path": "missions/natlose/mh60checkride/sound/en-us/proceed-direct-apron.wav",
+      "size": 297806,
+      "date": 134157531070000000
+    },
+    {
+      "path": "missions/natlose/mh60checkride/sound/en-us/radar-contact.wav",
+      "size": 360098,
+      "date": 134157531070000000
+    },
+    {
+      "path": "stringsspeakers.spk",
+      "size": 855,
+      "date": 134161627390000000
+    }
+  ]
+}
