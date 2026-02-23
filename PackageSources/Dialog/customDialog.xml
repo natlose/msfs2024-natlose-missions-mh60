@@ -2,22 +2,22 @@
 <SimBase.Document Type="MissionFile" version="1,0">
 <WorldBase.Flight>
 
-<SimMission.DialogAction id="8baa9db02b574e169612eeeb56523c8f" InstanceId="{0d0c54aa-bb4a-4464-8f8e-e3eb8b9c4759}">
+<SimMission.DialogAction id="8baa9db02b574e169612eeeb56523c8f" InstanceId="{819f58c8-a8a6-41ad-bfc1-f790e7dd971d}">
     <Immediate>False</Immediate>
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>Keep it stable.</Text>
     <EndActions>
-        <ObjectReference id="Finish 8baa9db02b574e169612eeeb56523c8f" InstanceId="{0b7e587d-0d47-4240-a1a7-218c3d7d5dbe}"/>
+        <ObjectReference id="Finish 8baa9db02b574e169612eeeb56523c8f" InstanceId="{55ed459f-ade8-4f83-a592-f355e6a17c38}"/>
     </EndActions>
 </SimMission.DialogAction>
-<SimMission.ObjectActivationAction id="Finish 8baa9db02b574e169612eeeb56523c8f" InstanceId="{0b7e587d-0d47-4240-a1a7-218c3d7d5dbe}">
+<SimMission.ObjectActivationAction id="Finish 8baa9db02b574e169612eeeb56523c8f" InstanceId="{55ed459f-ade8-4f83-a592-f355e6a17c38}">
     <NewObjectState>true</NewObjectState>
     <ObjectReferenceList>
-        <ObjectReference id="Finish 8baa9db02b574e169612eeeb56523c8f Calculator" InstanceId="{9dc723c5-9eaa-4078-a2d0-c13380318d06}"/>
+        <ObjectReference id="Finish 8baa9db02b574e169612eeeb56523c8f Calculator" InstanceId="{a3a0d53b-2c59-4301-b353-fc367d48f381}"/>
     </ObjectReferenceList>
 </SimMission.ObjectActivationAction>
-<SimMission.Calculator id="Finish 8baa9db02b574e169612eeeb56523c8f Calculator" InstanceId="{9dc723c5-9eaa-4078-a2d0-c13380318d06}">
+<SimMission.Calculator id="Finish 8baa9db02b574e169612eeeb56523c8f Calculator" InstanceId="{a3a0d53b-2c59-4301-b353-fc367d48f381}">
 <Activated>False</Activated>
 <CalculatorActions>
 <CalculatorAction>
@@ -39,22 +39,22 @@
 </CalculatorActions>
 </SimMission.Calculator>
 
-<SimMission.DialogAction id="4e21ff5e4e9149e5a49746d161121328" InstanceId="{2b9a2e85-9f23-4617-94d1-216f0da92d19}">
+<SimMission.DialogAction id="4e21ff5e4e9149e5a49746d161121328" InstanceId="{a3d0b5b0-57d3-4f63-9d17-df045c66819e}">
     <Immediate>False</Immediate>
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>Well done.</Text>
     <EndActions>
-        <ObjectReference id="Finish 4e21ff5e4e9149e5a49746d161121328" InstanceId="{4a3304df-0e3c-4978-a4d2-855a5f74d6b1}"/>
+        <ObjectReference id="Finish 4e21ff5e4e9149e5a49746d161121328" InstanceId="{dd8b4489-673b-474b-8c73-2cf7abb5d0ba}"/>
     </EndActions>
 </SimMission.DialogAction>
-<SimMission.ObjectActivationAction id="Finish 4e21ff5e4e9149e5a49746d161121328" InstanceId="{4a3304df-0e3c-4978-a4d2-855a5f74d6b1}">
+<SimMission.ObjectActivationAction id="Finish 4e21ff5e4e9149e5a49746d161121328" InstanceId="{dd8b4489-673b-474b-8c73-2cf7abb5d0ba}">
     <NewObjectState>true</NewObjectState>
     <ObjectReferenceList>
-        <ObjectReference id="Finish 4e21ff5e4e9149e5a49746d161121328 Calculator" InstanceId="{ba2a3685-da61-4b0f-82fa-29693fbce882}"/>
+        <ObjectReference id="Finish 4e21ff5e4e9149e5a49746d161121328 Calculator" InstanceId="{964eeae4-71df-49cd-a5de-a63265e61c37}"/>
     </ObjectReferenceList>
 </SimMission.ObjectActivationAction>
-<SimMission.Calculator id="Finish 4e21ff5e4e9149e5a49746d161121328 Calculator" InstanceId="{ba2a3685-da61-4b0f-82fa-29693fbce882}">
+<SimMission.Calculator id="Finish 4e21ff5e4e9149e5a49746d161121328 Calculator" InstanceId="{964eeae4-71df-49cd-a5de-a63265e61c37}">
 <Activated>False</Activated>
 <CalculatorActions>
 <CalculatorAction>
@@ -76,59 +76,22 @@
 </CalculatorActions>
 </SimMission.Calculator>
 
-<SimMission.DialogAction id="a4372e091f7a438b83a690b52e439c13" InstanceId="{2ee33f79-fa00-4982-aa77-7e4f538804cb}">
+<SimMission.DialogAction id="b30a755cd91747f3adeca6ed0a22f7cb" InstanceId="{e785a1ea-5bbc-4bea-b4d4-cf16ede5e187}">
     <Immediate>False</Immediate>
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
-    <Text>Check altitude!</Text>
+    <Text>Check your parameters.</Text>
     <EndActions>
-        <ObjectReference id="Finish a4372e091f7a438b83a690b52e439c13" InstanceId="{ae7bc98f-eac5-4c61-897d-c2864e3b8c31}"/>
+        <ObjectReference id="Finish b30a755cd91747f3adeca6ed0a22f7cb" InstanceId="{106ee54d-7546-4559-8a9d-324c24aef725}"/>
     </EndActions>
 </SimMission.DialogAction>
-<SimMission.ObjectActivationAction id="Finish a4372e091f7a438b83a690b52e439c13" InstanceId="{ae7bc98f-eac5-4c61-897d-c2864e3b8c31}">
+<SimMission.ObjectActivationAction id="Finish b30a755cd91747f3adeca6ed0a22f7cb" InstanceId="{106ee54d-7546-4559-8a9d-324c24aef725}">
     <NewObjectState>true</NewObjectState>
     <ObjectReferenceList>
-        <ObjectReference id="Finish a4372e091f7a438b83a690b52e439c13 Calculator" InstanceId="{6ef146cb-c479-4bae-a520-372ae68a9bb1}"/>
+        <ObjectReference id="Finish b30a755cd91747f3adeca6ed0a22f7cb Calculator" InstanceId="{ff21dcf7-db9c-45de-b629-a026f571286e}"/>
     </ObjectReferenceList>
 </SimMission.ObjectActivationAction>
-<SimMission.Calculator id="Finish a4372e091f7a438b83a690b52e439c13 Calculator" InstanceId="{6ef146cb-c479-4bae-a520-372ae68a9bb1}">
-<Activated>False</Activated>
-<CalculatorActions>
-<CalculatorAction>
-    <CalculatorFormula>
-        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
-            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
-            10762030 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
-            37367 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
-            672651 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
-            539241 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
-            46382 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
-            4430867 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
-            1
-        }
-        els{ 0 }
-    </CalculatorFormula>
-    <DeactivateAfterExecution>true</DeactivateAfterExecution>
-</CalculatorAction>
-</CalculatorActions>
-</SimMission.Calculator>
-
-<SimMission.DialogAction id="b30a755cd91747f3adeca6ed0a22f7cb" InstanceId="{1ba5f694-450b-4581-9e95-7423d593f739}">
-    <Immediate>False</Immediate>
-    <Skippable>True</Skippable>
-    <Speaker>PILOT</Speaker>
-    <Text>Check speed!</Text>
-    <EndActions>
-        <ObjectReference id="Finish b30a755cd91747f3adeca6ed0a22f7cb" InstanceId="{eb120709-4b30-43f2-8536-f0a3ff79af9e}"/>
-    </EndActions>
-</SimMission.DialogAction>
-<SimMission.ObjectActivationAction id="Finish b30a755cd91747f3adeca6ed0a22f7cb" InstanceId="{eb120709-4b30-43f2-8536-f0a3ff79af9e}">
-    <NewObjectState>true</NewObjectState>
-    <ObjectReferenceList>
-        <ObjectReference id="Finish b30a755cd91747f3adeca6ed0a22f7cb Calculator" InstanceId="{9a318a09-261f-41d6-ac72-05f1cdce0c3a}"/>
-    </ObjectReferenceList>
-</SimMission.ObjectActivationAction>
-<SimMission.Calculator id="Finish b30a755cd91747f3adeca6ed0a22f7cb Calculator" InstanceId="{9a318a09-261f-41d6-ac72-05f1cdce0c3a}">
+<SimMission.Calculator id="Finish b30a755cd91747f3adeca6ed0a22f7cb Calculator" InstanceId="{ff21dcf7-db9c-45de-b629-a026f571286e}">
 <Activated>False</Activated>
 <CalculatorActions>
 <CalculatorAction>
@@ -150,22 +113,22 @@
 </CalculatorActions>
 </SimMission.Calculator>
 
-<SimMission.DialogAction id="429f354948e046249a6b5e5fab250d77" InstanceId="{336fb434-6737-43ce-bfa4-5a393006d4b0}">
+<SimMission.DialogAction id="429f354948e046249a6b5e5fab250d77" InstanceId="{0b4d7c80-a364-47f8-ac22-89fe021590ce}">
     <Immediate>False</Immediate>
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>You better practice this.</Text>
     <EndActions>
-        <ObjectReference id="Finish 429f354948e046249a6b5e5fab250d77" InstanceId="{147e6dbe-fbd3-474a-93c1-2a86d7adf3b2}"/>
+        <ObjectReference id="Finish 429f354948e046249a6b5e5fab250d77" InstanceId="{9e28a2ba-2d9e-4b74-a3cb-f4980619fac4}"/>
     </EndActions>
 </SimMission.DialogAction>
-<SimMission.ObjectActivationAction id="Finish 429f354948e046249a6b5e5fab250d77" InstanceId="{147e6dbe-fbd3-474a-93c1-2a86d7adf3b2}">
+<SimMission.ObjectActivationAction id="Finish 429f354948e046249a6b5e5fab250d77" InstanceId="{9e28a2ba-2d9e-4b74-a3cb-f4980619fac4}">
     <NewObjectState>true</NewObjectState>
     <ObjectReferenceList>
-        <ObjectReference id="Finish 429f354948e046249a6b5e5fab250d77 Calculator" InstanceId="{4b1fe883-6c62-4879-ba3a-a545338e4bbc}"/>
+        <ObjectReference id="Finish 429f354948e046249a6b5e5fab250d77 Calculator" InstanceId="{d0b10f13-cec0-49af-977b-e2d789035f68}"/>
     </ObjectReferenceList>
 </SimMission.ObjectActivationAction>
-<SimMission.Calculator id="Finish 429f354948e046249a6b5e5fab250d77 Calculator" InstanceId="{4b1fe883-6c62-4879-ba3a-a545338e4bbc}">
+<SimMission.Calculator id="Finish 429f354948e046249a6b5e5fab250d77 Calculator" InstanceId="{d0b10f13-cec0-49af-977b-e2d789035f68}">
 <Activated>False</Activated>
 <CalculatorActions>
 <CalculatorAction>
@@ -187,23 +150,23 @@
 </CalculatorActions>
 </SimMission.Calculator>
 
-<SimMission.DialogAction id="to-slow-for-a-scramble" InstanceId="{8e3f2ea9-aafe-48a8-ad4c-86db2a7923e5}">
+<SimMission.DialogAction id="to-slow-for-a-scramble" InstanceId="{866c70b1-9c0e-462c-b439-5f500c7d4b01}">
     <Immediate>False</Immediate>
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>TT:to-slow-for-a-scramble</Text>
     <PackageName>natlose-missions-mh60</PackageName>
     <EndActions>
-        <ObjectReference id="Finish to-slow-for-a-scramble" InstanceId="{4d02a0c7-fb2d-404b-bfd9-0281d006b829}"/>
+        <ObjectReference id="Finish to-slow-for-a-scramble" InstanceId="{941b4a30-2d1b-4fdc-833b-81f90af29169}"/>
     </EndActions>
 </SimMission.DialogAction>
-<SimMission.ObjectActivationAction id="Finish to-slow-for-a-scramble" InstanceId="{4d02a0c7-fb2d-404b-bfd9-0281d006b829}">
+<SimMission.ObjectActivationAction id="Finish to-slow-for-a-scramble" InstanceId="{941b4a30-2d1b-4fdc-833b-81f90af29169}">
     <NewObjectState>true</NewObjectState>
     <ObjectReferenceList>
-        <ObjectReference id="Finish to-slow-for-a-scramble Calculator" InstanceId="{feab40ae-5149-49ed-a02a-78abb6a39830}"/>
+        <ObjectReference id="Finish to-slow-for-a-scramble Calculator" InstanceId="{fbf02ce0-ae53-43d9-a554-c46f437e2443}"/>
     </ObjectReferenceList>
 </SimMission.ObjectActivationAction>
-<SimMission.Calculator id="Finish to-slow-for-a-scramble Calculator" InstanceId="{feab40ae-5149-49ed-a02a-78abb6a39830}">
+<SimMission.Calculator id="Finish to-slow-for-a-scramble Calculator" InstanceId="{fbf02ce0-ae53-43d9-a554-c46f437e2443}">
 <Activated>False</Activated>
 <CalculatorActions>
 <CalculatorAction>
@@ -225,22 +188,22 @@
 </CalculatorActions>
 </SimMission.Calculator>
 
-<SimMission.DialogAction id="cc1b3b3a2a044d18918a92a99bf9c3e3" InstanceId="{c564e6a6-926c-4c57-a615-0e2a81d222e7}">
+<SimMission.DialogAction id="cc1b3b3a2a044d18918a92a99bf9c3e3" InstanceId="{c85ed085-095a-4123-87c0-80c2a8ed8c82}">
     <Immediate>False</Immediate>
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>We are still on the ground. Get yourself together!</Text>
     <EndActions>
-        <ObjectReference id="Finish cc1b3b3a2a044d18918a92a99bf9c3e3" InstanceId="{3070e505-2357-461a-912b-b5b1b7dcff74}"/>
+        <ObjectReference id="Finish cc1b3b3a2a044d18918a92a99bf9c3e3" InstanceId="{bd6fcba5-0d89-4873-b239-3b0529abbedb}"/>
     </EndActions>
 </SimMission.DialogAction>
-<SimMission.ObjectActivationAction id="Finish cc1b3b3a2a044d18918a92a99bf9c3e3" InstanceId="{3070e505-2357-461a-912b-b5b1b7dcff74}">
+<SimMission.ObjectActivationAction id="Finish cc1b3b3a2a044d18918a92a99bf9c3e3" InstanceId="{bd6fcba5-0d89-4873-b239-3b0529abbedb}">
     <NewObjectState>true</NewObjectState>
     <ObjectReferenceList>
-        <ObjectReference id="Finish cc1b3b3a2a044d18918a92a99bf9c3e3 Calculator" InstanceId="{55555813-144b-4417-99b4-809029511b7d}"/>
+        <ObjectReference id="Finish cc1b3b3a2a044d18918a92a99bf9c3e3 Calculator" InstanceId="{4a62c7d6-a70c-4551-84af-3fb9979f93c1}"/>
     </ObjectReferenceList>
 </SimMission.ObjectActivationAction>
-<SimMission.Calculator id="Finish cc1b3b3a2a044d18918a92a99bf9c3e3 Calculator" InstanceId="{55555813-144b-4417-99b4-809029511b7d}">
+<SimMission.Calculator id="Finish cc1b3b3a2a044d18918a92a99bf9c3e3 Calculator" InstanceId="{4a62c7d6-a70c-4551-84af-3fb9979f93c1}">
 <Activated>False</Activated>
 <CalculatorActions>
 <CalculatorAction>
@@ -262,22 +225,22 @@
 </CalculatorActions>
 </SimMission.Calculator>
 
-<SimMission.DialogAction id="4b2e9ff378f54fbcb2653701217cdad3" InstanceId="{517679c4-d108-4fb0-9566-9dcd5a402ac4}">
+<SimMission.DialogAction id="4b2e9ff378f54fbcb2653701217cdad3" InstanceId="{ba8f550b-83cc-474e-b0c5-17890d5af769}">
     <Immediate>False</Immediate>
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>You struggle, you better practice hovering.</Text>
     <EndActions>
-        <ObjectReference id="Finish 4b2e9ff378f54fbcb2653701217cdad3" InstanceId="{380487ac-74d0-476b-9255-f09e9ad85946}"/>
+        <ObjectReference id="Finish 4b2e9ff378f54fbcb2653701217cdad3" InstanceId="{9624da18-ee9d-4447-9a75-aad79ba2509d}"/>
     </EndActions>
 </SimMission.DialogAction>
-<SimMission.ObjectActivationAction id="Finish 4b2e9ff378f54fbcb2653701217cdad3" InstanceId="{380487ac-74d0-476b-9255-f09e9ad85946}">
+<SimMission.ObjectActivationAction id="Finish 4b2e9ff378f54fbcb2653701217cdad3" InstanceId="{9624da18-ee9d-4447-9a75-aad79ba2509d}">
     <NewObjectState>true</NewObjectState>
     <ObjectReferenceList>
-        <ObjectReference id="Finish 4b2e9ff378f54fbcb2653701217cdad3 Calculator" InstanceId="{ae19f0ae-d033-440e-9019-bd342b23f8d8}"/>
+        <ObjectReference id="Finish 4b2e9ff378f54fbcb2653701217cdad3 Calculator" InstanceId="{09f78840-44ac-4f01-be8c-4c33f99771ce}"/>
     </ObjectReferenceList>
 </SimMission.ObjectActivationAction>
-<SimMission.Calculator id="Finish 4b2e9ff378f54fbcb2653701217cdad3 Calculator" InstanceId="{ae19f0ae-d033-440e-9019-bd342b23f8d8}">
+<SimMission.Calculator id="Finish 4b2e9ff378f54fbcb2653701217cdad3 Calculator" InstanceId="{09f78840-44ac-4f01-be8c-4c33f99771ce}">
 <Activated>False</Activated>
 <CalculatorActions>
 <CalculatorAction>
@@ -299,22 +262,22 @@
 </CalculatorActions>
 </SimMission.Calculator>
 
-<SimMission.DialogAction id="7f3724e48b6d4aaf93ff01f8c9acc9fe" InstanceId="{c3d314f4-c310-46d1-98bc-6a22cfb1fbd2}">
+<SimMission.DialogAction id="7f3724e48b6d4aaf93ff01f8c9acc9fe" InstanceId="{8b393f47-1d28-4675-9309-2208b6ff5e9d}">
     <Immediate>False</Immediate>
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>Proceed to LZ Alpha. Maximum speed. Altitude at your discretion.</Text>
     <EndActions>
-        <ObjectReference id="Finish 7f3724e48b6d4aaf93ff01f8c9acc9fe" InstanceId="{a76c117a-1323-4142-b50a-0858c48054d8}"/>
+        <ObjectReference id="Finish 7f3724e48b6d4aaf93ff01f8c9acc9fe" InstanceId="{8568cc93-e3f3-43d6-a510-ace7ffaf6fa1}"/>
     </EndActions>
 </SimMission.DialogAction>
-<SimMission.ObjectActivationAction id="Finish 7f3724e48b6d4aaf93ff01f8c9acc9fe" InstanceId="{a76c117a-1323-4142-b50a-0858c48054d8}">
+<SimMission.ObjectActivationAction id="Finish 7f3724e48b6d4aaf93ff01f8c9acc9fe" InstanceId="{8568cc93-e3f3-43d6-a510-ace7ffaf6fa1}">
     <NewObjectState>true</NewObjectState>
     <ObjectReferenceList>
-        <ObjectReference id="Finish 7f3724e48b6d4aaf93ff01f8c9acc9fe Calculator" InstanceId="{e4c40903-c673-43b2-8f5e-918473a036bc}"/>
+        <ObjectReference id="Finish 7f3724e48b6d4aaf93ff01f8c9acc9fe Calculator" InstanceId="{459d8846-f93b-47e5-b074-3ab7b5b413c0}"/>
     </ObjectReferenceList>
 </SimMission.ObjectActivationAction>
-<SimMission.Calculator id="Finish 7f3724e48b6d4aaf93ff01f8c9acc9fe Calculator" InstanceId="{e4c40903-c673-43b2-8f5e-918473a036bc}">
+<SimMission.Calculator id="Finish 7f3724e48b6d4aaf93ff01f8c9acc9fe Calculator" InstanceId="{459d8846-f93b-47e5-b074-3ab7b5b413c0}">
 <Activated>False</Activated>
 <CalculatorActions>
 <CalculatorAction>
@@ -336,22 +299,22 @@
 </CalculatorActions>
 </SimMission.Calculator>
 
-<SimMission.DialogAction id="f2b8d7d278384e65b339d237586c5e5d" InstanceId="{2c0f7a6e-48c7-49e4-b871-a9e263046105}">
+<SimMission.DialogAction id="f2b8d7d278384e65b339d237586c5e5d" InstanceId="{8485f00a-17e2-496c-a72e-af6cc13624a5}">
     <Immediate>False</Immediate>
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>You may proceed to LZ Bravo. Keep a low profile over the river to avoid radar detection.</Text>
     <EndActions>
-        <ObjectReference id="Finish f2b8d7d278384e65b339d237586c5e5d" InstanceId="{f5066a43-107d-4a1d-91e3-e64e90a9bb0e}"/>
+        <ObjectReference id="Finish f2b8d7d278384e65b339d237586c5e5d" InstanceId="{ea20888a-fbeb-496b-880c-2c945d68afbf}"/>
     </EndActions>
 </SimMission.DialogAction>
-<SimMission.ObjectActivationAction id="Finish f2b8d7d278384e65b339d237586c5e5d" InstanceId="{f5066a43-107d-4a1d-91e3-e64e90a9bb0e}">
+<SimMission.ObjectActivationAction id="Finish f2b8d7d278384e65b339d237586c5e5d" InstanceId="{ea20888a-fbeb-496b-880c-2c945d68afbf}">
     <NewObjectState>true</NewObjectState>
     <ObjectReferenceList>
-        <ObjectReference id="Finish f2b8d7d278384e65b339d237586c5e5d Calculator" InstanceId="{92c2b30d-8410-4a44-af97-e44dd6527a55}"/>
+        <ObjectReference id="Finish f2b8d7d278384e65b339d237586c5e5d Calculator" InstanceId="{fc812f52-672d-4399-b768-f7fcf44fbc7e}"/>
     </ObjectReferenceList>
 </SimMission.ObjectActivationAction>
-<SimMission.Calculator id="Finish f2b8d7d278384e65b339d237586c5e5d Calculator" InstanceId="{92c2b30d-8410-4a44-af97-e44dd6527a55}">
+<SimMission.Calculator id="Finish f2b8d7d278384e65b339d237586c5e5d Calculator" InstanceId="{fc812f52-672d-4399-b768-f7fcf44fbc7e}">
 <Activated>False</Activated>
 <CalculatorActions>
 <CalculatorAction>
@@ -373,22 +336,22 @@
 </CalculatorActions>
 </SimMission.Calculator>
 
-<SimMission.DialogAction id="ea979e8405f642c180336b6885d51dd8" InstanceId="{44a0a85f-3c4c-41e3-9cdf-70dace76abc3}">
+<SimMission.DialogAction id="ea979e8405f642c180336b6885d51dd8" InstanceId="{af8ac423-78ad-492f-bd27-794c7f387851}">
     <Immediate>False</Immediate>
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>Next waypoint LZ Charlie. Here you have location data. Tune your IFR equipments before takeoff.</Text>
     <EndActions>
-        <ObjectReference id="Finish ea979e8405f642c180336b6885d51dd8" InstanceId="{cdada883-2b51-4e12-b2d1-1ac9f8fccd34}"/>
+        <ObjectReference id="Finish ea979e8405f642c180336b6885d51dd8" InstanceId="{c1bd6779-5fa8-4efd-804a-ca4ae54e270e}"/>
     </EndActions>
 </SimMission.DialogAction>
-<SimMission.ObjectActivationAction id="Finish ea979e8405f642c180336b6885d51dd8" InstanceId="{cdada883-2b51-4e12-b2d1-1ac9f8fccd34}">
+<SimMission.ObjectActivationAction id="Finish ea979e8405f642c180336b6885d51dd8" InstanceId="{c1bd6779-5fa8-4efd-804a-ca4ae54e270e}">
     <NewObjectState>true</NewObjectState>
     <ObjectReferenceList>
-        <ObjectReference id="Finish ea979e8405f642c180336b6885d51dd8 Calculator" InstanceId="{27b64806-55b2-4588-8991-e8e6971034a0}"/>
+        <ObjectReference id="Finish ea979e8405f642c180336b6885d51dd8 Calculator" InstanceId="{aefe7b1d-2235-4498-b8e5-29e1ab1f7fcb}"/>
     </ObjectReferenceList>
 </SimMission.ObjectActivationAction>
-<SimMission.Calculator id="Finish ea979e8405f642c180336b6885d51dd8 Calculator" InstanceId="{27b64806-55b2-4588-8991-e8e6971034a0}">
+<SimMission.Calculator id="Finish ea979e8405f642c180336b6885d51dd8 Calculator" InstanceId="{aefe7b1d-2235-4498-b8e5-29e1ab1f7fcb}">
 <Activated>False</Activated>
 <CalculatorActions>
 <CalculatorAction>
@@ -410,22 +373,22 @@
 </CalculatorActions>
 </SimMission.Calculator>
 
-<SimMission.DialogAction id="f60014e202244201b4a1c58630a7014b" InstanceId="{081cc6c3-d474-429b-a2ee-cddc8e158268}">
+<SimMission.DialogAction id="f60014e202244201b4a1c58630a7014b" InstanceId="{92123413-a42a-4fad-ab7b-32d727503705}">
     <Immediate>False</Immediate>
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>We are late to LZ Charlie, 3 penalties.</Text>
     <EndActions>
-        <ObjectReference id="Finish f60014e202244201b4a1c58630a7014b" InstanceId="{a4b5ac20-1ce6-47a7-8b13-6e43aa176ed6}"/>
+        <ObjectReference id="Finish f60014e202244201b4a1c58630a7014b" InstanceId="{b82ce948-8d9b-40e5-9fcb-bbc370551192}"/>
     </EndActions>
 </SimMission.DialogAction>
-<SimMission.ObjectActivationAction id="Finish f60014e202244201b4a1c58630a7014b" InstanceId="{a4b5ac20-1ce6-47a7-8b13-6e43aa176ed6}">
+<SimMission.ObjectActivationAction id="Finish f60014e202244201b4a1c58630a7014b" InstanceId="{b82ce948-8d9b-40e5-9fcb-bbc370551192}">
     <NewObjectState>true</NewObjectState>
     <ObjectReferenceList>
-        <ObjectReference id="Finish f60014e202244201b4a1c58630a7014b Calculator" InstanceId="{930a25d7-87d0-45ff-9ff8-413c36dd543b}"/>
+        <ObjectReference id="Finish f60014e202244201b4a1c58630a7014b Calculator" InstanceId="{9ba72a36-7966-4748-9ed9-dface6da925e}"/>
     </ObjectReferenceList>
 </SimMission.ObjectActivationAction>
-<SimMission.Calculator id="Finish f60014e202244201b4a1c58630a7014b Calculator" InstanceId="{930a25d7-87d0-45ff-9ff8-413c36dd543b}">
+<SimMission.Calculator id="Finish f60014e202244201b4a1c58630a7014b Calculator" InstanceId="{9ba72a36-7966-4748-9ed9-dface6da925e}">
 <Activated>False</Activated>
 <CalculatorActions>
 <CalculatorAction>
@@ -447,22 +410,22 @@
 </CalculatorActions>
 </SimMission.Calculator>
 
-<SimMission.DialogAction id="9e0f63acd1814581b91118d3e2c65bfe" InstanceId="{fe83a8b1-e930-4c85-bd85-a3c14929de9b}">
+<SimMission.DialogAction id="9e0f63acd1814581b91118d3e2c65bfe" InstanceId="{421f053b-656d-4992-8023-e4646e961f5f}">
     <Immediate>False</Immediate>
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>Minimum safe altitude is 5300 feet in this area.</Text>
     <EndActions>
-        <ObjectReference id="Finish 9e0f63acd1814581b91118d3e2c65bfe" InstanceId="{df6e19fa-e34d-4496-91ed-a832dd4a7c23}"/>
+        <ObjectReference id="Finish 9e0f63acd1814581b91118d3e2c65bfe" InstanceId="{e10c617a-899f-44e0-ba48-927961b65f6c}"/>
     </EndActions>
 </SimMission.DialogAction>
-<SimMission.ObjectActivationAction id="Finish 9e0f63acd1814581b91118d3e2c65bfe" InstanceId="{df6e19fa-e34d-4496-91ed-a832dd4a7c23}">
+<SimMission.ObjectActivationAction id="Finish 9e0f63acd1814581b91118d3e2c65bfe" InstanceId="{e10c617a-899f-44e0-ba48-927961b65f6c}">
     <NewObjectState>true</NewObjectState>
     <ObjectReferenceList>
-        <ObjectReference id="Finish 9e0f63acd1814581b91118d3e2c65bfe Calculator" InstanceId="{cf8a6620-2b1b-4fe7-bd13-e5c73a81e6ae}"/>
+        <ObjectReference id="Finish 9e0f63acd1814581b91118d3e2c65bfe Calculator" InstanceId="{a9ac4ee8-3248-404a-a233-232dd3066ba1}"/>
     </ObjectReferenceList>
 </SimMission.ObjectActivationAction>
-<SimMission.Calculator id="Finish 9e0f63acd1814581b91118d3e2c65bfe Calculator" InstanceId="{cf8a6620-2b1b-4fe7-bd13-e5c73a81e6ae}">
+<SimMission.Calculator id="Finish 9e0f63acd1814581b91118d3e2c65bfe Calculator" InstanceId="{a9ac4ee8-3248-404a-a233-232dd3066ba1}">
 <Activated>False</Activated>
 <CalculatorActions>
 <CalculatorAction>
@@ -484,22 +447,22 @@
 </CalculatorActions>
 </SimMission.Calculator>
 
-<SimMission.DialogAction id="3337308caf484056bde89cfa790fbeeb" InstanceId="{f91e6813-abcd-49d5-9415-1cec0fb88687}">
+<SimMission.DialogAction id="3337308caf484056bde89cfa790fbeeb" InstanceId="{af47455c-298b-4748-8af7-3900a3f8fe56}">
     <Immediate>False</Immediate>
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>It was a walk in the park, right? Return to base.</Text>
     <EndActions>
-        <ObjectReference id="Finish 3337308caf484056bde89cfa790fbeeb" InstanceId="{18cdbdd9-bc02-44c7-accb-7084eb05255d}"/>
+        <ObjectReference id="Finish 3337308caf484056bde89cfa790fbeeb" InstanceId="{66db8976-2e8b-4611-9988-766a862f1236}"/>
     </EndActions>
 </SimMission.DialogAction>
-<SimMission.ObjectActivationAction id="Finish 3337308caf484056bde89cfa790fbeeb" InstanceId="{18cdbdd9-bc02-44c7-accb-7084eb05255d}">
+<SimMission.ObjectActivationAction id="Finish 3337308caf484056bde89cfa790fbeeb" InstanceId="{66db8976-2e8b-4611-9988-766a862f1236}">
     <NewObjectState>true</NewObjectState>
     <ObjectReferenceList>
-        <ObjectReference id="Finish 3337308caf484056bde89cfa790fbeeb Calculator" InstanceId="{d10a4ae4-82a9-4741-85e3-464073ae331a}"/>
+        <ObjectReference id="Finish 3337308caf484056bde89cfa790fbeeb Calculator" InstanceId="{5d0f7dde-7bf1-4cfb-912c-3d1628ddee9e}"/>
     </ObjectReferenceList>
 </SimMission.ObjectActivationAction>
-<SimMission.Calculator id="Finish 3337308caf484056bde89cfa790fbeeb Calculator" InstanceId="{d10a4ae4-82a9-4741-85e3-464073ae331a}">
+<SimMission.Calculator id="Finish 3337308caf484056bde89cfa790fbeeb Calculator" InstanceId="{5d0f7dde-7bf1-4cfb-912c-3d1628ddee9e}">
 <Activated>False</Activated>
 <CalculatorActions>
 <CalculatorAction>
@@ -521,22 +484,22 @@
 </CalculatorActions>
 </SimMission.Calculator>
 
-<SimMission.DialogAction id="0978e866fb2a4419a12987ef1c9ca996" InstanceId="{0e36f997-0df7-4d69-861f-72cec8920bbc}">
+<SimMission.DialogAction id="0978e866fb2a4419a12987ef1c9ca996" InstanceId="{3e84c9ec-41f7-474d-9ad9-c9f4d243a764}">
     <Immediate>False</Immediate>
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>Almost home. Land on the apron, I deserve a breakfast.</Text>
     <EndActions>
-        <ObjectReference id="Finish 0978e866fb2a4419a12987ef1c9ca996" InstanceId="{492e9f7c-6636-4bb0-a3a4-ff756408d7bf}"/>
+        <ObjectReference id="Finish 0978e866fb2a4419a12987ef1c9ca996" InstanceId="{7d2edaa9-3940-4482-88b5-bcbb68b2a870}"/>
     </EndActions>
 </SimMission.DialogAction>
-<SimMission.ObjectActivationAction id="Finish 0978e866fb2a4419a12987ef1c9ca996" InstanceId="{492e9f7c-6636-4bb0-a3a4-ff756408d7bf}">
+<SimMission.ObjectActivationAction id="Finish 0978e866fb2a4419a12987ef1c9ca996" InstanceId="{7d2edaa9-3940-4482-88b5-bcbb68b2a870}">
     <NewObjectState>true</NewObjectState>
     <ObjectReferenceList>
-        <ObjectReference id="Finish 0978e866fb2a4419a12987ef1c9ca996 Calculator" InstanceId="{bfd45e0a-205e-4824-beee-26fc7f7b81d9}"/>
+        <ObjectReference id="Finish 0978e866fb2a4419a12987ef1c9ca996 Calculator" InstanceId="{a3a1503a-ca13-461b-8e06-72256eb8acca}"/>
     </ObjectReferenceList>
 </SimMission.ObjectActivationAction>
-<SimMission.Calculator id="Finish 0978e866fb2a4419a12987ef1c9ca996 Calculator" InstanceId="{bfd45e0a-205e-4824-beee-26fc7f7b81d9}">
+<SimMission.Calculator id="Finish 0978e866fb2a4419a12987ef1c9ca996 Calculator" InstanceId="{a3a1503a-ca13-461b-8e06-72256eb8acca}">
 <Activated>False</Activated>
 <CalculatorActions>
 <CalculatorAction>
@@ -558,22 +521,22 @@
 </CalculatorActions>
 </SimMission.Calculator>
 
-<SimMission.DialogAction id="6fd5f880308c4ccf9921cdc9a1cfe2dd" InstanceId="{7f20b2bd-564f-4fb0-a338-b37078f95f1b}">
+<SimMission.DialogAction id="6fd5f880308c4ccf9921cdc9a1cfe2dd" InstanceId="{b88d566e-3e81-425b-b7bf-7e0bb878b64f}">
     <Immediate>False</Immediate>
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>Secure the aircraft. Tired? We are almost done.</Text>
     <EndActions>
-        <ObjectReference id="Finish 6fd5f880308c4ccf9921cdc9a1cfe2dd" InstanceId="{77d02cbd-fedf-4e81-85d4-4a35edecdc35}"/>
+        <ObjectReference id="Finish 6fd5f880308c4ccf9921cdc9a1cfe2dd" InstanceId="{c612eded-3758-472c-8fa6-c0807df83fc7}"/>
     </EndActions>
 </SimMission.DialogAction>
-<SimMission.ObjectActivationAction id="Finish 6fd5f880308c4ccf9921cdc9a1cfe2dd" InstanceId="{77d02cbd-fedf-4e81-85d4-4a35edecdc35}">
+<SimMission.ObjectActivationAction id="Finish 6fd5f880308c4ccf9921cdc9a1cfe2dd" InstanceId="{c612eded-3758-472c-8fa6-c0807df83fc7}">
     <NewObjectState>true</NewObjectState>
     <ObjectReferenceList>
-        <ObjectReference id="Finish 6fd5f880308c4ccf9921cdc9a1cfe2dd Calculator" InstanceId="{eebb6970-069f-4c9e-88f7-99afd3fe845a}"/>
+        <ObjectReference id="Finish 6fd5f880308c4ccf9921cdc9a1cfe2dd Calculator" InstanceId="{bd0725d9-633a-44d0-a38b-142467eca77d}"/>
     </ObjectReferenceList>
 </SimMission.ObjectActivationAction>
-<SimMission.Calculator id="Finish 6fd5f880308c4ccf9921cdc9a1cfe2dd Calculator" InstanceId="{eebb6970-069f-4c9e-88f7-99afd3fe845a}">
+<SimMission.Calculator id="Finish 6fd5f880308c4ccf9921cdc9a1cfe2dd Calculator" InstanceId="{bd0725d9-633a-44d0-a38b-142467eca77d}">
 <Activated>False</Activated>
 <CalculatorActions>
 <CalculatorAction>
@@ -595,22 +558,22 @@
 </CalculatorActions>
 </SimMission.Calculator>
 
-<SimMission.DialogAction id="b7a9007ff9fd4b58995e2f43b53dd855" InstanceId="{410e271c-ec5c-4641-8a4b-45d21e4f78d1}">
+<SimMission.DialogAction id="b7a9007ff9fd4b58995e2f43b53dd855" InstanceId="{e4433389-1506-4e2f-a908-3234d3459371}">
     <Immediate>False</Immediate>
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>Perform shutdown checklist. I wait for engines shut down, rotor stopped, dark cockpit.</Text>
     <EndActions>
-        <ObjectReference id="Finish b7a9007ff9fd4b58995e2f43b53dd855" InstanceId="{aeecde93-d619-439d-af97-0b88fc13952d}"/>
+        <ObjectReference id="Finish b7a9007ff9fd4b58995e2f43b53dd855" InstanceId="{999b8bb3-479b-4997-af3b-8785d03e9839}"/>
     </EndActions>
 </SimMission.DialogAction>
-<SimMission.ObjectActivationAction id="Finish b7a9007ff9fd4b58995e2f43b53dd855" InstanceId="{aeecde93-d619-439d-af97-0b88fc13952d}">
+<SimMission.ObjectActivationAction id="Finish b7a9007ff9fd4b58995e2f43b53dd855" InstanceId="{999b8bb3-479b-4997-af3b-8785d03e9839}">
     <NewObjectState>true</NewObjectState>
     <ObjectReferenceList>
-        <ObjectReference id="Finish b7a9007ff9fd4b58995e2f43b53dd855 Calculator" InstanceId="{21731a14-98b2-4d5e-a9d4-1359d43b13fe}"/>
+        <ObjectReference id="Finish b7a9007ff9fd4b58995e2f43b53dd855 Calculator" InstanceId="{9b305808-7273-4194-93de-a12e812b239c}"/>
     </ObjectReferenceList>
 </SimMission.ObjectActivationAction>
-<SimMission.Calculator id="Finish b7a9007ff9fd4b58995e2f43b53dd855 Calculator" InstanceId="{21731a14-98b2-4d5e-a9d4-1359d43b13fe}">
+<SimMission.Calculator id="Finish b7a9007ff9fd4b58995e2f43b53dd855 Calculator" InstanceId="{9b305808-7273-4194-93de-a12e812b239c}">
 <Activated>False</Activated>
 <CalculatorActions>
 <CalculatorAction>
@@ -632,22 +595,22 @@
 </CalculatorActions>
 </SimMission.Calculator>
 
-<SimMission.DialogAction id="254f9f6c428345378d8c966b2ed31028" InstanceId="{8cb0414a-f5d1-480f-a837-37ca1456c76d}">
+<SimMission.DialogAction id="254f9f6c428345378d8c966b2ed31028" InstanceId="{12308237-e244-4094-b8f5-7a3934ac56d2}">
     <Immediate>False</Immediate>
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>Checkride complete. Excellent control and discipline. You’re qualified. Welcome to the line.</Text>
     <EndActions>
-        <ObjectReference id="Finish 254f9f6c428345378d8c966b2ed31028" InstanceId="{1282765a-921f-4a39-b94f-00ce7dfdb565}"/>
+        <ObjectReference id="Finish 254f9f6c428345378d8c966b2ed31028" InstanceId="{e447728b-f9c3-4371-9c60-9159f31a2203}"/>
     </EndActions>
 </SimMission.DialogAction>
-<SimMission.ObjectActivationAction id="Finish 254f9f6c428345378d8c966b2ed31028" InstanceId="{1282765a-921f-4a39-b94f-00ce7dfdb565}">
+<SimMission.ObjectActivationAction id="Finish 254f9f6c428345378d8c966b2ed31028" InstanceId="{e447728b-f9c3-4371-9c60-9159f31a2203}">
     <NewObjectState>true</NewObjectState>
     <ObjectReferenceList>
-        <ObjectReference id="Finish 254f9f6c428345378d8c966b2ed31028 Calculator" InstanceId="{970bf484-0ea5-457a-9233-1ee7e3e8e15f}"/>
+        <ObjectReference id="Finish 254f9f6c428345378d8c966b2ed31028 Calculator" InstanceId="{d6f001c5-ba95-417d-a996-e5dca9aec29b}"/>
     </ObjectReferenceList>
 </SimMission.ObjectActivationAction>
-<SimMission.Calculator id="Finish 254f9f6c428345378d8c966b2ed31028 Calculator" InstanceId="{970bf484-0ea5-457a-9233-1ee7e3e8e15f}">
+<SimMission.Calculator id="Finish 254f9f6c428345378d8c966b2ed31028 Calculator" InstanceId="{d6f001c5-ba95-417d-a996-e5dca9aec29b}">
 <Activated>False</Activated>
 <CalculatorActions>
 <CalculatorAction>
@@ -669,22 +632,22 @@
 </CalculatorActions>
 </SimMission.Calculator>
 
-<SimMission.DialogAction id="e94dcf47f4eb44348f2296f74b3534bb" InstanceId="{71196eb1-c2db-4ed5-800a-802e6cc16116}">
+<SimMission.DialogAction id="e94dcf47f4eb44348f2296f74b3534bb" InstanceId="{9bc92ef1-13a3-4e62-a681-0c27211fa4fa}">
     <Immediate>False</Immediate>
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>Checkride complete. Pass. Performance acceptable. Tighten it up.</Text>
     <EndActions>
-        <ObjectReference id="Finish e94dcf47f4eb44348f2296f74b3534bb" InstanceId="{5bf87e07-4cd7-43e0-a9b7-610df40b9faa}"/>
+        <ObjectReference id="Finish e94dcf47f4eb44348f2296f74b3534bb" InstanceId="{28d6ae7c-ac77-4f38-9086-54a67a1a8dd0}"/>
     </EndActions>
 </SimMission.DialogAction>
-<SimMission.ObjectActivationAction id="Finish e94dcf47f4eb44348f2296f74b3534bb" InstanceId="{5bf87e07-4cd7-43e0-a9b7-610df40b9faa}">
+<SimMission.ObjectActivationAction id="Finish e94dcf47f4eb44348f2296f74b3534bb" InstanceId="{28d6ae7c-ac77-4f38-9086-54a67a1a8dd0}">
     <NewObjectState>true</NewObjectState>
     <ObjectReferenceList>
-        <ObjectReference id="Finish e94dcf47f4eb44348f2296f74b3534bb Calculator" InstanceId="{9db31f92-88e5-46c8-9fbb-f5eaa70854cf}"/>
+        <ObjectReference id="Finish e94dcf47f4eb44348f2296f74b3534bb Calculator" InstanceId="{5c7c14d3-f286-429e-a92e-0f4268027824}"/>
     </ObjectReferenceList>
 </SimMission.ObjectActivationAction>
-<SimMission.Calculator id="Finish e94dcf47f4eb44348f2296f74b3534bb Calculator" InstanceId="{9db31f92-88e5-46c8-9fbb-f5eaa70854cf}">
+<SimMission.Calculator id="Finish e94dcf47f4eb44348f2296f74b3534bb Calculator" InstanceId="{5c7c14d3-f286-429e-a92e-0f4268027824}">
 <Activated>False</Activated>
 <CalculatorActions>
 <CalculatorAction>
@@ -706,22 +669,22 @@
 </CalculatorActions>
 </SimMission.Calculator>
 
-<SimMission.DialogAction id="66460653f85046cfb544105d97a5948b" InstanceId="{cf0bb277-d81e-4c00-a68b-58421636f148}">
+<SimMission.DialogAction id="66460653f85046cfb544105d97a5948b" InstanceId="{3636c3e3-a1c5-4405-94c4-42c9383cbf06}">
     <Immediate>False</Immediate>
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>Checkride complete. Pass — marginal. You meet the standard, barely. Fix the basics.</Text>
     <EndActions>
-        <ObjectReference id="Finish 66460653f85046cfb544105d97a5948b" InstanceId="{b3a0c27b-0608-44e3-940f-6032f2add6f9}"/>
+        <ObjectReference id="Finish 66460653f85046cfb544105d97a5948b" InstanceId="{ad4cb298-8706-424c-abf6-fb18d5fddf2e}"/>
     </EndActions>
 </SimMission.DialogAction>
-<SimMission.ObjectActivationAction id="Finish 66460653f85046cfb544105d97a5948b" InstanceId="{b3a0c27b-0608-44e3-940f-6032f2add6f9}">
+<SimMission.ObjectActivationAction id="Finish 66460653f85046cfb544105d97a5948b" InstanceId="{ad4cb298-8706-424c-abf6-fb18d5fddf2e}">
     <NewObjectState>true</NewObjectState>
     <ObjectReferenceList>
-        <ObjectReference id="Finish 66460653f85046cfb544105d97a5948b Calculator" InstanceId="{1df4fb65-1c53-4a87-959d-bde87083e93a}"/>
+        <ObjectReference id="Finish 66460653f85046cfb544105d97a5948b Calculator" InstanceId="{1f651bf8-d694-42c6-ae4d-5058dc124847}"/>
     </ObjectReferenceList>
 </SimMission.ObjectActivationAction>
-<SimMission.Calculator id="Finish 66460653f85046cfb544105d97a5948b Calculator" InstanceId="{1df4fb65-1c53-4a87-959d-bde87083e93a}">
+<SimMission.Calculator id="Finish 66460653f85046cfb544105d97a5948b Calculator" InstanceId="{1f651bf8-d694-42c6-ae4d-5058dc124847}">
 <Activated>False</Activated>
 <CalculatorActions>
 <CalculatorAction>
@@ -743,22 +706,22 @@
 </CalculatorActions>
 </SimMission.Calculator>
 
-<SimMission.DialogAction id="28137d19017f41d387ec97b770815838" InstanceId="{4495a92d-baa7-4a3c-845c-8722efe0a582}">
+<SimMission.DialogAction id="28137d19017f41d387ec97b770815838" InstanceId="{c6071376-ce1a-4191-bbee-5e85a88ff168}">
     <Immediate>False</Immediate>
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>Checkride complete. Pass by tolerance only. One more mistake would have ended it.</Text>
     <EndActions>
-        <ObjectReference id="Finish 28137d19017f41d387ec97b770815838" InstanceId="{ebd2088b-7356-416b-b59e-02cb041a0948}"/>
+        <ObjectReference id="Finish 28137d19017f41d387ec97b770815838" InstanceId="{b5f32965-9a89-467b-a4ce-605bae2697a8}"/>
     </EndActions>
 </SimMission.DialogAction>
-<SimMission.ObjectActivationAction id="Finish 28137d19017f41d387ec97b770815838" InstanceId="{ebd2088b-7356-416b-b59e-02cb041a0948}">
+<SimMission.ObjectActivationAction id="Finish 28137d19017f41d387ec97b770815838" InstanceId="{b5f32965-9a89-467b-a4ce-605bae2697a8}">
     <NewObjectState>true</NewObjectState>
     <ObjectReferenceList>
-        <ObjectReference id="Finish 28137d19017f41d387ec97b770815838 Calculator" InstanceId="{41b3a250-a946-46d3-8e3b-ecdc77e46217}"/>
+        <ObjectReference id="Finish 28137d19017f41d387ec97b770815838 Calculator" InstanceId="{d6b0018e-3e7f-4a73-a439-4010f57d1967}"/>
     </ObjectReferenceList>
 </SimMission.ObjectActivationAction>
-<SimMission.Calculator id="Finish 28137d19017f41d387ec97b770815838 Calculator" InstanceId="{41b3a250-a946-46d3-8e3b-ecdc77e46217}">
+<SimMission.Calculator id="Finish 28137d19017f41d387ec97b770815838 Calculator" InstanceId="{d6b0018e-3e7f-4a73-a439-4010f57d1967}">
 <Activated>False</Activated>
 <CalculatorActions>
 <CalculatorAction>
@@ -780,22 +743,22 @@
 </CalculatorActions>
 </SimMission.Calculator>
 
-<SimMission.DialogAction id="18ee1ef553ab43878699336c768ac9f0" InstanceId="{aa379fe0-949f-4bf0-ac89-db6cf3b87c28}">
+<SimMission.DialogAction id="18ee1ef553ab43878699336c768ac9f0" InstanceId="{1f2e470b-c6aa-4f6b-886c-191bc8b0d806}">
     <Immediate>False</Immediate>
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>That’s ten. Checkride terminated. Unsatisfactory. Practice, practice, and practice.</Text>
     <EndActions>
-        <ObjectReference id="Finish 18ee1ef553ab43878699336c768ac9f0" InstanceId="{3a5c1066-9f39-4df2-aecf-7bbff0cdc4a6}"/>
+        <ObjectReference id="Finish 18ee1ef553ab43878699336c768ac9f0" InstanceId="{93eb548c-9ddc-4fd0-9848-e766ee1af693}"/>
     </EndActions>
 </SimMission.DialogAction>
-<SimMission.ObjectActivationAction id="Finish 18ee1ef553ab43878699336c768ac9f0" InstanceId="{3a5c1066-9f39-4df2-aecf-7bbff0cdc4a6}">
+<SimMission.ObjectActivationAction id="Finish 18ee1ef553ab43878699336c768ac9f0" InstanceId="{93eb548c-9ddc-4fd0-9848-e766ee1af693}">
     <NewObjectState>true</NewObjectState>
     <ObjectReferenceList>
-        <ObjectReference id="Finish 18ee1ef553ab43878699336c768ac9f0 Calculator" InstanceId="{d1a72b50-4f21-4829-a907-04534e85d23e}"/>
+        <ObjectReference id="Finish 18ee1ef553ab43878699336c768ac9f0 Calculator" InstanceId="{3f1d557a-24c0-430d-b2d7-9a524724249b}"/>
     </ObjectReferenceList>
 </SimMission.ObjectActivationAction>
-<SimMission.Calculator id="Finish 18ee1ef553ab43878699336c768ac9f0 Calculator" InstanceId="{d1a72b50-4f21-4829-a907-04534e85d23e}">
+<SimMission.Calculator id="Finish 18ee1ef553ab43878699336c768ac9f0 Calculator" InstanceId="{3f1d557a-24c0-430d-b2d7-9a524724249b}">
 <Activated>False</Activated>
 <CalculatorActions>
 <CalculatorAction>
@@ -817,22 +780,22 @@
 </CalculatorActions>
 </SimMission.Calculator>
 
-<SimMission.DialogAction id="441c13c0c2ca47499e3311e3a936a2a7" InstanceId="{1858249b-a6e4-4dc6-8b4e-045f3f3b3e33}">
+<SimMission.DialogAction id="441c13c0c2ca47499e3311e3a936a2a7" InstanceId="{30265f5a-3acc-44e4-8ad6-83dc9fe4b264}">
     <Immediate>False</Immediate>
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>Lieutenant. This is your aircraft. Five minutes to a stable hover. Don’t waste it.</Text>
     <EndActions>
-        <ObjectReference id="Finish 441c13c0c2ca47499e3311e3a936a2a7" InstanceId="{c66ee683-661a-4875-a5ed-d6a202e96251}"/>
+        <ObjectReference id="Finish 441c13c0c2ca47499e3311e3a936a2a7" InstanceId="{c2dfd3c9-0826-4e62-8487-597fed3c6e66}"/>
     </EndActions>
 </SimMission.DialogAction>
-<SimMission.ObjectActivationAction id="Finish 441c13c0c2ca47499e3311e3a936a2a7" InstanceId="{c66ee683-661a-4875-a5ed-d6a202e96251}">
+<SimMission.ObjectActivationAction id="Finish 441c13c0c2ca47499e3311e3a936a2a7" InstanceId="{c2dfd3c9-0826-4e62-8487-597fed3c6e66}">
     <NewObjectState>true</NewObjectState>
     <ObjectReferenceList>
-        <ObjectReference id="Finish 441c13c0c2ca47499e3311e3a936a2a7 Calculator" InstanceId="{e90e74cc-2820-405a-8ba9-359886539500}"/>
+        <ObjectReference id="Finish 441c13c0c2ca47499e3311e3a936a2a7 Calculator" InstanceId="{6161bf96-20b5-4cdb-b068-1ec353ec95f9}"/>
     </ObjectReferenceList>
 </SimMission.ObjectActivationAction>
-<SimMission.Calculator id="Finish 441c13c0c2ca47499e3311e3a936a2a7 Calculator" InstanceId="{e90e74cc-2820-405a-8ba9-359886539500}">
+<SimMission.Calculator id="Finish 441c13c0c2ca47499e3311e3a936a2a7 Calculator" InstanceId="{6161bf96-20b5-4cdb-b068-1ec353ec95f9}">
 <Activated>False</Activated>
 <CalculatorActions>
 <CalculatorAction>
@@ -854,22 +817,22 @@
 </CalculatorActions>
 </SimMission.Calculator>
 
-<SimMission.DialogAction id="b95fe9e7745042d5901c75b5c6b4ba89" InstanceId="{5e1048e8-0768-4fad-b45e-cf07e251cc6e}">
+<SimMission.DialogAction id="b95fe9e7745042d5901c75b5c6b4ba89" InstanceId="{433e084f-1206-44ba-9baa-671c8026487c}">
     <Immediate>False</Immediate>
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>Payerne Tower, Kilo Bravo Three Five, request start.</Text>
     <EndActions>
-        <ObjectReference id="Finish b95fe9e7745042d5901c75b5c6b4ba89" InstanceId="{b1fe782f-c829-4d4d-95a6-261e3a04308c}"/>
+        <ObjectReference id="Finish b95fe9e7745042d5901c75b5c6b4ba89" InstanceId="{2f5c7a51-82dd-4a0d-871a-5e298f19ac85}"/>
     </EndActions>
 </SimMission.DialogAction>
-<SimMission.ObjectActivationAction id="Finish b95fe9e7745042d5901c75b5c6b4ba89" InstanceId="{b1fe782f-c829-4d4d-95a6-261e3a04308c}">
+<SimMission.ObjectActivationAction id="Finish b95fe9e7745042d5901c75b5c6b4ba89" InstanceId="{2f5c7a51-82dd-4a0d-871a-5e298f19ac85}">
     <NewObjectState>true</NewObjectState>
     <ObjectReferenceList>
-        <ObjectReference id="Finish b95fe9e7745042d5901c75b5c6b4ba89 Calculator" InstanceId="{eb7c356d-dded-40a1-8ee7-a9335153fd97}"/>
+        <ObjectReference id="Finish b95fe9e7745042d5901c75b5c6b4ba89 Calculator" InstanceId="{1780107e-eddf-43a8-99be-0cf198ecc22d}"/>
     </ObjectReferenceList>
 </SimMission.ObjectActivationAction>
-<SimMission.Calculator id="Finish b95fe9e7745042d5901c75b5c6b4ba89 Calculator" InstanceId="{eb7c356d-dded-40a1-8ee7-a9335153fd97}">
+<SimMission.Calculator id="Finish b95fe9e7745042d5901c75b5c6b4ba89 Calculator" InstanceId="{1780107e-eddf-43a8-99be-0cf198ecc22d}">
 <Activated>False</Activated>
 <CalculatorActions>
 <CalculatorAction>
@@ -891,23 +854,23 @@
 </CalculatorActions>
 </SimMission.Calculator>
 
-<SimMission.DialogAction id="cleared-for-start" InstanceId="{f944f87f-cbfc-481d-ba79-74b33ae31807}">
+<SimMission.DialogAction id="cleared-for-start" InstanceId="{91a036ae-e19c-479b-93f2-9e84168c0777}">
     <Immediate>False</Immediate>
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>TT:cleared-for-start</Text>
     <PackageName>natlose-missions-mh60</PackageName>
     <EndActions>
-        <ObjectReference id="Finish cleared-for-start" InstanceId="{3171396f-1c80-44ea-b529-1e8cf105a0bf}"/>
+        <ObjectReference id="Finish cleared-for-start" InstanceId="{ce8ab5fe-1979-4612-9e81-c7f27a86a755}"/>
     </EndActions>
 </SimMission.DialogAction>
-<SimMission.ObjectActivationAction id="Finish cleared-for-start" InstanceId="{3171396f-1c80-44ea-b529-1e8cf105a0bf}">
+<SimMission.ObjectActivationAction id="Finish cleared-for-start" InstanceId="{ce8ab5fe-1979-4612-9e81-c7f27a86a755}">
     <NewObjectState>true</NewObjectState>
     <ObjectReferenceList>
-        <ObjectReference id="Finish cleared-for-start Calculator" InstanceId="{12bb3f45-ee4e-45dd-ba76-2fdf3c2c42e0}"/>
+        <ObjectReference id="Finish cleared-for-start Calculator" InstanceId="{41363a0f-fe87-4a64-b6e8-f58e19af4d60}"/>
     </ObjectReferenceList>
 </SimMission.ObjectActivationAction>
-<SimMission.Calculator id="Finish cleared-for-start Calculator" InstanceId="{12bb3f45-ee4e-45dd-ba76-2fdf3c2c42e0}">
+<SimMission.Calculator id="Finish cleared-for-start Calculator" InstanceId="{41363a0f-fe87-4a64-b6e8-f58e19af4d60}">
 <Activated>False</Activated>
 <CalculatorActions>
 <CalculatorAction>
@@ -929,22 +892,22 @@
 </CalculatorActions>
 </SimMission.Calculator>
 
-<SimMission.DialogAction id="2386569c32bc4fc99ff3c57755d66c65" InstanceId="{06126f49-8d10-48ad-8edd-a30e6d109cc8}">
+<SimMission.DialogAction id="2386569c32bc4fc99ff3c57755d66c65" InstanceId="{66fef0c1-44ee-4dc9-8c85-fd3c946e4a81}">
     <Immediate>False</Immediate>
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>Kilo Bravo</Text>
     <EndActions>
-        <ObjectReference id="Finish 2386569c32bc4fc99ff3c57755d66c65" InstanceId="{08b05a4a-2587-409b-b483-18bf989eea5b}"/>
+        <ObjectReference id="Finish 2386569c32bc4fc99ff3c57755d66c65" InstanceId="{c38c1457-ae7d-4dc8-adbf-66e3731a984a}"/>
     </EndActions>
 </SimMission.DialogAction>
-<SimMission.ObjectActivationAction id="Finish 2386569c32bc4fc99ff3c57755d66c65" InstanceId="{08b05a4a-2587-409b-b483-18bf989eea5b}">
+<SimMission.ObjectActivationAction id="Finish 2386569c32bc4fc99ff3c57755d66c65" InstanceId="{c38c1457-ae7d-4dc8-adbf-66e3731a984a}">
     <NewObjectState>true</NewObjectState>
     <ObjectReferenceList>
-        <ObjectReference id="Finish 2386569c32bc4fc99ff3c57755d66c65 Calculator" InstanceId="{fb38f209-da0d-461a-a57f-8ed208639fd6}"/>
+        <ObjectReference id="Finish 2386569c32bc4fc99ff3c57755d66c65 Calculator" InstanceId="{db6a1902-42af-4a9a-8ce3-fa6ff6620bb0}"/>
     </ObjectReferenceList>
 </SimMission.ObjectActivationAction>
-<SimMission.Calculator id="Finish 2386569c32bc4fc99ff3c57755d66c65 Calculator" InstanceId="{fb38f209-da0d-461a-a57f-8ed208639fd6}">
+<SimMission.Calculator id="Finish 2386569c32bc4fc99ff3c57755d66c65 Calculator" InstanceId="{db6a1902-42af-4a9a-8ce3-fa6ff6620bb0}">
 <Activated>False</Activated>
 <CalculatorActions>
 <CalculatorAction>
@@ -966,22 +929,22 @@
 </CalculatorActions>
 </SimMission.Calculator>
 
-<SimMission.DialogAction id="6c5192decb8844edb4f3c872a80a082d" InstanceId="{1f7e7799-0989-4bde-86aa-e6a4ed4168c8}">
+<SimMission.DialogAction id="6c5192decb8844edb4f3c872a80a082d" InstanceId="{cf33c9ba-47aa-4549-986c-6d9b97c651aa}">
     <Immediate>False</Immediate>
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>Payerne Tower, Kilo Bravo Three Five, request takeoff.</Text>
     <EndActions>
-        <ObjectReference id="Finish 6c5192decb8844edb4f3c872a80a082d" InstanceId="{5fdebdf0-3fe9-435f-92dc-51f961297882}"/>
+        <ObjectReference id="Finish 6c5192decb8844edb4f3c872a80a082d" InstanceId="{a5fe1f52-6b36-42b7-a00a-488ce07f042f}"/>
     </EndActions>
 </SimMission.DialogAction>
-<SimMission.ObjectActivationAction id="Finish 6c5192decb8844edb4f3c872a80a082d" InstanceId="{5fdebdf0-3fe9-435f-92dc-51f961297882}">
+<SimMission.ObjectActivationAction id="Finish 6c5192decb8844edb4f3c872a80a082d" InstanceId="{a5fe1f52-6b36-42b7-a00a-488ce07f042f}">
     <NewObjectState>true</NewObjectState>
     <ObjectReferenceList>
-        <ObjectReference id="Finish 6c5192decb8844edb4f3c872a80a082d Calculator" InstanceId="{1f3e058d-dfaf-4a1a-a18c-df430a05eae7}"/>
+        <ObjectReference id="Finish 6c5192decb8844edb4f3c872a80a082d Calculator" InstanceId="{1db78735-e700-4679-901f-60bfb99642ab}"/>
     </ObjectReferenceList>
 </SimMission.ObjectActivationAction>
-<SimMission.Calculator id="Finish 6c5192decb8844edb4f3c872a80a082d Calculator" InstanceId="{1f3e058d-dfaf-4a1a-a18c-df430a05eae7}">
+<SimMission.Calculator id="Finish 6c5192decb8844edb4f3c872a80a082d Calculator" InstanceId="{1db78735-e700-4679-901f-60bfb99642ab}">
 <Activated>False</Activated>
 <CalculatorActions>
 <CalculatorAction>
@@ -1003,23 +966,23 @@
 </CalculatorActions>
 </SimMission.Calculator>
 
-<SimMission.DialogAction id="cleared-for-takeoff" InstanceId="{a07924af-d0e1-4305-964e-785f6324fa58}">
+<SimMission.DialogAction id="cleared-for-takeoff" InstanceId="{0224b1f5-9106-4cd9-8863-81e955d7573a}">
     <Immediate>False</Immediate>
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>TT:cleared-for-takeoff</Text>
     <PackageName>natlose-missions-mh60</PackageName>
     <EndActions>
-        <ObjectReference id="Finish cleared-for-takeoff" InstanceId="{1d1d0300-97d5-49a0-b650-7fe589ee02a0}"/>
+        <ObjectReference id="Finish cleared-for-takeoff" InstanceId="{4dc19c66-1527-4557-8b7d-44db187080d4}"/>
     </EndActions>
 </SimMission.DialogAction>
-<SimMission.ObjectActivationAction id="Finish cleared-for-takeoff" InstanceId="{1d1d0300-97d5-49a0-b650-7fe589ee02a0}">
+<SimMission.ObjectActivationAction id="Finish cleared-for-takeoff" InstanceId="{4dc19c66-1527-4557-8b7d-44db187080d4}">
     <NewObjectState>true</NewObjectState>
     <ObjectReferenceList>
-        <ObjectReference id="Finish cleared-for-takeoff Calculator" InstanceId="{ca3c40d7-ed34-419c-a0c9-32a89287e34a}"/>
+        <ObjectReference id="Finish cleared-for-takeoff Calculator" InstanceId="{239ab56d-6dd8-4e14-ba3e-c17faf42bfca}"/>
     </ObjectReferenceList>
 </SimMission.ObjectActivationAction>
-<SimMission.Calculator id="Finish cleared-for-takeoff Calculator" InstanceId="{ca3c40d7-ed34-419c-a0c9-32a89287e34a}">
+<SimMission.Calculator id="Finish cleared-for-takeoff Calculator" InstanceId="{239ab56d-6dd8-4e14-ba3e-c17faf42bfca}">
 <Activated>False</Activated>
 <CalculatorActions>
 <CalculatorAction>
@@ -1041,22 +1004,22 @@
 </CalculatorActions>
 </SimMission.Calculator>
 
-<SimMission.DialogAction id="f81d2653624041c78a19487a1dc13c90" InstanceId="{ab5b950d-5948-4c5f-8de7-34b4c274c11b}">
+<SimMission.DialogAction id="f81d2653624041c78a19487a1dc13c90" InstanceId="{a2781956-20c6-4a0f-a010-d846b8b9543b}">
     <Immediate>False</Immediate>
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>Kilo Bravo</Text>
     <EndActions>
-        <ObjectReference id="Finish f81d2653624041c78a19487a1dc13c90" InstanceId="{771a6131-bb62-4da4-b83d-cfd9f40fcd01}"/>
+        <ObjectReference id="Finish f81d2653624041c78a19487a1dc13c90" InstanceId="{c7875791-6249-476c-a7ab-8f9d7ab99b4f}"/>
     </EndActions>
 </SimMission.DialogAction>
-<SimMission.ObjectActivationAction id="Finish f81d2653624041c78a19487a1dc13c90" InstanceId="{771a6131-bb62-4da4-b83d-cfd9f40fcd01}">
+<SimMission.ObjectActivationAction id="Finish f81d2653624041c78a19487a1dc13c90" InstanceId="{c7875791-6249-476c-a7ab-8f9d7ab99b4f}">
     <NewObjectState>true</NewObjectState>
     <ObjectReferenceList>
-        <ObjectReference id="Finish f81d2653624041c78a19487a1dc13c90 Calculator" InstanceId="{fe68a1ed-d3ff-49b9-9e00-e464c0b9e126}"/>
+        <ObjectReference id="Finish f81d2653624041c78a19487a1dc13c90 Calculator" InstanceId="{0ce4be73-4944-4848-962f-4c25948c14a2}"/>
     </ObjectReferenceList>
 </SimMission.ObjectActivationAction>
-<SimMission.Calculator id="Finish f81d2653624041c78a19487a1dc13c90 Calculator" InstanceId="{fe68a1ed-d3ff-49b9-9e00-e464c0b9e126}">
+<SimMission.Calculator id="Finish f81d2653624041c78a19487a1dc13c90 Calculator" InstanceId="{0ce4be73-4944-4848-962f-4c25948c14a2}">
 <Activated>False</Activated>
 <CalculatorActions>
 <CalculatorAction>
@@ -1078,23 +1041,23 @@
 </CalculatorActions>
 </SimMission.Calculator>
 
-<SimMission.DialogAction id="radar-contact" InstanceId="{afe28c90-216d-4920-ab73-81c6fcbc5065}">
+<SimMission.DialogAction id="radar-contact" InstanceId="{3c007740-ac08-49bf-b652-84c9a7af50c7}">
     <Immediate>False</Immediate>
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>TT:radar-contact</Text>
     <PackageName>natlose-missions-mh60</PackageName>
     <EndActions>
-        <ObjectReference id="Finish radar-contact" InstanceId="{c02cf499-5ff2-4932-adec-676f2a12bd8e}"/>
+        <ObjectReference id="Finish radar-contact" InstanceId="{fefa72c7-b986-4a6d-b761-5422bd95b1b2}"/>
     </EndActions>
 </SimMission.DialogAction>
-<SimMission.ObjectActivationAction id="Finish radar-contact" InstanceId="{c02cf499-5ff2-4932-adec-676f2a12bd8e}">
+<SimMission.ObjectActivationAction id="Finish radar-contact" InstanceId="{fefa72c7-b986-4a6d-b761-5422bd95b1b2}">
     <NewObjectState>true</NewObjectState>
     <ObjectReferenceList>
-        <ObjectReference id="Finish radar-contact Calculator" InstanceId="{94c9240d-8237-49bc-b164-23147d6091e3}"/>
+        <ObjectReference id="Finish radar-contact Calculator" InstanceId="{d3e7baf6-8ef1-4d86-9759-1a72aa662f3f}"/>
     </ObjectReferenceList>
 </SimMission.ObjectActivationAction>
-<SimMission.Calculator id="Finish radar-contact Calculator" InstanceId="{94c9240d-8237-49bc-b164-23147d6091e3}">
+<SimMission.Calculator id="Finish radar-contact Calculator" InstanceId="{d3e7baf6-8ef1-4d86-9759-1a72aa662f3f}">
 <Activated>False</Activated>
 <CalculatorActions>
 <CalculatorAction>
@@ -1116,22 +1079,22 @@
 </CalculatorActions>
 </SimMission.Calculator>
 
-<SimMission.DialogAction id="45a0ffefbad9460ebf20e01c082d1036" InstanceId="{aaa0cb62-1540-4684-949b-c763f4ec450d}">
+<SimMission.DialogAction id="45a0ffefbad9460ebf20e01c082d1036" InstanceId="{eecf6d74-4692-45b5-b7c8-9ca8a755f7e4}">
     <Immediate>False</Immediate>
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>Kilo Bravo</Text>
     <EndActions>
-        <ObjectReference id="Finish 45a0ffefbad9460ebf20e01c082d1036" InstanceId="{f03073b0-b33b-4bb1-afaf-7d26f60fb282}"/>
+        <ObjectReference id="Finish 45a0ffefbad9460ebf20e01c082d1036" InstanceId="{8479f659-e92a-4eab-8f22-625277598078}"/>
     </EndActions>
 </SimMission.DialogAction>
-<SimMission.ObjectActivationAction id="Finish 45a0ffefbad9460ebf20e01c082d1036" InstanceId="{f03073b0-b33b-4bb1-afaf-7d26f60fb282}">
+<SimMission.ObjectActivationAction id="Finish 45a0ffefbad9460ebf20e01c082d1036" InstanceId="{8479f659-e92a-4eab-8f22-625277598078}">
     <NewObjectState>true</NewObjectState>
     <ObjectReferenceList>
-        <ObjectReference id="Finish 45a0ffefbad9460ebf20e01c082d1036 Calculator" InstanceId="{63b48de7-3ab2-44c3-9fa7-1baa82895318}"/>
+        <ObjectReference id="Finish 45a0ffefbad9460ebf20e01c082d1036 Calculator" InstanceId="{f5c68677-087d-4e2c-8c0b-39a51e9d8f08}"/>
     </ObjectReferenceList>
 </SimMission.ObjectActivationAction>
-<SimMission.Calculator id="Finish 45a0ffefbad9460ebf20e01c082d1036 Calculator" InstanceId="{63b48de7-3ab2-44c3-9fa7-1baa82895318}">
+<SimMission.Calculator id="Finish 45a0ffefbad9460ebf20e01c082d1036 Calculator" InstanceId="{f5c68677-087d-4e2c-8c0b-39a51e9d8f08}">
 <Activated>False</Activated>
 <CalculatorActions>
 <CalculatorAction>
@@ -1153,59 +1116,22 @@
 </CalculatorActions>
 </SimMission.Calculator>
 
-<SimMission.DialogAction id="05b82b409c2c45fca62e1ae514bea345" InstanceId="{4706b509-cb0f-4846-b5f2-3e2e301720bc}">
-    <Immediate>False</Immediate>
-    <Skippable>True</Skippable>
-    <Speaker>PILOT</Speaker>
-    <Text>Get back on course. Check the tablet.</Text>
-    <EndActions>
-        <ObjectReference id="Finish 05b82b409c2c45fca62e1ae514bea345" InstanceId="{be2bc96e-6445-4fd8-83a9-52c4ba682f63}"/>
-    </EndActions>
-</SimMission.DialogAction>
-<SimMission.ObjectActivationAction id="Finish 05b82b409c2c45fca62e1ae514bea345" InstanceId="{be2bc96e-6445-4fd8-83a9-52c4ba682f63}">
-    <NewObjectState>true</NewObjectState>
-    <ObjectReferenceList>
-        <ObjectReference id="Finish 05b82b409c2c45fca62e1ae514bea345 Calculator" InstanceId="{29ee826f-be51-42bf-9e8c-dcd0ee1dd04b}"/>
-    </ObjectReferenceList>
-</SimMission.ObjectActivationAction>
-<SimMission.Calculator id="Finish 05b82b409c2c45fca62e1ae514bea345 Calculator" InstanceId="{29ee826f-be51-42bf-9e8c-dcd0ee1dd04b}">
-<Activated>False</Activated>
-<CalculatorActions>
-<CalculatorAction>
-    <CalculatorFormula>
-        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
-            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
-            374827 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
-            264642 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
-            804348 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
-            680673 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
-            714004 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
-            12493637 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
-            1
-        }
-        els{ 0 }
-    </CalculatorFormula>
-    <DeactivateAfterExecution>true</DeactivateAfterExecution>
-</CalculatorAction>
-</CalculatorActions>
-</SimMission.Calculator>
-
-<SimMission.DialogAction id="7ad19af623164f89a93a969524732e30" InstanceId="{227db2c0-02a5-4a45-b9ca-3190a526bf6e}">
+<SimMission.DialogAction id="7ad19af623164f89a93a969524732e30" InstanceId="{46604751-0a14-4073-928a-7333a17f49e0}">
     <Immediate>False</Immediate>
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>Ignore the freight terminal. Main Station is city center.</Text>
     <EndActions>
-        <ObjectReference id="Finish 7ad19af623164f89a93a969524732e30" InstanceId="{5f1d8c5c-67f1-4cda-85a7-f6abf9a09cc9}"/>
+        <ObjectReference id="Finish 7ad19af623164f89a93a969524732e30" InstanceId="{7bb91945-5fcc-480c-b879-0e834b5d8ac7}"/>
     </EndActions>
 </SimMission.DialogAction>
-<SimMission.ObjectActivationAction id="Finish 7ad19af623164f89a93a969524732e30" InstanceId="{5f1d8c5c-67f1-4cda-85a7-f6abf9a09cc9}">
+<SimMission.ObjectActivationAction id="Finish 7ad19af623164f89a93a969524732e30" InstanceId="{7bb91945-5fcc-480c-b879-0e834b5d8ac7}">
     <NewObjectState>true</NewObjectState>
     <ObjectReferenceList>
-        <ObjectReference id="Finish 7ad19af623164f89a93a969524732e30 Calculator" InstanceId="{2eaa949c-13a1-4dbb-8d94-ae295188eb08}"/>
+        <ObjectReference id="Finish 7ad19af623164f89a93a969524732e30 Calculator" InstanceId="{f24f5a23-c99d-4108-9cfb-478fc166eb86}"/>
     </ObjectReferenceList>
 </SimMission.ObjectActivationAction>
-<SimMission.Calculator id="Finish 7ad19af623164f89a93a969524732e30 Calculator" InstanceId="{2eaa949c-13a1-4dbb-8d94-ae295188eb08}">
+<SimMission.Calculator id="Finish 7ad19af623164f89a93a969524732e30 Calculator" InstanceId="{f24f5a23-c99d-4108-9cfb-478fc166eb86}">
 <Activated>False</Activated>
 <CalculatorActions>
 <CalculatorAction>
@@ -1227,22 +1153,22 @@
 </CalculatorActions>
 </SimMission.Calculator>
 
-<SimMission.DialogAction id="8dc05d73096e417781f15fcb1e317e13" InstanceId="{0728e8b6-5b93-46ad-a94c-f2ad4b6391ca}">
+<SimMission.DialogAction id="8dc05d73096e417781f15fcb1e317e13" InstanceId="{09077b8e-9dfd-4bfa-b7c2-16d38efead0d}">
     <Immediate>False</Immediate>
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>Payerne Tower, Kilo Bravo Three Five, inbound, request recovery.</Text>
     <EndActions>
-        <ObjectReference id="Finish 8dc05d73096e417781f15fcb1e317e13" InstanceId="{a0cebcbc-7639-4d43-9551-d00e3b29e537}"/>
+        <ObjectReference id="Finish 8dc05d73096e417781f15fcb1e317e13" InstanceId="{0d7f2928-0a97-4b9d-a0f9-4537965cbb4e}"/>
     </EndActions>
 </SimMission.DialogAction>
-<SimMission.ObjectActivationAction id="Finish 8dc05d73096e417781f15fcb1e317e13" InstanceId="{a0cebcbc-7639-4d43-9551-d00e3b29e537}">
+<SimMission.ObjectActivationAction id="Finish 8dc05d73096e417781f15fcb1e317e13" InstanceId="{0d7f2928-0a97-4b9d-a0f9-4537965cbb4e}">
     <NewObjectState>true</NewObjectState>
     <ObjectReferenceList>
-        <ObjectReference id="Finish 8dc05d73096e417781f15fcb1e317e13 Calculator" InstanceId="{38db2a12-3891-4eae-b00b-62a3c6b22932}"/>
+        <ObjectReference id="Finish 8dc05d73096e417781f15fcb1e317e13 Calculator" InstanceId="{0a7f749b-8bfe-4aa8-ae7a-b27331f40768}"/>
     </ObjectReferenceList>
 </SimMission.ObjectActivationAction>
-<SimMission.Calculator id="Finish 8dc05d73096e417781f15fcb1e317e13 Calculator" InstanceId="{38db2a12-3891-4eae-b00b-62a3c6b22932}">
+<SimMission.Calculator id="Finish 8dc05d73096e417781f15fcb1e317e13 Calculator" InstanceId="{0a7f749b-8bfe-4aa8-ae7a-b27331f40768}">
 <Activated>False</Activated>
 <CalculatorActions>
 <CalculatorAction>
@@ -1264,23 +1190,23 @@
 </CalculatorActions>
 </SimMission.Calculator>
 
-<SimMission.DialogAction id="proceed-direct-apron" InstanceId="{f803f00d-5292-4eea-8c4c-f3b1d38693b5}">
+<SimMission.DialogAction id="proceed-direct-apron" InstanceId="{ea992a36-485b-41f7-8d72-23e403d909a9}">
     <Immediate>False</Immediate>
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>TT:proceed-direct-apron</Text>
     <PackageName>natlose-missions-mh60</PackageName>
     <EndActions>
-        <ObjectReference id="Finish proceed-direct-apron" InstanceId="{8459709d-15fc-43c1-8b3c-cf5b64d16326}"/>
+        <ObjectReference id="Finish proceed-direct-apron" InstanceId="{068055f6-07ab-49df-bb38-c1c73216ed19}"/>
     </EndActions>
 </SimMission.DialogAction>
-<SimMission.ObjectActivationAction id="Finish proceed-direct-apron" InstanceId="{8459709d-15fc-43c1-8b3c-cf5b64d16326}">
+<SimMission.ObjectActivationAction id="Finish proceed-direct-apron" InstanceId="{068055f6-07ab-49df-bb38-c1c73216ed19}">
     <NewObjectState>true</NewObjectState>
     <ObjectReferenceList>
-        <ObjectReference id="Finish proceed-direct-apron Calculator" InstanceId="{f96fc13e-63f3-4d3d-adf1-86d090a9d7b6}"/>
+        <ObjectReference id="Finish proceed-direct-apron Calculator" InstanceId="{7abf186a-6cbb-479b-b4eb-52fc2c52f7ca}"/>
     </ObjectReferenceList>
 </SimMission.ObjectActivationAction>
-<SimMission.Calculator id="Finish proceed-direct-apron Calculator" InstanceId="{f96fc13e-63f3-4d3d-adf1-86d090a9d7b6}">
+<SimMission.Calculator id="Finish proceed-direct-apron Calculator" InstanceId="{7abf186a-6cbb-479b-b4eb-52fc2c52f7ca}">
 <Activated>False</Activated>
 <CalculatorActions>
 <CalculatorAction>
@@ -1302,22 +1228,22 @@
 </CalculatorActions>
 </SimMission.Calculator>
 
-<SimMission.DialogAction id="99c237420a564843ad209b8323ce4a45" InstanceId="{151e825e-6aba-42d7-b37a-3177d1e0a519}">
+<SimMission.DialogAction id="99c237420a564843ad209b8323ce4a45" InstanceId="{3dedcec5-09e5-4b36-95d3-7bdfdf564f78}">
     <Immediate>False</Immediate>
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>Kilo Bravo</Text>
     <EndActions>
-        <ObjectReference id="Finish 99c237420a564843ad209b8323ce4a45" InstanceId="{4fda8544-e5cc-4b6b-a678-94538a101768}"/>
+        <ObjectReference id="Finish 99c237420a564843ad209b8323ce4a45" InstanceId="{c49e02d5-dd97-4b0b-a8ab-c1f57cd781a2}"/>
     </EndActions>
 </SimMission.DialogAction>
-<SimMission.ObjectActivationAction id="Finish 99c237420a564843ad209b8323ce4a45" InstanceId="{4fda8544-e5cc-4b6b-a678-94538a101768}">
+<SimMission.ObjectActivationAction id="Finish 99c237420a564843ad209b8323ce4a45" InstanceId="{c49e02d5-dd97-4b0b-a8ab-c1f57cd781a2}">
     <NewObjectState>true</NewObjectState>
     <ObjectReferenceList>
-        <ObjectReference id="Finish 99c237420a564843ad209b8323ce4a45 Calculator" InstanceId="{85a1c092-9052-4275-a72c-ea8b10cb3490}"/>
+        <ObjectReference id="Finish 99c237420a564843ad209b8323ce4a45 Calculator" InstanceId="{ed5709ac-6e0d-4130-840b-34b0be66da65}"/>
     </ObjectReferenceList>
 </SimMission.ObjectActivationAction>
-<SimMission.Calculator id="Finish 99c237420a564843ad209b8323ce4a45 Calculator" InstanceId="{85a1c092-9052-4275-a72c-ea8b10cb3490}">
+<SimMission.Calculator id="Finish 99c237420a564843ad209b8323ce4a45 Calculator" InstanceId="{ed5709ac-6e0d-4130-840b-34b0be66da65}">
 <Activated>False</Activated>
 <CalculatorActions>
 <CalculatorAction>
@@ -1339,23 +1265,23 @@
 </CalculatorActions>
 </SimMission.Calculator>
 
-<SimMission.DialogAction id="cleared-to-land" InstanceId="{c434cb9c-3455-408b-b586-beb87de8246f}">
+<SimMission.DialogAction id="cleared-to-land" InstanceId="{1a567af5-346d-4840-96d1-92e9c837eb2e}">
     <Immediate>False</Immediate>
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>TT:cleared-to-land</Text>
     <PackageName>natlose-missions-mh60</PackageName>
     <EndActions>
-        <ObjectReference id="Finish cleared-to-land" InstanceId="{d185c47b-fb16-4d31-b5fc-045641e9ec7d}"/>
+        <ObjectReference id="Finish cleared-to-land" InstanceId="{730f1f1c-d7c3-448e-a0b7-73ffb892d714}"/>
     </EndActions>
 </SimMission.DialogAction>
-<SimMission.ObjectActivationAction id="Finish cleared-to-land" InstanceId="{d185c47b-fb16-4d31-b5fc-045641e9ec7d}">
+<SimMission.ObjectActivationAction id="Finish cleared-to-land" InstanceId="{730f1f1c-d7c3-448e-a0b7-73ffb892d714}">
     <NewObjectState>true</NewObjectState>
     <ObjectReferenceList>
-        <ObjectReference id="Finish cleared-to-land Calculator" InstanceId="{68d4b013-e3d6-477c-94de-5418855537e4}"/>
+        <ObjectReference id="Finish cleared-to-land Calculator" InstanceId="{085fda69-81af-463e-9a85-e7b412470d45}"/>
     </ObjectReferenceList>
 </SimMission.ObjectActivationAction>
-<SimMission.Calculator id="Finish cleared-to-land Calculator" InstanceId="{68d4b013-e3d6-477c-94de-5418855537e4}">
+<SimMission.Calculator id="Finish cleared-to-land Calculator" InstanceId="{085fda69-81af-463e-9a85-e7b412470d45}">
 <Activated>False</Activated>
 <CalculatorActions>
 <CalculatorAction>
@@ -1377,22 +1303,22 @@
 </CalculatorActions>
 </SimMission.Calculator>
 
-<SimMission.DialogAction id="36cdab4ded7641df930566d002a16dd2" InstanceId="{04747b2f-3be1-43e4-993c-3f516efe8797}">
+<SimMission.DialogAction id="36cdab4ded7641df930566d002a16dd2" InstanceId="{6cb5dec1-6814-49c3-b8ea-747ea6d3844e}">
     <Immediate>False</Immediate>
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>Cleared to land, Kilo Bravo</Text>
     <EndActions>
-        <ObjectReference id="Finish 36cdab4ded7641df930566d002a16dd2" InstanceId="{02ab790d-69c9-4884-b109-49b9d023ca61}"/>
+        <ObjectReference id="Finish 36cdab4ded7641df930566d002a16dd2" InstanceId="{8df99b33-b9bb-485c-924f-5f3d396c7107}"/>
     </EndActions>
 </SimMission.DialogAction>
-<SimMission.ObjectActivationAction id="Finish 36cdab4ded7641df930566d002a16dd2" InstanceId="{02ab790d-69c9-4884-b109-49b9d023ca61}">
+<SimMission.ObjectActivationAction id="Finish 36cdab4ded7641df930566d002a16dd2" InstanceId="{8df99b33-b9bb-485c-924f-5f3d396c7107}">
     <NewObjectState>true</NewObjectState>
     <ObjectReferenceList>
-        <ObjectReference id="Finish 36cdab4ded7641df930566d002a16dd2 Calculator" InstanceId="{f96d58bc-56ba-49b9-ac6e-02137134e253}"/>
+        <ObjectReference id="Finish 36cdab4ded7641df930566d002a16dd2 Calculator" InstanceId="{cc63006b-46a5-4f66-949e-ce48416d686c}"/>
     </ObjectReferenceList>
 </SimMission.ObjectActivationAction>
-<SimMission.Calculator id="Finish 36cdab4ded7641df930566d002a16dd2 Calculator" InstanceId="{f96d58bc-56ba-49b9-ac6e-02137134e253}">
+<SimMission.Calculator id="Finish 36cdab4ded7641df930566d002a16dd2 Calculator" InstanceId="{cc63006b-46a5-4f66-949e-ce48416d686c}">
 <Activated>False</Activated>
 <CalculatorActions>
 <CalculatorAction>
@@ -1414,22 +1340,22 @@
 </CalculatorActions>
 </SimMission.Calculator>
 
-<SimMission.DialogAction id="f7845a404cd74ab1b16501860fb9fcce" InstanceId="{a292d569-8c7e-4ef1-92e0-ba14a7890292}">
+<SimMission.DialogAction id="f7845a404cd74ab1b16501860fb9fcce" InstanceId="{327563b6-7ca9-4b6e-a681-0306c8e496be}">
     <Immediate>False</Immediate>
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>Timing matters, Lieutenant. Three penalties.</Text>
     <EndActions>
-        <ObjectReference id="Finish f7845a404cd74ab1b16501860fb9fcce" InstanceId="{2ba13f2f-6ec6-4911-b430-7e1e634bd4a4}"/>
+        <ObjectReference id="Finish f7845a404cd74ab1b16501860fb9fcce" InstanceId="{08255ee9-2ebf-4490-8956-476401546188}"/>
     </EndActions>
 </SimMission.DialogAction>
-<SimMission.ObjectActivationAction id="Finish f7845a404cd74ab1b16501860fb9fcce" InstanceId="{2ba13f2f-6ec6-4911-b430-7e1e634bd4a4}">
+<SimMission.ObjectActivationAction id="Finish f7845a404cd74ab1b16501860fb9fcce" InstanceId="{08255ee9-2ebf-4490-8956-476401546188}">
     <NewObjectState>true</NewObjectState>
     <ObjectReferenceList>
-        <ObjectReference id="Finish f7845a404cd74ab1b16501860fb9fcce Calculator" InstanceId="{3f409476-00a3-4b35-9b08-d816efa43052}"/>
+        <ObjectReference id="Finish f7845a404cd74ab1b16501860fb9fcce Calculator" InstanceId="{d5e3fd8c-e645-4dfb-a318-de8e8695508f}"/>
     </ObjectReferenceList>
 </SimMission.ObjectActivationAction>
-<SimMission.Calculator id="Finish f7845a404cd74ab1b16501860fb9fcce Calculator" InstanceId="{3f409476-00a3-4b35-9b08-d816efa43052}">
+<SimMission.Calculator id="Finish f7845a404cd74ab1b16501860fb9fcce Calculator" InstanceId="{d5e3fd8c-e645-4dfb-a318-de8e8695508f}">
 <Activated>False</Activated>
 <CalculatorActions>
 <CalculatorAction>
@@ -1451,22 +1377,22 @@
 </CalculatorActions>
 </SimMission.Calculator>
 
-<SimMission.DialogAction id="35fc56ea29844ce6928bd5b87f3b75e6" InstanceId="{4e0d0d2c-3ab7-405e-8042-b873252886c8}">
+<SimMission.DialogAction id="35fc56ea29844ce6928bd5b87f3b75e6" InstanceId="{38fa1c73-60d5-4d4c-bf21-ae68b626b2c3}">
     <Immediate>False</Immediate>
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>You just painted us on radar. Two penalties.</Text>
     <EndActions>
-        <ObjectReference id="Finish 35fc56ea29844ce6928bd5b87f3b75e6" InstanceId="{03d07c0a-b1af-489e-806e-52bd726af03e}"/>
+        <ObjectReference id="Finish 35fc56ea29844ce6928bd5b87f3b75e6" InstanceId="{1ba5e57c-17b3-4b1a-81a8-eebf582a8965}"/>
     </EndActions>
 </SimMission.DialogAction>
-<SimMission.ObjectActivationAction id="Finish 35fc56ea29844ce6928bd5b87f3b75e6" InstanceId="{03d07c0a-b1af-489e-806e-52bd726af03e}">
+<SimMission.ObjectActivationAction id="Finish 35fc56ea29844ce6928bd5b87f3b75e6" InstanceId="{1ba5e57c-17b3-4b1a-81a8-eebf582a8965}">
     <NewObjectState>true</NewObjectState>
     <ObjectReferenceList>
-        <ObjectReference id="Finish 35fc56ea29844ce6928bd5b87f3b75e6 Calculator" InstanceId="{dc259335-e55c-4594-81e4-b6c3c10944c3}"/>
+        <ObjectReference id="Finish 35fc56ea29844ce6928bd5b87f3b75e6 Calculator" InstanceId="{c3d8fd01-d9c6-4f0c-a95a-6f5942c5664a}"/>
     </ObjectReferenceList>
 </SimMission.ObjectActivationAction>
-<SimMission.Calculator id="Finish 35fc56ea29844ce6928bd5b87f3b75e6 Calculator" InstanceId="{dc259335-e55c-4594-81e4-b6c3c10944c3}">
+<SimMission.Calculator id="Finish 35fc56ea29844ce6928bd5b87f3b75e6 Calculator" InstanceId="{c3d8fd01-d9c6-4f0c-a95a-6f5942c5664a}">
 <Activated>False</Activated>
 <CalculatorActions>
 <CalculatorAction>
@@ -1488,22 +1414,22 @@
 </CalculatorActions>
 </SimMission.Calculator>
 
-<SimMission.DialogAction id="f9e1a633611b4b1ba1e435bc36412330" InstanceId="{e56894ec-bbc1-41a9-a85c-4f7b485c6c68}">
+<SimMission.DialogAction id="f9e1a633611b4b1ba1e435bc36412330" InstanceId="{7ffc311a-8bb6-47b0-b608-08a914684380}">
     <Immediate>False</Immediate>
     <Skippable>True</Skippable>
     <Speaker>PILOT</Speaker>
     <Text>Never get tired of that view… beautiful, isn’t it?</Text>
     <EndActions>
-        <ObjectReference id="Finish f9e1a633611b4b1ba1e435bc36412330" InstanceId="{5b0bb995-e437-4499-8dbb-34b0764fc67a}"/>
+        <ObjectReference id="Finish f9e1a633611b4b1ba1e435bc36412330" InstanceId="{ebf2ef97-f54d-4b11-b779-2481cdb954aa}"/>
     </EndActions>
 </SimMission.DialogAction>
-<SimMission.ObjectActivationAction id="Finish f9e1a633611b4b1ba1e435bc36412330" InstanceId="{5b0bb995-e437-4499-8dbb-34b0764fc67a}">
+<SimMission.ObjectActivationAction id="Finish f9e1a633611b4b1ba1e435bc36412330" InstanceId="{ebf2ef97-f54d-4b11-b779-2481cdb954aa}">
     <NewObjectState>true</NewObjectState>
     <ObjectReferenceList>
-        <ObjectReference id="Finish f9e1a633611b4b1ba1e435bc36412330 Calculator" InstanceId="{6d5d3d74-b236-45b1-9f64-b2b92567cc91}"/>
+        <ObjectReference id="Finish f9e1a633611b4b1ba1e435bc36412330 Calculator" InstanceId="{7ea09f43-3cf7-4a89-b75c-1de9f587e560}"/>
     </ObjectReferenceList>
 </SimMission.ObjectActivationAction>
-<SimMission.Calculator id="Finish f9e1a633611b4b1ba1e435bc36412330 Calculator" InstanceId="{6d5d3d74-b236-45b1-9f64-b2b92567cc91}">
+<SimMission.Calculator id="Finish f9e1a633611b4b1ba1e435bc36412330 Calculator" InstanceId="{7ea09f43-3cf7-4a89-b75c-1de9f587e560}">
 <Activated>False</Activated>
 <CalculatorActions>
 <CalculatorAction>
@@ -1525,7 +1451,81 @@
 </CalculatorActions>
 </SimMission.Calculator>
 
-<SimMission.Calculator id="Dialog Calculator" InstanceId="{251ae170-b496-4982-ad2c-8810f7a2d389}">
+<SimMission.DialogAction id="93450fa714bf4c1ba1af5eb09c841b08" InstanceId="{df0b98b4-f909-4179-bc4d-72618f63ff51}">
+    <Immediate>False</Immediate>
+    <Skippable>True</Skippable>
+    <Speaker>PILOT</Speaker>
+    <Text>Leg update. Fly zero three zero, eighty knots, two thousand five hundred feet. QNH two niner five one.</Text>
+    <EndActions>
+        <ObjectReference id="Finish 93450fa714bf4c1ba1af5eb09c841b08" InstanceId="{08628a83-070e-47be-bd35-eaed80068069}"/>
+    </EndActions>
+</SimMission.DialogAction>
+<SimMission.ObjectActivationAction id="Finish 93450fa714bf4c1ba1af5eb09c841b08" InstanceId="{08628a83-070e-47be-bd35-eaed80068069}">
+    <NewObjectState>true</NewObjectState>
+    <ObjectReferenceList>
+        <ObjectReference id="Finish 93450fa714bf4c1ba1af5eb09c841b08 Calculator" InstanceId="{b0314c3f-5349-476a-bd11-91c5f2e5e75e}"/>
+    </ObjectReferenceList>
+</SimMission.ObjectActivationAction>
+<SimMission.Calculator id="Finish 93450fa714bf4c1ba1af5eb09c841b08 Calculator" InstanceId="{b0314c3f-5349-476a-bd11-91c5f2e5e75e}">
+<Activated>False</Activated>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
+            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
+            9651471 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
+            684363 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
+            1002523 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
+            662261 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
+            962716 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
+            8657672 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
+            1
+        }
+        els{ 0 }
+    </CalculatorFormula>
+    <DeactivateAfterExecution>true</DeactivateAfterExecution>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+<SimMission.DialogAction id="7c94c4e2bf4a4326a2ebd623d5cb2062" InstanceId="{04e47d0b-70d5-47c1-b371-379e768549d6}">
+    <Immediate>False</Immediate>
+    <Skippable>True</Skippable>
+    <Speaker>PILOT</Speaker>
+    <Text>Leg update. Fly to Bern Main Station, one hundred twenty knots, two thousand eight hundred feet. QNH two niner five one.</Text>
+    <EndActions>
+        <ObjectReference id="Finish 7c94c4e2bf4a4326a2ebd623d5cb2062" InstanceId="{aebbaa37-6ef7-4aaf-8694-d62601f26ec0}"/>
+    </EndActions>
+</SimMission.DialogAction>
+<SimMission.ObjectActivationAction id="Finish 7c94c4e2bf4a4326a2ebd623d5cb2062" InstanceId="{aebbaa37-6ef7-4aaf-8694-d62601f26ec0}">
+    <NewObjectState>true</NewObjectState>
+    <ObjectReferenceList>
+        <ObjectReference id="Finish 7c94c4e2bf4a4326a2ebd623d5cb2062 Calculator" InstanceId="{7bf23512-280d-468a-8803-2a00a1f9df6c}"/>
+    </ObjectReferenceList>
+</SimMission.ObjectActivationAction>
+<SimMission.Calculator id="Finish 7c94c4e2bf4a4326a2ebd623d5cb2062 Calculator" InstanceId="{7bf23512-280d-468a-8803-2a00a1f9df6c}">
+<Activated>False</Activated>
+<CalculatorActions>
+<CalculatorAction>
+    <CalculatorFormula>
+        (L:MMH_DIALOG_CUSTOM_FINISHED) 0 == if{
+            1 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED)
+            8164548 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_1)
+            928756 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_2)
+            672550 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_3)
+            667325 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_4)
+            402389 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_5)
+            13312098 (&gt;L:MMH_DIALOG_CUSTOM_FINISHED_6)
+            1
+        }
+        els{ 0 }
+    </CalculatorFormula>
+    <DeactivateAfterExecution>true</DeactivateAfterExecution>
+</CalculatorAction>
+</CalculatorActions>
+</SimMission.Calculator>
+
+<SimMission.Calculator id="Dialog Calculator" InstanceId="{1a949de2-66a5-473b-b9f8-d5f877585185}">
 <Activated>True</Activated>
 <DisplayAllowed>True</DisplayAllowed>
 <CalculatorParameterList>
@@ -1562,7 +1562,7 @@
         if{ 1 (&gt;X:ResetDialog) 1 }
     </CalculatorFormula>
     <Actions>
-        <ObjectReference id="8baa9db02b574e169612eeeb56523c8f" InstanceId="{0d0c54aa-bb4a-4464-8f8e-e3eb8b9c4759}"/>
+        <ObjectReference id="8baa9db02b574e169612eeeb56523c8f" InstanceId="{819f58c8-a8a6-41ad-bfc1-f790e7dd971d}"/>
     </Actions>
 </CalculatorAction>
 
@@ -1578,23 +1578,7 @@
         if{ 1 (&gt;X:ResetDialog) 1 }
     </CalculatorFormula>
     <Actions>
-        <ObjectReference id="4e21ff5e4e9149e5a49746d161121328" InstanceId="{2b9a2e85-9f23-4617-94d1-216f0da92d19}"/>
-    </Actions>
-</CalculatorAction>
-
-<CalculatorAction>
-    <CalculatorFormula>
-        (X:WantedDialog1) 10762030 ==
-        (X:WantedDialog2) 37367 ==
-        (X:WantedDialog3) 672651 ==
-        (X:WantedDialog4) 539241 ==
-        (X:WantedDialog5) 46382 ==
-        (X:WantedDialog6) 4430867 ==
-        and and and and and
-        if{ 1 (&gt;X:ResetDialog) 1 }
-    </CalculatorFormula>
-    <Actions>
-        <ObjectReference id="a4372e091f7a438b83a690b52e439c13" InstanceId="{2ee33f79-fa00-4982-aa77-7e4f538804cb}"/>
+        <ObjectReference id="4e21ff5e4e9149e5a49746d161121328" InstanceId="{a3d0b5b0-57d3-4f63-9d17-df045c66819e}"/>
     </Actions>
 </CalculatorAction>
 
@@ -1610,7 +1594,7 @@
         if{ 1 (&gt;X:ResetDialog) 1 }
     </CalculatorFormula>
     <Actions>
-        <ObjectReference id="b30a755cd91747f3adeca6ed0a22f7cb" InstanceId="{1ba5f694-450b-4581-9e95-7423d593f739}"/>
+        <ObjectReference id="b30a755cd91747f3adeca6ed0a22f7cb" InstanceId="{e785a1ea-5bbc-4bea-b4d4-cf16ede5e187}"/>
     </Actions>
 </CalculatorAction>
 
@@ -1626,7 +1610,7 @@
         if{ 1 (&gt;X:ResetDialog) 1 }
     </CalculatorFormula>
     <Actions>
-        <ObjectReference id="429f354948e046249a6b5e5fab250d77" InstanceId="{336fb434-6737-43ce-bfa4-5a393006d4b0}"/>
+        <ObjectReference id="429f354948e046249a6b5e5fab250d77" InstanceId="{0b4d7c80-a364-47f8-ac22-89fe021590ce}"/>
     </Actions>
 </CalculatorAction>
 
@@ -1642,7 +1626,7 @@
         if{ 1 (&gt;X:ResetDialog) 1 }
     </CalculatorFormula>
     <Actions>
-        <ObjectReference id="to-slow-for-a-scramble" InstanceId="{8e3f2ea9-aafe-48a8-ad4c-86db2a7923e5}"/>
+        <ObjectReference id="to-slow-for-a-scramble" InstanceId="{866c70b1-9c0e-462c-b439-5f500c7d4b01}"/>
     </Actions>
 </CalculatorAction>
 
@@ -1658,7 +1642,7 @@
         if{ 1 (&gt;X:ResetDialog) 1 }
     </CalculatorFormula>
     <Actions>
-        <ObjectReference id="cc1b3b3a2a044d18918a92a99bf9c3e3" InstanceId="{c564e6a6-926c-4c57-a615-0e2a81d222e7}"/>
+        <ObjectReference id="cc1b3b3a2a044d18918a92a99bf9c3e3" InstanceId="{c85ed085-095a-4123-87c0-80c2a8ed8c82}"/>
     </Actions>
 </CalculatorAction>
 
@@ -1674,7 +1658,7 @@
         if{ 1 (&gt;X:ResetDialog) 1 }
     </CalculatorFormula>
     <Actions>
-        <ObjectReference id="4b2e9ff378f54fbcb2653701217cdad3" InstanceId="{517679c4-d108-4fb0-9566-9dcd5a402ac4}"/>
+        <ObjectReference id="4b2e9ff378f54fbcb2653701217cdad3" InstanceId="{ba8f550b-83cc-474e-b0c5-17890d5af769}"/>
     </Actions>
 </CalculatorAction>
 
@@ -1690,7 +1674,7 @@
         if{ 1 (&gt;X:ResetDialog) 1 }
     </CalculatorFormula>
     <Actions>
-        <ObjectReference id="7f3724e48b6d4aaf93ff01f8c9acc9fe" InstanceId="{c3d314f4-c310-46d1-98bc-6a22cfb1fbd2}"/>
+        <ObjectReference id="7f3724e48b6d4aaf93ff01f8c9acc9fe" InstanceId="{8b393f47-1d28-4675-9309-2208b6ff5e9d}"/>
     </Actions>
 </CalculatorAction>
 
@@ -1706,7 +1690,7 @@
         if{ 1 (&gt;X:ResetDialog) 1 }
     </CalculatorFormula>
     <Actions>
-        <ObjectReference id="f2b8d7d278384e65b339d237586c5e5d" InstanceId="{2c0f7a6e-48c7-49e4-b871-a9e263046105}"/>
+        <ObjectReference id="f2b8d7d278384e65b339d237586c5e5d" InstanceId="{8485f00a-17e2-496c-a72e-af6cc13624a5}"/>
     </Actions>
 </CalculatorAction>
 
@@ -1722,7 +1706,7 @@
         if{ 1 (&gt;X:ResetDialog) 1 }
     </CalculatorFormula>
     <Actions>
-        <ObjectReference id="ea979e8405f642c180336b6885d51dd8" InstanceId="{44a0a85f-3c4c-41e3-9cdf-70dace76abc3}"/>
+        <ObjectReference id="ea979e8405f642c180336b6885d51dd8" InstanceId="{af8ac423-78ad-492f-bd27-794c7f387851}"/>
     </Actions>
 </CalculatorAction>
 
@@ -1738,7 +1722,7 @@
         if{ 1 (&gt;X:ResetDialog) 1 }
     </CalculatorFormula>
     <Actions>
-        <ObjectReference id="f60014e202244201b4a1c58630a7014b" InstanceId="{081cc6c3-d474-429b-a2ee-cddc8e158268}"/>
+        <ObjectReference id="f60014e202244201b4a1c58630a7014b" InstanceId="{92123413-a42a-4fad-ab7b-32d727503705}"/>
     </Actions>
 </CalculatorAction>
 
@@ -1754,7 +1738,7 @@
         if{ 1 (&gt;X:ResetDialog) 1 }
     </CalculatorFormula>
     <Actions>
-        <ObjectReference id="9e0f63acd1814581b91118d3e2c65bfe" InstanceId="{fe83a8b1-e930-4c85-bd85-a3c14929de9b}"/>
+        <ObjectReference id="9e0f63acd1814581b91118d3e2c65bfe" InstanceId="{421f053b-656d-4992-8023-e4646e961f5f}"/>
     </Actions>
 </CalculatorAction>
 
@@ -1770,7 +1754,7 @@
         if{ 1 (&gt;X:ResetDialog) 1 }
     </CalculatorFormula>
     <Actions>
-        <ObjectReference id="3337308caf484056bde89cfa790fbeeb" InstanceId="{f91e6813-abcd-49d5-9415-1cec0fb88687}"/>
+        <ObjectReference id="3337308caf484056bde89cfa790fbeeb" InstanceId="{af47455c-298b-4748-8af7-3900a3f8fe56}"/>
     </Actions>
 </CalculatorAction>
 
@@ -1786,7 +1770,7 @@
         if{ 1 (&gt;X:ResetDialog) 1 }
     </CalculatorFormula>
     <Actions>
-        <ObjectReference id="0978e866fb2a4419a12987ef1c9ca996" InstanceId="{0e36f997-0df7-4d69-861f-72cec8920bbc}"/>
+        <ObjectReference id="0978e866fb2a4419a12987ef1c9ca996" InstanceId="{3e84c9ec-41f7-474d-9ad9-c9f4d243a764}"/>
     </Actions>
 </CalculatorAction>
 
@@ -1802,7 +1786,7 @@
         if{ 1 (&gt;X:ResetDialog) 1 }
     </CalculatorFormula>
     <Actions>
-        <ObjectReference id="6fd5f880308c4ccf9921cdc9a1cfe2dd" InstanceId="{7f20b2bd-564f-4fb0-a338-b37078f95f1b}"/>
+        <ObjectReference id="6fd5f880308c4ccf9921cdc9a1cfe2dd" InstanceId="{b88d566e-3e81-425b-b7bf-7e0bb878b64f}"/>
     </Actions>
 </CalculatorAction>
 
@@ -1818,7 +1802,7 @@
         if{ 1 (&gt;X:ResetDialog) 1 }
     </CalculatorFormula>
     <Actions>
-        <ObjectReference id="b7a9007ff9fd4b58995e2f43b53dd855" InstanceId="{410e271c-ec5c-4641-8a4b-45d21e4f78d1}"/>
+        <ObjectReference id="b7a9007ff9fd4b58995e2f43b53dd855" InstanceId="{e4433389-1506-4e2f-a908-3234d3459371}"/>
     </Actions>
 </CalculatorAction>
 
@@ -1834,7 +1818,7 @@
         if{ 1 (&gt;X:ResetDialog) 1 }
     </CalculatorFormula>
     <Actions>
-        <ObjectReference id="254f9f6c428345378d8c966b2ed31028" InstanceId="{8cb0414a-f5d1-480f-a837-37ca1456c76d}"/>
+        <ObjectReference id="254f9f6c428345378d8c966b2ed31028" InstanceId="{12308237-e244-4094-b8f5-7a3934ac56d2}"/>
     </Actions>
 </CalculatorAction>
 
@@ -1850,7 +1834,7 @@
         if{ 1 (&gt;X:ResetDialog) 1 }
     </CalculatorFormula>
     <Actions>
-        <ObjectReference id="e94dcf47f4eb44348f2296f74b3534bb" InstanceId="{71196eb1-c2db-4ed5-800a-802e6cc16116}"/>
+        <ObjectReference id="e94dcf47f4eb44348f2296f74b3534bb" InstanceId="{9bc92ef1-13a3-4e62-a681-0c27211fa4fa}"/>
     </Actions>
 </CalculatorAction>
 
@@ -1866,7 +1850,7 @@
         if{ 1 (&gt;X:ResetDialog) 1 }
     </CalculatorFormula>
     <Actions>
-        <ObjectReference id="66460653f85046cfb544105d97a5948b" InstanceId="{cf0bb277-d81e-4c00-a68b-58421636f148}"/>
+        <ObjectReference id="66460653f85046cfb544105d97a5948b" InstanceId="{3636c3e3-a1c5-4405-94c4-42c9383cbf06}"/>
     </Actions>
 </CalculatorAction>
 
@@ -1882,7 +1866,7 @@
         if{ 1 (&gt;X:ResetDialog) 1 }
     </CalculatorFormula>
     <Actions>
-        <ObjectReference id="28137d19017f41d387ec97b770815838" InstanceId="{4495a92d-baa7-4a3c-845c-8722efe0a582}"/>
+        <ObjectReference id="28137d19017f41d387ec97b770815838" InstanceId="{c6071376-ce1a-4191-bbee-5e85a88ff168}"/>
     </Actions>
 </CalculatorAction>
 
@@ -1898,7 +1882,7 @@
         if{ 1 (&gt;X:ResetDialog) 1 }
     </CalculatorFormula>
     <Actions>
-        <ObjectReference id="18ee1ef553ab43878699336c768ac9f0" InstanceId="{aa379fe0-949f-4bf0-ac89-db6cf3b87c28}"/>
+        <ObjectReference id="18ee1ef553ab43878699336c768ac9f0" InstanceId="{1f2e470b-c6aa-4f6b-886c-191bc8b0d806}"/>
     </Actions>
 </CalculatorAction>
 
@@ -1914,7 +1898,7 @@
         if{ 1 (&gt;X:ResetDialog) 1 }
     </CalculatorFormula>
     <Actions>
-        <ObjectReference id="441c13c0c2ca47499e3311e3a936a2a7" InstanceId="{1858249b-a6e4-4dc6-8b4e-045f3f3b3e33}"/>
+        <ObjectReference id="441c13c0c2ca47499e3311e3a936a2a7" InstanceId="{30265f5a-3acc-44e4-8ad6-83dc9fe4b264}"/>
     </Actions>
 </CalculatorAction>
 
@@ -1930,7 +1914,7 @@
         if{ 1 (&gt;X:ResetDialog) 1 }
     </CalculatorFormula>
     <Actions>
-        <ObjectReference id="b95fe9e7745042d5901c75b5c6b4ba89" InstanceId="{5e1048e8-0768-4fad-b45e-cf07e251cc6e}"/>
+        <ObjectReference id="b95fe9e7745042d5901c75b5c6b4ba89" InstanceId="{433e084f-1206-44ba-9baa-671c8026487c}"/>
     </Actions>
 </CalculatorAction>
 
@@ -1946,7 +1930,7 @@
         if{ 1 (&gt;X:ResetDialog) 1 }
     </CalculatorFormula>
     <Actions>
-        <ObjectReference id="cleared-for-start" InstanceId="{f944f87f-cbfc-481d-ba79-74b33ae31807}"/>
+        <ObjectReference id="cleared-for-start" InstanceId="{91a036ae-e19c-479b-93f2-9e84168c0777}"/>
     </Actions>
 </CalculatorAction>
 
@@ -1962,7 +1946,7 @@
         if{ 1 (&gt;X:ResetDialog) 1 }
     </CalculatorFormula>
     <Actions>
-        <ObjectReference id="2386569c32bc4fc99ff3c57755d66c65" InstanceId="{06126f49-8d10-48ad-8edd-a30e6d109cc8}"/>
+        <ObjectReference id="2386569c32bc4fc99ff3c57755d66c65" InstanceId="{66fef0c1-44ee-4dc9-8c85-fd3c946e4a81}"/>
     </Actions>
 </CalculatorAction>
 
@@ -1978,7 +1962,7 @@
         if{ 1 (&gt;X:ResetDialog) 1 }
     </CalculatorFormula>
     <Actions>
-        <ObjectReference id="6c5192decb8844edb4f3c872a80a082d" InstanceId="{1f7e7799-0989-4bde-86aa-e6a4ed4168c8}"/>
+        <ObjectReference id="6c5192decb8844edb4f3c872a80a082d" InstanceId="{cf33c9ba-47aa-4549-986c-6d9b97c651aa}"/>
     </Actions>
 </CalculatorAction>
 
@@ -1994,7 +1978,7 @@
         if{ 1 (&gt;X:ResetDialog) 1 }
     </CalculatorFormula>
     <Actions>
-        <ObjectReference id="cleared-for-takeoff" InstanceId="{a07924af-d0e1-4305-964e-785f6324fa58}"/>
+        <ObjectReference id="cleared-for-takeoff" InstanceId="{0224b1f5-9106-4cd9-8863-81e955d7573a}"/>
     </Actions>
 </CalculatorAction>
 
@@ -2010,7 +1994,7 @@
         if{ 1 (&gt;X:ResetDialog) 1 }
     </CalculatorFormula>
     <Actions>
-        <ObjectReference id="f81d2653624041c78a19487a1dc13c90" InstanceId="{ab5b950d-5948-4c5f-8de7-34b4c274c11b}"/>
+        <ObjectReference id="f81d2653624041c78a19487a1dc13c90" InstanceId="{a2781956-20c6-4a0f-a010-d846b8b9543b}"/>
     </Actions>
 </CalculatorAction>
 
@@ -2026,7 +2010,7 @@
         if{ 1 (&gt;X:ResetDialog) 1 }
     </CalculatorFormula>
     <Actions>
-        <ObjectReference id="radar-contact" InstanceId="{afe28c90-216d-4920-ab73-81c6fcbc5065}"/>
+        <ObjectReference id="radar-contact" InstanceId="{3c007740-ac08-49bf-b652-84c9a7af50c7}"/>
     </Actions>
 </CalculatorAction>
 
@@ -2042,23 +2026,7 @@
         if{ 1 (&gt;X:ResetDialog) 1 }
     </CalculatorFormula>
     <Actions>
-        <ObjectReference id="45a0ffefbad9460ebf20e01c082d1036" InstanceId="{aaa0cb62-1540-4684-949b-c763f4ec450d}"/>
-    </Actions>
-</CalculatorAction>
-
-<CalculatorAction>
-    <CalculatorFormula>
-        (X:WantedDialog1) 374827 ==
-        (X:WantedDialog2) 264642 ==
-        (X:WantedDialog3) 804348 ==
-        (X:WantedDialog4) 680673 ==
-        (X:WantedDialog5) 714004 ==
-        (X:WantedDialog6) 12493637 ==
-        and and and and and
-        if{ 1 (&gt;X:ResetDialog) 1 }
-    </CalculatorFormula>
-    <Actions>
-        <ObjectReference id="05b82b409c2c45fca62e1ae514bea345" InstanceId="{4706b509-cb0f-4846-b5f2-3e2e301720bc}"/>
+        <ObjectReference id="45a0ffefbad9460ebf20e01c082d1036" InstanceId="{eecf6d74-4692-45b5-b7c8-9ca8a755f7e4}"/>
     </Actions>
 </CalculatorAction>
 
@@ -2074,7 +2042,7 @@
         if{ 1 (&gt;X:ResetDialog) 1 }
     </CalculatorFormula>
     <Actions>
-        <ObjectReference id="7ad19af623164f89a93a969524732e30" InstanceId="{227db2c0-02a5-4a45-b9ca-3190a526bf6e}"/>
+        <ObjectReference id="7ad19af623164f89a93a969524732e30" InstanceId="{46604751-0a14-4073-928a-7333a17f49e0}"/>
     </Actions>
 </CalculatorAction>
 
@@ -2090,7 +2058,7 @@
         if{ 1 (&gt;X:ResetDialog) 1 }
     </CalculatorFormula>
     <Actions>
-        <ObjectReference id="8dc05d73096e417781f15fcb1e317e13" InstanceId="{0728e8b6-5b93-46ad-a94c-f2ad4b6391ca}"/>
+        <ObjectReference id="8dc05d73096e417781f15fcb1e317e13" InstanceId="{09077b8e-9dfd-4bfa-b7c2-16d38efead0d}"/>
     </Actions>
 </CalculatorAction>
 
@@ -2106,7 +2074,7 @@
         if{ 1 (&gt;X:ResetDialog) 1 }
     </CalculatorFormula>
     <Actions>
-        <ObjectReference id="proceed-direct-apron" InstanceId="{f803f00d-5292-4eea-8c4c-f3b1d38693b5}"/>
+        <ObjectReference id="proceed-direct-apron" InstanceId="{ea992a36-485b-41f7-8d72-23e403d909a9}"/>
     </Actions>
 </CalculatorAction>
 
@@ -2122,7 +2090,7 @@
         if{ 1 (&gt;X:ResetDialog) 1 }
     </CalculatorFormula>
     <Actions>
-        <ObjectReference id="99c237420a564843ad209b8323ce4a45" InstanceId="{151e825e-6aba-42d7-b37a-3177d1e0a519}"/>
+        <ObjectReference id="99c237420a564843ad209b8323ce4a45" InstanceId="{3dedcec5-09e5-4b36-95d3-7bdfdf564f78}"/>
     </Actions>
 </CalculatorAction>
 
@@ -2138,7 +2106,7 @@
         if{ 1 (&gt;X:ResetDialog) 1 }
     </CalculatorFormula>
     <Actions>
-        <ObjectReference id="cleared-to-land" InstanceId="{c434cb9c-3455-408b-b586-beb87de8246f}"/>
+        <ObjectReference id="cleared-to-land" InstanceId="{1a567af5-346d-4840-96d1-92e9c837eb2e}"/>
     </Actions>
 </CalculatorAction>
 
@@ -2154,7 +2122,7 @@
         if{ 1 (&gt;X:ResetDialog) 1 }
     </CalculatorFormula>
     <Actions>
-        <ObjectReference id="36cdab4ded7641df930566d002a16dd2" InstanceId="{04747b2f-3be1-43e4-993c-3f516efe8797}"/>
+        <ObjectReference id="36cdab4ded7641df930566d002a16dd2" InstanceId="{6cb5dec1-6814-49c3-b8ea-747ea6d3844e}"/>
     </Actions>
 </CalculatorAction>
 
@@ -2170,7 +2138,7 @@
         if{ 1 (&gt;X:ResetDialog) 1 }
     </CalculatorFormula>
     <Actions>
-        <ObjectReference id="f7845a404cd74ab1b16501860fb9fcce" InstanceId="{a292d569-8c7e-4ef1-92e0-ba14a7890292}"/>
+        <ObjectReference id="f7845a404cd74ab1b16501860fb9fcce" InstanceId="{327563b6-7ca9-4b6e-a681-0306c8e496be}"/>
     </Actions>
 </CalculatorAction>
 
@@ -2186,7 +2154,7 @@
         if{ 1 (&gt;X:ResetDialog) 1 }
     </CalculatorFormula>
     <Actions>
-        <ObjectReference id="35fc56ea29844ce6928bd5b87f3b75e6" InstanceId="{4e0d0d2c-3ab7-405e-8042-b873252886c8}"/>
+        <ObjectReference id="35fc56ea29844ce6928bd5b87f3b75e6" InstanceId="{38fa1c73-60d5-4d4c-bf21-ae68b626b2c3}"/>
     </Actions>
 </CalculatorAction>
 
@@ -2202,7 +2170,39 @@
         if{ 1 (&gt;X:ResetDialog) 1 }
     </CalculatorFormula>
     <Actions>
-        <ObjectReference id="f9e1a633611b4b1ba1e435bc36412330" InstanceId="{e56894ec-bbc1-41a9-a85c-4f7b485c6c68}"/>
+        <ObjectReference id="f9e1a633611b4b1ba1e435bc36412330" InstanceId="{7ffc311a-8bb6-47b0-b608-08a914684380}"/>
+    </Actions>
+</CalculatorAction>
+
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:WantedDialog1) 9651471 ==
+        (X:WantedDialog2) 684363 ==
+        (X:WantedDialog3) 1002523 ==
+        (X:WantedDialog4) 662261 ==
+        (X:WantedDialog5) 962716 ==
+        (X:WantedDialog6) 8657672 ==
+        and and and and and
+        if{ 1 (&gt;X:ResetDialog) 1 }
+    </CalculatorFormula>
+    <Actions>
+        <ObjectReference id="93450fa714bf4c1ba1af5eb09c841b08" InstanceId="{df0b98b4-f909-4179-bc4d-72618f63ff51}"/>
+    </Actions>
+</CalculatorAction>
+
+<CalculatorAction>
+    <CalculatorFormula>
+        (X:WantedDialog1) 8164548 ==
+        (X:WantedDialog2) 928756 ==
+        (X:WantedDialog3) 672550 ==
+        (X:WantedDialog4) 667325 ==
+        (X:WantedDialog5) 402389 ==
+        (X:WantedDialog6) 13312098 ==
+        and and and and and
+        if{ 1 (&gt;X:ResetDialog) 1 }
+    </CalculatorFormula>
+    <Actions>
+        <ObjectReference id="7c94c4e2bf4a4326a2ebd623d5cb2062" InstanceId="{04e47d0b-70d5-47c1-b371-379e768549d6}"/>
     </Actions>
 </CalculatorAction>
 
