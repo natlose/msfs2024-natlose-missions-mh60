@@ -7,38 +7,38 @@
     },
     {
       "path": "en-us.locpak",
-      "size": 3800,
-      "date": 134163602740000000
+      "size": 3706,
+      "date": 134164416010000000
     },
     {
       "path": "html_ui/miltech/missionhub/scenariofiles/natlose-missions-mh60/checkride-briefing.jpg",
       "size": 20296,
-      "date": 134163602630000000
+      "date": 134164416260000000
     },
     {
       "path": "html_ui/miltech/missionhub/scenariofiles/natlose-missions-mh60/checkride-thumb.jpg",
       "size": 160627,
-      "date": 134163602630000000
+      "date": 134164416260000000
     },
     {
       "path": "html_ui/miltech/missionhub/scenariofiles/natlose-missions-mh60/checkride.json",
-      "size": 116814,
-      "date": 134163602630000000
+      "size": 115329,
+      "date": 134164416260000000
     },
     {
       "path": "html_ui/miltech/missionhub/scenariofiles/natlose-missions-mh60/missionpackdefinition.json",
       "size": 374,
-      "date": 134163602630000000
+      "date": 134164416260000000
     },
     {
       "path": "html_ui/miltech/missionhub/scenariofiles/natlose-missions-mh60/pack-thumb.jpg",
       "size": 112992,
-      "date": 134163602630000000
+      "date": 134164416260000000
     },
     {
       "path": "missions/natlose/mh60checkride/customdialog.spb",
-      "size": 60273,
-      "date": 134163602740000001
+      "size": 58836,
+      "date": 134164416010000001
     },
     {
       "path": "missions/natlose/mh60checkride/natlose-weather-mh60checkride.wpr",
@@ -73,7 +73,7 @@
     {
       "path": "stringsspeakers.spk",
       "size": 855,
-      "date": 134163602740000000
+      "date": 134164416010000000
     }
   ]
 }

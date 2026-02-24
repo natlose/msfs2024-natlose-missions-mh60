@@ -1,13 +1,13 @@
 {
     "LocalisationFile": {
         "Version": 2,
-        "UUID": "3f37e2d1-f495-4114-83cf-d826c43670c9",
+        "UUID": "5d0ecf0b-5f2f-47d0-b419-a76e9cefe88e",
         "Languages": [
             "en-US"
         ],
         "Strings": {
 "8baa9db02b574e169612eeeb56523c8f": {
-    "UUID": "21e3df16-c74f-43c8-ad5c-f523e26f865e",
+    "UUID": "0288e5a5-ca34-4b35-be03-970a8b0699fa",
 
     "LastModifiedBy": "User",
     "LastModifiedDate": "2025-01-01 00:00:00",
@@ -21,21 +21,21 @@
     }
 },
 "4e21ff5e4e9149e5a49746d161121328": {
-    "UUID": "92b3752f-2574-4638-8059-31e386cf991f",
+    "UUID": "e3756a43-89a6-40f8-a766-b5e4e689be6c",
 
     "LastModifiedBy": "User",
     "LastModifiedDate": "2025-01-01 00:00:00",
     "LocalizationStatus": "PlaceHolder",
     "Languages": {
         "en-US": {
-            "Text": "Well done.",
+            "Text": "Hover completed.",
             "LocalizationStatus": "TranslationOk",
             "LastModifiedDate": "2025-01-01 00:00:00"
         }
     }
 },
 "b30a755cd91747f3adeca6ed0a22f7cb": {
-    "UUID": "06d1759e-6964-4f16-9bfb-6aaf9891a626",
+    "UUID": "34e35480-110a-4ef2-a04c-b6d019b86a85",
 
     "LastModifiedBy": "User",
     "LastModifiedDate": "2025-01-01 00:00:00",
@@ -49,7 +49,7 @@
     }
 },
 "429f354948e046249a6b5e5fab250d77": {
-    "UUID": "ee4c3be9-5b1b-4851-bb31-b49d7a9e5ac5",
+    "UUID": "1918204d-65b6-462c-be42-317d81450f03",
 
     "LastModifiedBy": "User",
     "LastModifiedDate": "2025-01-01 00:00:00",
@@ -63,7 +63,7 @@
     }
 },
 "to-slow-for-a-scramble": {
-    "UUID": "e7b8be87-0a57-4c42-8aa4-259e17c380f8",
+    "UUID": "6b4b7ed5-51da-4206-93e5-381033f53e6a",
     "Speaker": "PILOT",
     "LastModifiedBy": "User",
     "LastModifiedDate": "2025-01-01 00:00:00",
@@ -77,7 +77,7 @@
     }
 },
 "cc1b3b3a2a044d18918a92a99bf9c3e3": {
-    "UUID": "ac959d09-ad21-4725-87ed-958f1c8b8a9d",
+    "UUID": "657b26c1-fad3-432a-b7bb-195a17f87f91",
 
     "LastModifiedBy": "User",
     "LastModifiedDate": "2025-01-01 00:00:00",
@@ -91,7 +91,7 @@
     }
 },
 "4b2e9ff378f54fbcb2653701217cdad3": {
-    "UUID": "984818d1-264e-4f1e-8832-8e83a3136060",
+    "UUID": "cddbe5bc-df85-4969-858c-90372cd0b0d5",
 
     "LastModifiedBy": "User",
     "LastModifiedDate": "2025-01-01 00:00:00",
@@ -105,7 +105,7 @@
     }
 },
 "7f3724e48b6d4aaf93ff01f8c9acc9fe": {
-    "UUID": "5e12c6b5-fd02-42d9-85b4-40fda8b17580",
+    "UUID": "2eef93fb-1cb3-4f9d-bc9c-65d74727a0dd",
 
     "LastModifiedBy": "User",
     "LastModifiedDate": "2025-01-01 00:00:00",
@@ -119,7 +119,7 @@
     }
 },
 "f2b8d7d278384e65b339d237586c5e5d": {
-    "UUID": "17d4da1f-59ec-4de0-8b03-5b99d782059b",
+    "UUID": "29291e74-03f5-4650-b199-8bb85b380df3",
 
     "LastModifiedBy": "User",
     "LastModifiedDate": "2025-01-01 00:00:00",
@@ -133,7 +133,7 @@
     }
 },
 "ea979e8405f642c180336b6885d51dd8": {
-    "UUID": "81de411b-cd34-482a-ae87-aa731b8a5be5",
+    "UUID": "1981281f-7ad5-483b-ae54-f12fca27f291",
 
     "LastModifiedBy": "User",
     "LastModifiedDate": "2025-01-01 00:00:00",
@@ -147,7 +147,7 @@
     }
 },
 "f60014e202244201b4a1c58630a7014b": {
-    "UUID": "627730ca-0e8d-4472-9432-5ce9d1c9c555",
+    "UUID": "0fe9fe77-5930-4600-9b2a-6fcc8723a979",
 
     "LastModifiedBy": "User",
     "LastModifiedDate": "2025-01-01 00:00:00",
@@ -161,7 +161,7 @@
     }
 },
 "9e0f63acd1814581b91118d3e2c65bfe": {
-    "UUID": "ebd66a3c-d270-439b-bcdb-421aa60f4905",
+    "UUID": "6ff38a07-1133-4a2f-b35f-c85d53f3e048",
 
     "LastModifiedBy": "User",
     "LastModifiedDate": "2025-01-01 00:00:00",
@@ -175,7 +175,7 @@
     }
 },
 "3337308caf484056bde89cfa790fbeeb": {
-    "UUID": "69ca7ca6-99eb-4360-93ef-5dddc8088cf8",
+    "UUID": "5804bb35-fde7-4076-b327-4a720cad31f5",
 
     "LastModifiedBy": "User",
     "LastModifiedDate": "2025-01-01 00:00:00",
@@ -189,7 +189,7 @@
     }
 },
 "0978e866fb2a4419a12987ef1c9ca996": {
-    "UUID": "fc5c466a-81fa-4b73-934f-c4a05be59681",
+    "UUID": "72f835c0-e49d-4db1-8725-e47ec068d8ba",
 
     "LastModifiedBy": "User",
     "LastModifiedDate": "2025-01-01 00:00:00",
@@ -203,7 +203,7 @@
     }
 },
 "6fd5f880308c4ccf9921cdc9a1cfe2dd": {
-    "UUID": "a3d84771-c8bb-4867-8e1d-7d806b796e95",
+    "UUID": "2a22a0f3-cf21-4c1b-843b-e1023b4b185d",
 
     "LastModifiedBy": "User",
     "LastModifiedDate": "2025-01-01 00:00:00",
@@ -217,7 +217,7 @@
     }
 },
 "b7a9007ff9fd4b58995e2f43b53dd855": {
-    "UUID": "6380734b-d4e1-41b3-9ea8-0726d5565b64",
+    "UUID": "6918a04a-7753-4a50-800b-3acc7c3e2e46",
 
     "LastModifiedBy": "User",
     "LastModifiedDate": "2025-01-01 00:00:00",
@@ -231,7 +231,7 @@
     }
 },
 "254f9f6c428345378d8c966b2ed31028": {
-    "UUID": "24f0a1fd-edd8-41d4-8785-456e36c22a8e",
+    "UUID": "ecf89a92-e19f-41dc-bbe5-7ecc7999f271",
 
     "LastModifiedBy": "User",
     "LastModifiedDate": "2025-01-01 00:00:00",
@@ -245,7 +245,7 @@
     }
 },
 "e94dcf47f4eb44348f2296f74b3534bb": {
-    "UUID": "621a3e9e-becf-47ff-a343-7587db094245",
+    "UUID": "a276b29b-e0c3-46e3-be0f-5328fb34dd3c",
 
     "LastModifiedBy": "User",
     "LastModifiedDate": "2025-01-01 00:00:00",
@@ -259,7 +259,7 @@
     }
 },
 "66460653f85046cfb544105d97a5948b": {
-    "UUID": "52f10016-e3e8-4400-8c14-60045018b8b3",
+    "UUID": "eb873c9c-db66-4b64-b9ec-13c5c018242e",
 
     "LastModifiedBy": "User",
     "LastModifiedDate": "2025-01-01 00:00:00",
@@ -273,7 +273,7 @@
     }
 },
 "28137d19017f41d387ec97b770815838": {
-    "UUID": "6d653238-06b7-4921-8bca-abd82080ca63",
+    "UUID": "116b7e27-39a2-4874-900f-b769403749cf",
 
     "LastModifiedBy": "User",
     "LastModifiedDate": "2025-01-01 00:00:00",
@@ -287,7 +287,7 @@
     }
 },
 "18ee1ef553ab43878699336c768ac9f0": {
-    "UUID": "675dbcd2-93cb-4c24-b460-327fb1860da0",
+    "UUID": "9aca95d9-4643-451a-a779-21d3ff0986d3",
 
     "LastModifiedBy": "User",
     "LastModifiedDate": "2025-01-01 00:00:00",
@@ -301,7 +301,7 @@
     }
 },
 "441c13c0c2ca47499e3311e3a936a2a7": {
-    "UUID": "9ad284ad-1d84-407b-9d82-12b42c5cd0ec",
+    "UUID": "f4e08120-cd71-4ccf-a342-9414d226b130",
 
     "LastModifiedBy": "User",
     "LastModifiedDate": "2025-01-01 00:00:00",
@@ -315,7 +315,7 @@
     }
 },
 "b95fe9e7745042d5901c75b5c6b4ba89": {
-    "UUID": "5f40153e-0b11-480f-8138-c1392d88021d",
+    "UUID": "e0fc8ff2-4d91-437d-b12f-29036f60075b",
 
     "LastModifiedBy": "User",
     "LastModifiedDate": "2025-01-01 00:00:00",
@@ -329,7 +329,7 @@
     }
 },
 "cleared-for-start": {
-    "UUID": "27027b87-e4d3-4793-ad6f-3c1efec7a45e",
+    "UUID": "661ffd73-4994-46ef-bde5-7548d08c50ff",
     "Speaker": "PILOT",
     "LastModifiedBy": "User",
     "LastModifiedDate": "2025-01-01 00:00:00",
@@ -343,7 +343,7 @@
     }
 },
 "2386569c32bc4fc99ff3c57755d66c65": {
-    "UUID": "33dde3b0-bc96-48a6-8be5-8c6bbe7193a0",
+    "UUID": "eb06113b-12b4-4e9c-b21b-9d683bc540bf",
 
     "LastModifiedBy": "User",
     "LastModifiedDate": "2025-01-01 00:00:00",
@@ -357,7 +357,7 @@
     }
 },
 "6c5192decb8844edb4f3c872a80a082d": {
-    "UUID": "3edce3aa-5cb4-4dbb-9e23-33d8dcb86a5f",
+    "UUID": "8c0f6f3c-96c5-411c-bbab-067808e7bec5",
 
     "LastModifiedBy": "User",
     "LastModifiedDate": "2025-01-01 00:00:00",
@@ -371,7 +371,7 @@
     }
 },
 "cleared-for-takeoff": {
-    "UUID": "498b6d3f-96e3-4428-85f8-470e64d9ab7e",
+    "UUID": "0d1675b5-63b6-4aa8-8a6e-c416fedf3696",
     "Speaker": "PILOT",
     "LastModifiedBy": "User",
     "LastModifiedDate": "2025-01-01 00:00:00",
@@ -385,7 +385,7 @@
     }
 },
 "f81d2653624041c78a19487a1dc13c90": {
-    "UUID": "08a6d02a-7f7f-4564-9dce-3ca547189713",
+    "UUID": "e7e5b634-e08c-48ec-a723-83a3e02f3002",
 
     "LastModifiedBy": "User",
     "LastModifiedDate": "2025-01-01 00:00:00",
@@ -399,7 +399,7 @@
     }
 },
 "radar-contact": {
-    "UUID": "242f98de-8cda-44e1-af20-094a8abf7586",
+    "UUID": "d0bd0213-f653-48a8-9bbc-6e9885eb7e1e",
     "Speaker": "PILOT",
     "LastModifiedBy": "User",
     "LastModifiedDate": "2025-01-01 00:00:00",
@@ -413,7 +413,7 @@
     }
 },
 "45a0ffefbad9460ebf20e01c082d1036": {
-    "UUID": "20ba1aec-8ed3-4106-b0dd-ff1011705f50",
+    "UUID": "62820502-7972-400a-8be9-f3bcf1bdde9c",
 
     "LastModifiedBy": "User",
     "LastModifiedDate": "2025-01-01 00:00:00",
@@ -427,7 +427,7 @@
     }
 },
 "7ad19af623164f89a93a969524732e30": {
-    "UUID": "1be38744-f1a4-49cb-9581-192031bd4a34",
+    "UUID": "10cf47da-f0c5-4bd8-b2f8-4fc54c165666",
 
     "LastModifiedBy": "User",
     "LastModifiedDate": "2025-01-01 00:00:00",
@@ -441,7 +441,7 @@
     }
 },
 "8dc05d73096e417781f15fcb1e317e13": {
-    "UUID": "4ba3e8f1-40e3-4714-905b-d730aeaf7865",
+    "UUID": "04fe0186-2abf-4894-955c-5670921c408a",
 
     "LastModifiedBy": "User",
     "LastModifiedDate": "2025-01-01 00:00:00",
@@ -455,7 +455,7 @@
     }
 },
 "proceed-direct-apron": {
-    "UUID": "6dc4b546-e345-45b4-8ee5-75212f9fa980",
+    "UUID": "304f8cc4-eb00-4ae9-81ca-fe88ba33652b",
     "Speaker": "PILOT",
     "LastModifiedBy": "User",
     "LastModifiedDate": "2025-01-01 00:00:00",
@@ -469,7 +469,7 @@
     }
 },
 "99c237420a564843ad209b8323ce4a45": {
-    "UUID": "f2cd431a-1e59-438a-90f8-0b312d78e7b2",
+    "UUID": "21c2eb1f-f7c9-45d1-be54-33b19b35a324",
 
     "LastModifiedBy": "User",
     "LastModifiedDate": "2025-01-01 00:00:00",
@@ -483,7 +483,7 @@
     }
 },
 "cleared-to-land": {
-    "UUID": "b4623892-20c5-4af8-a8c1-5a6f8fa8cb52",
+    "UUID": "b627db5b-34ef-4398-be57-c48dba5d84a9",
     "Speaker": "PILOT",
     "LastModifiedBy": "User",
     "LastModifiedDate": "2025-01-01 00:00:00",
@@ -497,7 +497,7 @@
     }
 },
 "36cdab4ded7641df930566d002a16dd2": {
-    "UUID": "666d8d06-c710-41d6-ab1e-d1f173664d25",
+    "UUID": "d862bb4b-31e7-47e7-8e6c-bd8f5e34b5bc",
 
     "LastModifiedBy": "User",
     "LastModifiedDate": "2025-01-01 00:00:00",
@@ -511,7 +511,7 @@
     }
 },
 "f7845a404cd74ab1b16501860fb9fcce": {
-    "UUID": "8649ba1b-2fa8-4779-967e-277fe57c8840",
+    "UUID": "899ec79e-7856-4c6c-9831-ad59596e3d9e",
 
     "LastModifiedBy": "User",
     "LastModifiedDate": "2025-01-01 00:00:00",
@@ -525,7 +525,7 @@
     }
 },
 "35fc56ea29844ce6928bd5b87f3b75e6": {
-    "UUID": "0887e38e-d869-4273-a430-1106cd959472",
+    "UUID": "958a5c7b-1511-4699-9225-dd5c896b9fab",
 
     "LastModifiedBy": "User",
     "LastModifiedDate": "2025-01-01 00:00:00",
@@ -538,22 +538,8 @@
         }
     }
 },
-"f9e1a633611b4b1ba1e435bc36412330": {
-    "UUID": "2c1710d9-1198-46b7-87ba-a28a60378021",
-
-    "LastModifiedBy": "User",
-    "LastModifiedDate": "2025-01-01 00:00:00",
-    "LocalizationStatus": "PlaceHolder",
-    "Languages": {
-        "en-US": {
-            "Text": "Never get tired of that view… beautiful, isn’t it?",
-            "LocalizationStatus": "TranslationOk",
-            "LastModifiedDate": "2025-01-01 00:00:00"
-        }
-    }
-},
 "93450fa714bf4c1ba1af5eb09c841b08": {
-    "UUID": "20a83ae7-7a38-4851-9d2c-0d1d8f3f9c27",
+    "UUID": "b62846f2-60e3-4376-bb3d-22f639ee9c08",
 
     "LastModifiedBy": "User",
     "LastModifiedDate": "2025-01-01 00:00:00",
@@ -567,14 +553,14 @@
     }
 },
 "7c94c4e2bf4a4326a2ebd623d5cb2062": {
-    "UUID": "f3f9267e-cfdd-4b23-a579-262e46928a32",
+    "UUID": "a4a6911a-ca02-495f-bf4d-0e5be49e4b5a",
 
     "LastModifiedBy": "User",
     "LastModifiedDate": "2025-01-01 00:00:00",
     "LocalizationStatus": "PlaceHolder",
     "Languages": {
         "en-US": {
-            "Text": "Leg update. Fly to Bern Main Station, one hundred twenty knots, two thousand eight hundred feet. QNH two niner five one.",
+            "Text": "Leg update. Fly to Bern Hauptbahnhof, one hundred twenty knots, two thousand eight hundred feet. QNH two niner five one.",
             "LocalizationStatus": "TranslationOk",
             "LastModifiedDate": "2025-01-01 00:00:00"
         }
